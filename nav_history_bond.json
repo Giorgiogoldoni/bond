@@ -10,8 +10,8 @@
       "XGIU.MI": 22.574,
       "STHY.MI": 81.72,
       "IEMB.MI": 81.1,
-      "EUHI.MI": 9.342,
       "EMLI.MI": 57.68,
+      "EUHI.MI": 9.342,
       "XAT1.MI": 16.196
     },
     "bench_px": {
@@ -20,12 +20,12 @@
       "XGIU.MI": 22.574
     },
     "weights": {
-      "PJS1.MI": 26,
-      "XGIU.MI": 19,
+      "PJS1.MI": 27,
+      "XGIU.MI": 20,
       "STHY.MI": 13,
-      "IEMB.MI": 12,
-      "EUHI.MI": 11,
+      "IEMB.MI": 11,
       "EMLI.MI": 10,
+      "EUHI.MI": 10,
       "XAT1.MI": 9
     },
     "ret_port": 0.0,
