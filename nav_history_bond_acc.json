@@ -16,13 +16,13 @@
       "XGIU.MI": 22.676
     },
     "weights": {
-      "IS0F.DE": 22,
+      "IS0F.DE": 23,
       "EUNQ.DE": 15,
       "CSBGU7.MI": 14,
-      "EDMA.DE": 13,
       "GOVB.MI": 13,
-      "CEMM.DE": 13,
-      "XGIU.MI": 10
+      "EDMA.DE": 12,
+      "CEMM.DE": 12,
+      "XGIU.MI": 11
     },
     "ret_port": 0.0,
     "ret_xeon": 0.0,
