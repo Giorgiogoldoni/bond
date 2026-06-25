@@ -54,9 +54,9 @@
       "EDMA.DE": 12,
       "XGIU.MI": 11
     },
-    "ret_port": 0.1757,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.4845,
-    "ret_xgiu": 0.4322
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]

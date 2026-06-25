@@ -13,8 +13,8 @@
         "GEO_SHOCK": 10,
         "EUFORIA": 9
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 13% su GOVB.MI · EUGO in · GOVB out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -659,8 +659,8 @@
           "risk_factor": 0.6,
           "currency": "EUR",
           "weight": 13,
-          "weight_prev": 0,
-          "weight_delta": 13,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 81,
           "momentum_score": 38,
           "final_score": 66,
@@ -1669,8 +1669,8 @@
           "risk_factor": 0.7,
           "currency": "USD",
           "weight": 12,
-          "weight_prev": 13,
-          "weight_delta": -1,
+          "weight_prev": 12,
+          "weight_delta": 0,
           "macro_score": 81,
           "momentum_score": 50,
           "final_score": 70,
@@ -1687,8 +1687,8 @@
           "risk_factor": 0.7,
           "currency": "EUR",
           "weight": 11,
-          "weight_prev": 10,
-          "weight_delta": 1,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 81,
           "momentum_score": 35,
           "final_score": 65,
@@ -2312,7 +2312,7 @@
       "macro_breakdown": {
         "GOVT_IG": 100
       },
-      "generated_at": "2026-06-25T10:22:19.259528+00:00"
+      "generated_at": "2026-06-25T12:14:39.496830+00:00"
     },
     {
       "date": "2026-06-24",
