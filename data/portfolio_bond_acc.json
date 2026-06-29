@@ -3,15 +3,15 @@
     {
       "date": "2026-06-29",
       "regime": "DISINFLAZIONE",
-      "regime_prob": 37,
+      "regime_prob": 35,
       "regime_probs": {
-        "GOLDILOCKS": 10,
-        "RISK_OFF": 7,
-        "DISINFLAZIONE": 37,
-        "RECESSIONE": 9,
-        "TIGHTENING": 18,
-        "GEO_SHOCK": 10,
-        "EUFORIA": 9
+        "GOLDILOCKS": 11,
+        "RISK_OFF": 8,
+        "DISINFLAZIONE": 35,
+        "RECESSIONE": 10,
+        "TIGHTENING": 15,
+        "GEO_SHOCK": 11,
+        "EUFORIA": 10
       },
       "rebalance": "HOLD",
       "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
@@ -2580,9 +2580,9 @@
           "name": "PIMCO Adv Euro ST HY Acc",
           "cat": "HY_EUR",
           "currency": "EUR",
-          "macro_score": 44,
+          "macro_score": 43,
           "momentum_score": 0,
-          "final_score": 29,
+          "final_score": 28,
           "ret_4w": 0.47,
           "ret_12w": 0,
           "exclusion_reason": "Score insufficiente (max 7 posizioni)"
@@ -2593,7 +2593,7 @@
         "CORP_IG": 9,
         "EM_BOND": 19
       },
-      "generated_at": "2026-06-29T12:10:03.119164+00:00"
+      "generated_at": "2026-06-29T14:01:36.672233+00:00"
     },
     {
       "date": "2026-06-27",
