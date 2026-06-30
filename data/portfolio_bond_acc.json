@@ -3,16 +3,16 @@
     {
       "date": "2026-06-30",
       "regime": "DISINFLAZIONE",
-      "regime_prob": 43,
+      "regime_prob": 41,
       "regime_probs": {
-        "GOLDILOCKS": 11,
+        "GOLDILOCKS": 12,
         "REFLAZIONE": 7,
-        "DISINFLAZIONE": 43,
-        "RECESSIONE": 5,
+        "DISINFLAZIONE": 41,
+        "RECESSIONE": 6,
         "ZIRP": 7,
-        "TIGHTENING": 5,
-        "GEO_SHOCK": 12,
-        "EUFORIA": 10
+        "TIGHTENING": 3,
+        "GEO_SHOCK": 13,
+        "EUFORIA": 11
       },
       "rebalance": "HOLD",
       "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
@@ -674,9 +674,9 @@
           "weight": 10,
           "weight_prev": 10,
           "weight_delta": 0,
-          "macro_score": 46,
+          "macro_score": 47,
           "momentum_score": 100,
-          "final_score": 65,
+          "final_score": 66,
           "price": 5.63,
           "ret_4w": 2.62,
           "ret_12w": 5.35,
@@ -1303,9 +1303,9 @@
           "weight": 9,
           "weight_prev": 9,
           "weight_delta": 0,
-          "macro_score": 46,
+          "macro_score": 47,
           "momentum_score": 89,
-          "final_score": 61,
+          "final_score": 62,
           "price": 113.3,
           "ret_4w": 2.7,
           "ret_12w": 4.42,
@@ -2529,7 +2529,7 @@
           "name": "JPMorgan Global HY Multi-Factor",
           "cat": "HY_USD",
           "currency": "USD",
-          "macro_score": 54,
+          "macro_score": 55,
           "momentum_score": 50,
           "final_score": 53,
           "ret_4w": 0,
@@ -2550,6 +2550,19 @@
           "exclusion_reason": "Score insufficiente (max 7 posizioni)"
         },
         {
+          "ticker": "AYE8",
+          "ticker_full": "AYE8.DE",
+          "name": "iShares JP Morgan EM CHF Hed",
+          "cat": "EM_BOND",
+          "currency": "CHF",
+          "macro_score": 47,
+          "momentum_score": 50,
+          "final_score": 48,
+          "ret_4w": 0,
+          "ret_12w": 0,
+          "exclusion_reason": "Max 2 EM raggiunto"
+        },
+        {
           "ticker": "IEAA",
           "ticker_full": "IEAA.MI",
           "name": "iShares Core EUR Corporate Acc",
@@ -2561,19 +2574,6 @@
           "ret_4w": 0.69,
           "ret_12w": 1.8,
           "exclusion_reason": "Score insufficiente (max 7 posizioni)"
-        },
-        {
-          "ticker": "AYE8",
-          "ticker_full": "AYE8.DE",
-          "name": "iShares JP Morgan EM CHF Hed",
-          "cat": "EM_BOND",
-          "currency": "CHF",
-          "macro_score": 46,
-          "momentum_score": 50,
-          "final_score": 47,
-          "ret_4w": 0,
-          "ret_12w": 0,
-          "exclusion_reason": "Max 2 EM raggiunto"
         },
         {
           "ticker": "EUHA",
@@ -2594,7 +2594,7 @@
         "CORP_IG": 9,
         "EM_BOND": 19
       },
-      "generated_at": "2026-06-30T16:19:57.904843+00:00"
+      "generated_at": "2026-06-30T18:18:29.981998+00:00"
     },
     {
       "date": "2026-06-29",
