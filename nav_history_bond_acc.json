@@ -169,14 +169,14 @@
       "IS0F.DE": 24,
       "EUNQ.DE": 17,
       "CSBGU7.MI": 17,
-      "EDMA.DE": 15,
-      "EMSA.MI": 9,
+      "EDMA.DE": 14,
+      "EMSA.MI": 10,
       "EMLB.MI": 9,
       "CRPA.MI": 9
     },
-    "ret_port": -0.0755,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.0629,
-    "ret_xgiu": 0.0704
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
