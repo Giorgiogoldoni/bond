@@ -190,12 +190,12 @@
       "XGIU.MI": 22.732
     },
     "weights": {
-      "PJS1.MI": 25,
+      "PJS1.MI": 24,
       "XGIU.MI": 21,
       "STHY.MI": 13,
       "IEMB.MI": 12,
       "EMLI.MI": 11,
-      "EUHI.MI": 9,
+      "EUHI.MI": 10,
       "XAT1.MI": 9
     },
     "ret_port": 0.0,
