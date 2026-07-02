@@ -246,8 +246,8 @@
     "prices": {
       "PJS1.MI": 97.559,
       "XGIU.MI": 22.748,
-      "STHY.MI": 82.35,
       "IEMB.MI": 81.6,
+      "STHY.MI": 82.35,
       "EMLI.MI": 58.07,
       "EUHI.MI": 9.349,
       "XAT1.MI": 16.22
@@ -258,12 +258,12 @@
       "XGIU.MI": 22.748
     },
     "weights": {
-      "PJS1.MI": 25,
-      "XGIU.MI": 21,
-      "STHY.MI": 13,
+      "PJS1.MI": 26,
+      "XGIU.MI": 22,
       "IEMB.MI": 12,
+      "STHY.MI": 12,
       "EMLI.MI": 10,
-      "EUHI.MI": 10,
+      "EUHI.MI": 9,
       "XAT1.MI": 9
     },
     "ret_port": 0.0,
