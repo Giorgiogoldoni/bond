@@ -13,7 +13,7 @@
         "EUFORIA": 7
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -23,8 +23,8 @@
           "risk_factor": 0.4,
           "currency": "USD",
           "weight": 23,
-          "weight_prev": 24,
-          "weight_delta": -1,
+          "weight_prev": 23,
+          "weight_delta": 0,
           "macro_score": 94,
           "momentum_score": 50,
           "final_score": 79,
@@ -682,8 +682,8 @@
           "risk_factor": 0.7,
           "currency": "USD",
           "weight": 14,
-          "weight_prev": 15,
-          "weight_delta": -1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 94,
           "momentum_score": 50,
           "final_score": 79,
@@ -700,8 +700,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 10,
-          "weight_prev": 9,
-          "weight_delta": 1,
+          "weight_prev": 10,
+          "weight_delta": 0,
           "macro_score": 40,
           "momentum_score": 100,
           "final_score": 61,
@@ -1347,8 +1347,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 10,
-          "weight_prev": 9,
-          "weight_delta": 1,
+          "weight_prev": 10,
+          "weight_delta": 0,
           "macro_score": 40,
           "momentum_score": 86,
           "final_score": 56,
@@ -2670,7 +2670,7 @@
         "CORP_IG": 9,
         "EM_BOND": 20
       },
-      "generated_at": "2026-07-07T10:33:22.761292+00:00"
+      "generated_at": "2026-07-07T12:24:49.587594+00:00"
     },
     {
       "date": "2026-07-06",

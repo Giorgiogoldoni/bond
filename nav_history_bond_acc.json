@@ -324,9 +324,9 @@
       "EMLB.MI": 10,
       "CRPA.MI": 9
     },
-    "ret_port": 0.0651,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.0632,
-    "ret_xgiu": 0.1901
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
