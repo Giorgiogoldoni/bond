@@ -316,12 +316,12 @@
       "XGIU.MI": 22.666
     },
     "weights": {
-      "IS0F.DE": 23,
+      "IS0F.DE": 24,
       "CSBGU7.MI": 17,
       "EUNQ.DE": 17,
       "EDMA.DE": 14,
       "EMSA.MI": 10,
-      "EMLB.MI": 10,
+      "EMLB.MI": 9,
       "CRPA.MI": 9
     },
     "ret_port": 0.0,
