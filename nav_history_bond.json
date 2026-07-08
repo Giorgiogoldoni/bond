@@ -394,11 +394,11 @@
       "XGIU.MI": 22.616
     },
     "weights": {
-      "PJS1.MI": 26,
-      "XGIU.MI": 22,
+      "PJS1.MI": 25,
+      "XGIU.MI": 21,
       "STHY.MI": 13,
-      "IEMB.MI": 11,
-      "EMLI.MI": 10,
+      "IEMB.MI": 12,
+      "EMLI.MI": 11,
       "EUHI.MI": 9,
       "XAT1.MI": 9
     },
