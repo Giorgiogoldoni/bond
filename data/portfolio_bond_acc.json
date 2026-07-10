@@ -14,7 +14,7 @@
         "EUFORIA": 6
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -24,8 +24,8 @@
           "risk_factor": 0.4,
           "currency": "USD",
           "weight": 24,
-          "weight_prev": 23,
-          "weight_delta": 1,
+          "weight_prev": 24,
+          "weight_delta": 0,
           "macro_score": 86,
           "momentum_score": 50,
           "final_score": 73,
@@ -1685,8 +1685,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 9,
-          "weight_prev": 10,
-          "weight_delta": -1,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 44,
           "momentum_score": 99,
           "final_score": 63,
@@ -3062,7 +3062,7 @@
         "CORP_IG": 9,
         "EM_BOND": 18
       },
-      "generated_at": "2026-07-10T10:30:40.532876+00:00"
+      "generated_at": "2026-07-10T12:22:45.645751+00:00"
     },
     {
       "date": "2026-07-09",
