@@ -399,9 +399,9 @@
     "prices": {
       "CSBGU7.MI": 124.93,
       "EUGO.MI": 25.383,
+      "CRPA.MI": 5.212,
       "EMLB.MI": 112.96,
-      "EMSA.MI": 5.6,
-      "CRPA.MI": 5.212
+      "EMSA.MI": 5.6
     },
     "bench_px": {
       "VAGF.MI": 23.635000228881836,
@@ -410,11 +410,11 @@
     "weights": {
       "IS0F.DE": 24,
       "CSBGU7.MI": 18,
-      "EUGO.MI": 17,
+      "EUGO.MI": 16,
       "EDMA.DE": 14,
+      "CRPA.MI": 10,
       "EMLB.MI": 9,
-      "EMSA.MI": 9,
-      "CRPA.MI": 9
+      "EMSA.MI": 9
     },
     "ret_port": 0.0,
     "ret_xeon": 0.0,
