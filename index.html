@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RAPTOR BOND</title>
+<title>RAPTOR BOND — Confronto Linee</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap');
@@ -13,504 +13,324 @@
     --accent:#7c3aed; --accent2:#e07b00;
     --text:#1a2332; --muted:#6b7c93; --muted2:#a0aec0;
     --danger:#dc2626; --warning:#d97706; --success:#16a34a;
-    --hold:#16a34a; --partial:#d97706; --rebalance:#dc2626; --init:#7c3aed;
-    --cat-govt:#059669; --cat-hy-eur:#ea580c; --cat-hy-usd:#f59e0b;
-    --cat-em:#7c3aed; --cat-at1:#dc2626; --cat-cash:#64748b;
+    --line-bond:#059669; --line-acc:#2563eb; --line-anto:#dc2626; --line-faber:#e07b00;
     --font:'Syne',system-ui,sans-serif; --mono:'Space Mono',monospace;
     --radius:8px; --shadow:0 1px 3px rgba(0,0,0,.06);
+    --sw:210px;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:13px;line-height:1.5;}
-  .wrap{max-width:1440px;margin:0 auto;padding:20px 24px;}
+  html,body{height:100%;}
+  body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:13px;line-height:1.5;display:flex;}
 
-  .hdr{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:2px solid var(--border);margin-bottom:20px;flex-wrap:wrap;gap:12px;}
-  .logo{font-size:20px;font-weight:800;color:var(--text);letter-spacing:-.3px;}
-  .logo span{color:var(--accent);}
-  .logo-sub{font-size:10px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-top:2px;}
-  .hdr-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-  .status-pill{display:flex;align-items:center;gap:5px;background:var(--bg2);border:1px solid var(--border);border-radius:20px;padding:4px 10px;font-size:10px;color:var(--muted);}
-  .dot{width:7px;height:7px;border-radius:50%;}
-  .dot.ok{background:var(--success);animation:pulse 2s infinite;}
-  .dot.err{background:var(--danger);}
-  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
-  .btn{background:var(--bg2);border:1px solid var(--border);color:var(--text);font-family:var(--font);font-size:11px;font-weight:600;padding:6px 14px;border-radius:6px;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:5px;text-decoration:none;white-space:nowrap;}
-  .btn:hover{border-color:var(--accent);color:var(--accent);}
-  .btn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
-  .btn.success{background:#f0fdf4;border-color:var(--success);color:var(--success);}
-  .btn.success:hover{background:var(--success);color:#fff;}
+  /* ── SIDEBAR ─────────────────────────────────────────────────── */
+  #sidebar{width:var(--sw);min-width:var(--sw);height:100vh;background:var(--bg2);
+    border-right:1px solid var(--border);display:flex;flex-direction:column;
+    flex-shrink:0;position:sticky;top:0;overflow-y:auto;}
+  .sb-logo{padding:20px 16px 14px;border-bottom:1px solid var(--border);}
+  .sb-logo-text{font-size:16px;font-weight:800;letter-spacing:-.3px;}
+  .sb-logo-text span{color:var(--accent);}
+  .sb-logo-sub{font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px;}
+  nav{padding:12px 10px;flex:1;}
+  .nav-section-label{font-size:9px;color:var(--muted2);text-transform:uppercase;letter-spacing:1px;
+    padding:8px 8px 4px;font-weight:700;}
+  .nav-item{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:6px;cursor:pointer;
+    font-size:12px;color:var(--muted);transition:all .12s;user-select:none;margin-bottom:2px;
+    white-space:nowrap;position:relative;font-weight:600;}
+  .nav-item:hover{background:var(--bg3);color:var(--text);}
+  .nav-item.active{background:#f1eafe;color:var(--accent);}
+  .nav-item.active::before{content:'';position:absolute;left:0;top:15%;bottom:15%;width:3px;
+    background:var(--accent);border-radius:0 3px 3px 0;}
+  .nav-badge{margin-left:auto;font-size:8px;font-weight:700;padding:1px 5px;border-radius:3px;
+    background:var(--bg3);color:var(--muted);}
+  .nav-badge.live{background:#f0fdf4;color:var(--success);}
+  .nav-badge.bt{background:#fef3f0;color:var(--accent2);}
+  .sb-footer{padding:14px 16px;border-top:1px solid var(--border);}
+  .sb-footer a{font-size:10.5px;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:5px;}
+  .sb-footer a:hover{color:var(--accent);}
 
-  .info-banner{display:flex;align-items:center;gap:10px;padding:10px 16px;margin-bottom:18px;border-radius:var(--radius);background:#f5f3ff;border:1px solid #ddd6fe;font-size:11px;color:#6d28d9;}
+  /* ── CONTENT ─────────────────────────────────────────────────── */
+  #content{flex:1;height:100vh;overflow-y:auto;}
+  .tab-pane{display:none;height:100%;}
+  .tab-pane.active{display:block;}
+  .wrap{max-width:1280px;margin:0 auto;padding:24px 28px;}
 
-  .rb-banner{display:flex;align-items:center;gap:14px;padding:14px 18px;margin-bottom:18px;border-radius:var(--radius);border:1px solid;border-left:4px solid;}
-  .rb-HOLD    {border-color:#bbf7d0;border-left-color:var(--hold);background:#f0fdf4;}
-  .rb-PARTIAL {border-color:#fde68a;border-left-color:var(--partial);background:#fffbeb;}
-  .rb-REBALANCE{border-color:#fecaca;border-left-color:var(--rebalance);background:#fff5f5;}
-  .rb-INIT    {border-color:#ddd6fe;border-left-color:var(--init);background:#f5f3ff;}
-  .rb-icon{font-size:24px;flex-shrink:0;}
-  .rb-label{font-size:13px;font-weight:700;letter-spacing:.5px;}
-  .rb-reason{font-size:10px;color:var(--muted);margin-top:2px;}
-  .rb-date{font-size:10px;color:var(--muted);margin-left:auto;white-space:nowrap;}
+  .hdr{display:flex;align-items:center;justify-content:space-between;padding-bottom:16px;
+    border-bottom:2px solid var(--border);margin-bottom:20px;flex-wrap:wrap;gap:12px;}
+  .hdr h1{font-size:19px;font-weight:800;}
+  .hdr-sub{font-size:11px;color:var(--muted);margin-top:2px;}
+  .as-of{font-family:var(--mono);font-size:10.5px;color:var(--muted);background:var(--bg2);
+    border:1px solid var(--border);border-radius:20px;padding:4px 12px;}
 
-  .pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
-  .pill{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:10px 16px;min-width:110px;}
-  .pill-label{font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:3px;}
-  .pill-val{font-size:18px;font-weight:700;color:var(--text);line-height:1.1;}
-  .pill-val.yield-val{color:var(--accent);}
-  .pill-sub{font-size:9px;color:var(--muted2);margin-top:1px;}
+  .chart-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:20px;margin-bottom:20px;}
+  .chart-card h2{font-size:13px;font-weight:700;margin-bottom:4px;}
+  .chart-sub{font-size:11px;color:var(--muted);margin-bottom:14px;}
+  .chart-wrap{position:relative;height:420px;}
 
-  .section{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow);}
-  .sec-title{font-size:9px;font-weight:700;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border2);}
+  .legend-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+  .legend-chip{display:flex;align-items:center;gap:6px;font-size:11px;padding:5px 10px;
+    border-radius:20px;background:var(--bg2);border:1px solid var(--border);}
+  .legend-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+  .legend-badge{font-size:8px;font-weight:700;padding:1px 5px;border-radius:3px;margin-left:2px;}
+  .legend-badge.live{background:#f0fdf4;color:var(--success);}
+  .legend-badge.bt{background:#fef3f0;color:var(--accent2);}
 
-  .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;}
-  .cat-box{background:var(--bg2);border:1px solid var(--border2);border-radius:6px;padding:10px 12px;border-top:3px solid;}
-  .cat-name{font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;}
-  .cat-pct{font-size:20px;font-weight:700;line-height:1;}
-  .cat-bar-wrap{margin-top:6px;height:4px;background:var(--border);border-radius:2px;overflow:hidden;}
-  .cat-bar{height:100%;border-radius:2px;transition:width .5s ease;}
+  .cards-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
+  .kpi-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:16px;}
+  .kpi-card .name{font-size:11px;color:var(--muted);font-weight:600;margin-bottom:6px;
+    display:flex;align-items:center;gap:6px;}
+  .kpi-card .val{font-family:var(--mono);font-size:22px;font-weight:700;}
+  .kpi-card .val.pos{color:var(--success);}
+  .kpi-card .val.neg{color:var(--danger);}
+  .kpi-card .sub{font-size:10px;color:var(--muted2);margin-top:4px;}
 
-  /* REGOLE */
-  .rules-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:12px;}
-  .rule-box{background:var(--bg2);border:1px solid var(--border2);border-radius:6px;padding:10px 14px;}
-  .rule-title{font-size:9px;font-weight:700;color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;}
-  .rule-val{font-size:12px;color:var(--text);line-height:1.6;}
-  .regime-table{width:100%;border-collapse:collapse;font-size:10px;margin-top:8px;}
-  .regime-table th{background:var(--bg3);padding:4px 8px;text-align:left;font-weight:600;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.5px;}
-  .regime-table td{padding:4px 8px;border-bottom:1px solid var(--border2);}
-  .fit-high{color:var(--success);font-weight:700;}
-  .fit-low {color:var(--danger);font-weight:700;}
-  .fit-mid {color:var(--warning);}
+  .note-box{background:#fef9f0;border:1px solid #fde4c1;border-radius:var(--radius);
+    padding:14px 16px;font-size:11.5px;color:#7a5210;margin-bottom:20px;line-height:1.6;}
 
-  /* TABELLA */
-  .tbl-wrap{overflow-x:auto;}
-  table.main-tbl{width:100%;border-collapse:collapse;font-size:11px;}
-  table.main-tbl th{font-size:8.5px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;text-align:left;padding:6px 10px;border-bottom:1.5px solid var(--border);white-space:nowrap;background:var(--bg2);}
-  table.main-tbl td{padding:7px 10px;border-bottom:1px solid var(--border2);vertical-align:middle;}
-  table.main-tbl tr.etf-row{cursor:pointer;}
-  table.main-tbl tr.etf-row:hover td{background:var(--bg2);}
-  .tk{font-weight:700;font-size:12px;color:var(--text);font-family:var(--mono);}
-  .nm{font-size:10px;color:var(--muted);max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  .cat-badge{font-size:8px;padding:2px 7px;border-radius:10px;font-weight:600;white-space:nowrap;border:1px solid;}
-  .cedola-badge{font-size:8px;padding:1px 6px;border-radius:10px;font-weight:600;border:1px solid;color:var(--muted);border-color:var(--border);background:var(--bg2);}
-  .w-cell{font-size:14px;font-weight:700;}
-  .delta-new{color:var(--accent);font-size:9px;font-weight:700;}
-  .delta-pos{color:var(--success);}
-  .delta-neg{color:var(--danger);}
-  .delta-zero{color:var(--muted2);}
-  .ret-pos{color:var(--success);}
-  .ret-neg{color:var(--danger);}
-  .ret-flat{color:var(--muted2);}
-  .yield-cell{color:var(--accent);font-weight:700;}
+  .placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;
+    height:60vh;text-align:center;color:var(--muted);gap:10px;}
+  .placeholder h2{font-size:16px;color:var(--text);}
+  .placeholder p{font-size:12px;max-width:420px;}
 
-  /* CHART ROW */
-  tr.chart-row td{padding:0;background:#fafbff;}
-  .chart-panel{display:none;padding:16px;border-top:1px solid var(--border2);}
-  .chart-panel.open{display:block;}
-  .chart-canvas-wrap{position:relative;height:220px;}
+  iframe.embed{width:100%;height:100vh;border:none;display:block;}
 
-  .export-bar{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:11px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px;}
-  .export-info{flex:1;font-size:10px;color:var(--muted);}
-
-  .loader{text-align:center;padding:80px;color:var(--muted);}
-  .loader-spin{width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 14px;}
-  @keyframes spin{to{transform:rotate(360deg)}}
-
-  .c-GOVT_IG{color:var(--cat-govt);border-color:#a7f3d0;background:#ecfdf5;}
-  .c-HY_EUR {color:var(--cat-hy-eur);border-color:#fed7aa;background:#fff7ed;}
-  .c-HY_USD {color:var(--cat-hy-usd);border-color:#fde68a;background:#fffbeb;}
-  .c-EM_BOND{color:var(--cat-em);border-color:#ddd6fe;background:#f5f3ff;}
-  .c-AT1    {color:var(--cat-at1);border-color:#fecaca;background:#fff5f5;}
-  .c-CASH   {color:var(--cat-cash);border-color:#e2e8f0;background:#f8fafc;}
-
-  @media(max-width:768px){.wrap{padding:12px 14px;}.cat-grid{grid-template-columns:repeat(3,1fr);}}</style>
+  @media (max-width:900px){.cards-row{grid-template-columns:repeat(2,1fr);}}
+</style>
 </head>
 <body>
-<div class="wrap">
 
-  <div class="hdr">
-    <div>
-      <div class="logo">RAPTOR <span>BOND</span></div>
-      <div class="logo-sub">Portafoglio obbligazionario · Macro-driven · Yield tracking</div>
+<aside id="sidebar">
+  <div class="sb-logo">
+    <div class="sb-logo-text">RAPTOR <span>BOND</span></div>
+    <div class="sb-logo-sub">Multi-linea obbligazionario</div>
+  </div>
+  <nav>
+    <div class="nav-section-label">Overview</div>
+    <div class="nav-item active" data-tab="confronto" onclick="showTab('confronto', this)">
+      📊 Confronto <span class="nav-badge live">4 linee</span>
     </div>
-    <div class="hdr-right">
-      <div class="status-pill"><div class="dot" id="sDot"></div><span id="sTxt">caricamento</span></div>
-      <span id="lastUpd" style="font-size:10px;color:var(--muted)">—</span>
-      <a class="btn active" href="index.html">Bond Dist</a>
-      <a class="btn" href="index_acc.html">Bond ACC</a>
-      <a class="btn" href="performance.html">Performance</a>
-      <a class="btn" href="https://giorgiogoldoni.github.io/portafoglio/" target="_top">Portfolio</a>
-      <a class="btn" href="https://giorgiogoldoni.github.io/trader/" target="_top">Hub</a>
+
+    <div class="nav-section-label">Portafogli attuali</div>
+    <div class="nav-item" data-tab="bond-dist" onclick="showTab('bond-dist', this)">
+      🏦 Bond Distribuzione <span class="nav-badge live">live</span>
+    </div>
+    <div class="nav-item" data-tab="bond-acc" onclick="showTab('bond-acc', this)">
+      💎 Bond Accumulo <span class="nav-badge live">live</span>
+    </div>
+
+    <div class="nav-section-label">Nuove linee momentum</div>
+    <div class="nav-item" data-tab="antonacci" onclick="showTab('antonacci', this)">
+      🎯 Antonacci <span class="nav-badge bt">backtest</span>
+    </div>
+    <div class="nav-item" data-tab="faber" onclick="showTab('faber', this)">
+      ⚡ Faber <span class="nav-badge bt">backtest</span>
+    </div>
+  </nav>
+  <div class="sb-footer">
+    <a href="renko.html">📈 Analisi Renko storica →</a>
+  </div>
+</aside>
+
+<div id="content">
+
+  <!-- ═══ TAB: CONFRONTO (homepage di default) ═══ -->
+  <div class="tab-pane active" id="tab-confronto">
+    <div class="wrap">
+      <div class="hdr">
+        <div>
+          <h1>Confronto performance — 4 linee</h1>
+          <div class="hdr-sub">Indice normalizzato a 100 dalla data comune più recente</div>
+        </div>
+        <div class="as-of" id="asOf">caricamento…</div>
+      </div>
+
+      <div class="note-box" id="dataNote">
+        ⚠ Antonacci e Faber sono in attesa del backtest storico (dal 2022) e non hanno ancora dati —
+        vengono mostrate come linee piatte a 100 finché il motore di backtest non è caricato.
+        Bond Distribuzione e Bond Accumulo mostrano invece dati reali live.
+      </div>
+
+      <div class="cards-row" id="kpiRow"></div>
+
+      <div class="chart-card">
+        <h2>NAV normalizzato (base 100)</h2>
+        <div class="chart-sub">Ogni linea parte da 100 alla prima data disponibile in comune</div>
+        <div class="chart-wrap"><canvas id="compareChart"></canvas></div>
+        <div class="legend-row">
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-bond)"></span>
+            Bond Distribuzione <span class="legend-badge live">live</span></div>
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-acc)"></span>
+            Bond Accumulo <span class="legend-badge live">live</span></div>
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-anto)"></span>
+            Antonacci <span class="legend-badge bt">backtest</span></div>
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-faber)"></span>
+            Faber <span class="legend-badge bt">backtest</span></div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="info-banner">Universo 10 strumenti obbligazionari · XEON solo in crisi/tightening · Macro 65% + Momentum 35% (r4w+r12w) · Yield da cedole incluso</div>
-
-  <div id="loaderMsg" class="loader"><div class="loader-spin"></div>Caricamento RAPTOR BOND...</div>
-
-  <div id="main" style="display:none">
-
-    <div class="rb-banner" id="rbBanner">
-      <div class="rb-icon" id="rbIcon">—</div>
-      <div><div class="rb-label" id="rbLabel">—</div><div class="rb-reason" id="rbReason">—</div></div>
-      <div class="rb-date" id="rbDate">—</div>
-    </div>
-
-    <div class="pills" id="pills"></div>
-
-    <div class="section">
-      <div class="sec-title">Esposizione per categoria</div>
-      <div class="cat-grid" id="catGrid"></div>
-    </div>
-
-    <!-- REGOLE DI SELEZIONE -->
-    <div class="section">
-      <div class="sec-title">Regole di selezione</div>
-      <div class="rules-grid">
-        <div class="rule-box">
-          <div class="rule-title">Formula Score</div>
-          <div class="rule-val">
-            <strong>Macro 65%</strong> x regime_fit<br>
-            + <strong>Momentum 35%</strong><br>
-            &nbsp;&nbsp;(r4w 50% + r12w 50%)<br>
-            <em style="font-size:10px;color:var(--muted)">No r1w — cedole mensili distorcono</em>
-          </div>
-        </div>
-        <div class="rule-box">
-          <div class="rule-title">Vincoli portafoglio</div>
-          <div class="rule-val">
-            Max 7 posizioni<br>
-            Min peso per ETF: 10%<br>
-            Max 2 HY simultanei<br>
-            Max 2 EM simultanei<br>
-            XEON: solo crisi/tightening
-          </div>
-        </div>
-        <div class="rule-box">
-          <div class="rule-title">Peso max per categoria</div>
-          <div class="rule-val">
-            Govt IG: 40%<br>
-            HY EUR / HY USD: 35%<br>
-            EM Bond: 30%<br>
-            AT1/CoCo: 20%<br>
-            Cash (XEON): 60% in crisi
-          </div>
-        </div>
-      </div>
-      <table class="regime-table">
-        <thead><tr>
-          <th>Categoria</th>
-          <th>GOLDILOCKS</th><th>DISINFLAZIONE</th><th>TIGHTENING</th>
-          <th>RECESSIONE</th><th>RISK_OFF</th><th>EUFORIA</th>
-        </tr></thead>
-        <tbody>
-          <tr><td><strong>Govt IG</strong></td><td class="fit-mid">0.7</td><td class="fit-high">1.3</td><td class="fit-low">0.4</td><td class="fit-high">1.4</td><td class="fit-high">1.3</td><td class="fit-low">0.5</td></tr>
-          <tr><td><strong>HY EUR</strong></td><td class="fit-high">1.3</td><td class="fit-mid">1.0</td><td class="fit-low">0.5</td><td class="fit-low">0.3</td><td class="fit-low">0.2</td><td class="fit-high">1.4</td></tr>
-          <tr><td><strong>HY USD</strong></td><td class="fit-high">1.2</td><td class="fit-mid">1.0</td><td class="fit-low">0.5</td><td class="fit-low">0.3</td><td class="fit-low">0.2</td><td class="fit-high">1.3</td></tr>
-          <tr><td><strong>EM Bond</strong></td><td class="fit-mid">1.0</td><td class="fit-mid">0.9</td><td class="fit-low">0.4</td><td class="fit-low">0.5</td><td class="fit-low">0.3</td><td class="fit-high">1.1</td></tr>
-          <tr><td><strong>AT1/CoCo</strong></td><td class="fit-high">1.3</td><td class="fit-mid">0.9</td><td class="fit-mid">0.6</td><td class="fit-low">0.2</td><td class="fit-low">0.1</td><td class="fit-high">1.4</td></tr>
-          <tr><td><strong>Cash</strong></td><td class="fit-low">0.0</td><td class="fit-low">0.1</td><td class="fit-mid">0.8</td><td class="fit-high">1.0</td><td class="fit-high">1.0</td><td class="fit-low">0.0</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- TABELLA ETF -->
-    <div class="section">
-      <div class="sec-title">Portafoglio Bond — dettaglio (clic su riga per grafico)</div>
-      <div class="tbl-wrap">
-        <table class="main-tbl">
-          <thead><tr>
-            <th></th><th>Ticker</th><th>Nome</th><th>Categoria</th><th>Cedola</th>
-            <th>Peso%</th><th>Delta</th><th>Score</th>
-            <th>Macro</th><th>Mom</th>
-            <th>Yield%</th><th>4W%</th><th>12W%</th><th>CCY</th>
-          </tr></thead>
-          <tbody id="pfBody"></tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- ETF ESCLUSI -->
-    <div class="section" id="excluded-section" style="display:none">
-      <div class="sec-title">ETF non selezionati questa settimana</div>
-      <div class="tbl-wrap">
-        <table class="main-tbl">
-          <thead><tr>
-            <th>Ticker</th><th>Nome</th><th>Categoria</th>
-            <th>Score</th><th>Macro</th><th>Mom</th>
-            <th>4W%</th><th>12W%</th><th>Motivo esclusione</th>
-          </tr></thead>
-          <tbody id="excludedBody"></tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- EXPORT -->
-    <div class="export-bar">
-      <div class="export-info" id="expInfo">—</div>
-      <button class="btn success" onclick="exportExcel()">⬇ Excel universo + portafoglio</button>
-    </div>
-
+  <!-- ═══ TAB: BOND DISTRIBUZIONE (pagina esistente, embed) ═══ -->
+  <div class="tab-pane" id="tab-bond-dist">
+    <iframe class="embed" src="bond-dist.html" title="Bond Distribuzione"></iframe>
   </div>
+
+  <!-- ═══ TAB: BOND ACCUMULO (pagina esistente, embed) ═══ -->
+  <div class="tab-pane" id="tab-bond-acc">
+    <iframe class="embed" src="bond-acc.html" title="Bond Accumulo"></iframe>
+  </div>
+
+  <!-- ═══ TAB: ANTONACCI (in costruzione) ═══ -->
+  <div class="tab-pane" id="tab-antonacci">
+    <div class="placeholder">
+      <div style="font-size:36px;">🎯</div>
+      <h2>Antonacci — Dual Momentum</h2>
+      <p>Motore di calcolo e backtest storico dal 2022 in costruzione.
+      Filtro assoluto 12M per strumento + Top2 relativo (60/40).
+      Questa pagina si popolerà automaticamente appena lo script di backtest
+      genera <code>nav_history_antonacci.json</code>.</p>
+    </div>
+  </div>
+
+  <!-- ═══ TAB: FABER (in costruzione) ═══ -->
+  <div class="tab-pane" id="tab-faber">
+    <div class="placeholder">
+      <div style="font-size:36px;">⚡</div>
+      <h2>Faber — Momentum Aggressivo</h2>
+      <p>Motore di calcolo e backtest storico dal 2022 in costruzione.
+      Ranking puro su composite momentum (40% 1M / 35% 3M / 25% 6M), Top3 (50/30/20),
+      nessun filtro di trend. Questa pagina si popolerà automaticamente appena lo script
+      di backtest genera <code>nav_history_faber.json</code>.</p>
+    </div>
+  </div>
+
 </div>
 
 <script>
-var CAT_COLORS = {
-  GOVT_IG:'#059669', HY_EUR:'#ea580c', HY_USD:'#f59e0b',
-  EM_BOND:'#7c3aed', AT1:'#dc2626', CASH:'#64748b',
-};
-var CAT_LABELS = {
-  GOVT_IG:'Govt IG', HY_EUR:'HY EUR', HY_USD:'HY USD',
-  EM_BOND:'EM Bond', AT1:'AT1/CoCo', CASH:'Cash',
-};
-var RB_META = {
-  HOLD:     {icon:'OK', label:'HOLD - Nessun ribilanciamento',      cls:'rb-HOLD'},
-  PARTIAL:  {icon:'!',  label:'PARTIAL - Ribilanciamento parziale',  cls:'rb-PARTIAL'},
-  REBALANCE:{icon:'R',  label:'REBALANCE - Ribilanciamento completo',cls:'rb-REBALANCE'},
-  INIT:     {icon:'I',  label:'INIT - Prima configurazione',         cls:'rb-INIT'},
+const LINE_COLORS = {
+  bond:   getComputedStyle(document.documentElement).getPropertyValue('--line-bond').trim(),
+  acc:    getComputedStyle(document.documentElement).getPropertyValue('--line-acc').trim(),
+  anto:   getComputedStyle(document.documentElement).getPropertyValue('--line-anto').trim(),
+  faber:  getComputedStyle(document.documentElement).getPropertyValue('--line-faber').trim(),
 };
 
-var UNIVERSE_META = [
-  {ticker:'PJS1.MI', name:'PIMCO Euro Short Mat',    cat:'GOVT_IG', risk:'Basso',      cur:'EUR', cedola:'mensile'},
-  {ticker:'XGIU.MI', name:'iShares Euro Govt Bond',  cat:'GOVT_IG', risk:'Basso',      cur:'EUR', cedola:'trimestrale'},
-  {ticker:'STHY.MI', name:'PIMCO US HY USD',         cat:'HY_USD',  risk:'Medio',      cur:'USD', cedola:'mensile'},
-  {ticker:'STHE.MI', name:'PIMCO US HY EUR Hed',     cat:'HY_USD',  risk:'Medio',      cur:'EUR', cedola:'mensile'},
-  {ticker:'EUHI.MI', name:'PIMCO Euro HY',           cat:'HY_EUR',  risk:'Medio',      cur:'EUR', cedola:'mensile'},
-  {ticker:'EMLI.MI', name:'PIMCO EM Local Bond',     cat:'EM_BOND', risk:'Medio-alto', cur:'USD', cedola:'mensile'},
-  {ticker:'SEML.MI', name:'iShares EM Local Govt',   cat:'EM_BOND', risk:'Medio-alto', cur:'USD', cedola:'trimestrale'},
-  {ticker:'IEMB.MI', name:'iShares JP Morgan EM',    cat:'EM_BOND', risk:'Medio-alto', cur:'USD', cedola:'trimestrale'},
-  {ticker:'IHYG.MI', name:'iShares Euro HY Corp',    cat:'HY_EUR',  risk:'Medio',      cur:'EUR', cedola:'trimestrale'},
-  {ticker:'XAT1.MI', name:'Invesco AT1 CoCo Bond',  cat:'AT1',     risk:'Alto',       cur:'EUR', cedola:'trimestrale'},
-  {ticker:'XEON.MI', name:'Xtrackers EUR Overnight', cat:'CASH',    risk:'Zero',       cur:'EUR', cedola:'accumulo'},
-];
-
-var PF = null;
-var chartInstances = {};
-
-function load() {
-  fetch('data/portfolio_bond.json?t=' + Date.now())
-    .then(function(r){ return r.json(); })
-    .then(function(data){
-      PF = data;
-      if (!PF || !PF.history || !PF.history.length) throw new Error('Nessuna settimana');
-      document.getElementById('loaderMsg').style.display = 'none';
-      document.getElementById('main').style.display = 'block';
-      document.getElementById('sDot').className = 'dot ok';
-      document.getElementById('sTxt').textContent = 'online';
-      var gen = new Date(PF.history[0].generated_at);
-      document.getElementById('lastUpd').textContent = gen.toLocaleString('it-IT');
-      renderWeek();
-    })
-    .catch(function(e){
-      document.getElementById('sDot').className = 'dot err';
-      document.getElementById('sTxt').textContent = 'errore';
-      document.getElementById('loaderMsg').innerHTML = '<div style="color:var(--danger)">Errore: ' + e.message + '</div>';
-    });
+function showTab(id, el){
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  el.classList.add('active');
 }
 
-function renderWeek() {
-  var week = PF.history[0];
-  if (!week) return;
+function fmtDate(d){
+  const dt = new Date(d);
+  return dt.toLocaleDateString('it-IT', {day:'2-digit', month:'short', year:'numeric'});
+}
 
-  var rb = RB_META[week.rebalance] || RB_META.HOLD;
-  document.getElementById('rbBanner').className = 'rb-banner ' + rb.cls;
-  document.getElementById('rbIcon').textContent   = rb.icon;
-  document.getElementById('rbLabel').textContent  = rb.label;
-  document.getElementById('rbReason').textContent = week.rebalance_reason || '';
-  document.getElementById('rbDate').textContent   = week.date;
+async function loadJSON(path){
+  try {
+    const r = await fetch(path, {cache:'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return await r.json();
+  } catch (e) {
+    console.warn('Impossibile caricare', path, e);
+    return null;
+  }
+}
 
-  var pf     = week.portfolio || [];
-  var newPos = pf.filter(function(e){ return e.weight_prev === 0; }).length;
-  var wy     = week.weighted_yield;
+function normalizeSeries(history){
+  // history: array di {date, nav}. Ritorna array {date, idx} normalizzato a 100 dal primo punto.
+  if (!history || !history.length) return [];
+  const base = history[0].nav || 100;
+  return history.map(h => ({date: h.date, idx: (h.nav / base) * 100}));
+}
 
-  document.getElementById('pills').innerHTML = [
-    {l:'Posizioni attive',   v:pf.length,                            s:'su 10 strumenti'},
-    {l:'Nuovi ingressi',     v:newPos,                               s:'questa rilevazione'},
-    {l:'Regime',             v:week.regime,                          s:(week.regime_prob||0)+'% prob.'},
-    {l:'Yield medio pond.',  v:wy ? wy.toFixed(2)+'%' : 'n.d.',     s:'cedole annualizzate', cls:'yield-val'},
-    {l:'Segnale',            v:week.rebalance,                       s:week.date}
-  ].map(function(p){
-    var valClass = 'pill-val' + (p.cls ? ' '+p.cls : '');
-    return '<div class="pill"><div class="pill-label">'+p.l+'</div><div class="'+valClass+'">'+p.v+'</div><div class="pill-sub">'+p.s+'</div></div>';
-  }).join('');
+function lastReturn(series){
+  if (!series.length) return null;
+  return series[series.length - 1].idx - 100;
+}
 
-  var bd = week.macro_breakdown || {};
-  document.getElementById('catGrid').innerHTML = Object.keys(CAT_LABELS).map(function(c){
-    var pct = bd[c] || 0;
-    if (!pct) return '';
-    return '<div class="cat-box" style="border-top-color:'+CAT_COLORS[c]+'">'+
-      '<div class="cat-name">'+CAT_LABELS[c]+'</div>'+
-      '<div class="cat-pct" style="color:'+CAT_COLORS[c]+'">'+pct+'%</div>'+
-      '<div class="cat-bar-wrap"><div class="cat-bar" style="width:'+pct+'%;background:'+CAT_COLORS[c]+'"></div></div>'+
-    '</div>';
-  }).join('');
+function kpiCard(name, color, series, badge){
+  const ret = lastReturn(series);
+  const cls = ret === null ? '' : (ret >= 0 ? 'pos' : 'neg');
+  const valTxt = ret === null ? '—' : (ret >= 0 ? '+' : '') + ret.toFixed(2) + '%';
+  const badgeHtml = badge === 'live'
+    ? '<span class="legend-badge live">live</span>'
+    : '<span class="legend-badge bt">backtest</span>';
+  return `<div class="kpi-card">
+    <div class="name"><span class="legend-dot" style="background:${color}"></span>${name} ${badgeHtml}</div>
+    <div class="val ${cls}">${valTxt}</div>
+    <div class="sub">${series.length ? series.length + ' punti storico' : 'dati non disponibili'}</div>
+  </div>`;
+}
 
-  var rows = '';
-  pf.forEach(function(e, idx){
-    var dc = e.weight_delta > 0.5 ? 'delta-pos' : e.weight_delta < -0.5 ? 'delta-neg' : 'delta-zero';
-    var ds = e.weight_prev === 0
-      ? '<span class="delta-new">NEW</span>'
-      : e.weight_delta === 0
-        ? '<span class="delta-zero">—</span>'
-        : '<span class="'+dc+'">'+(e.weight_delta>0?'+':'')+e.weight_delta.toFixed(0)+'%</span>';
-    var rcf = function(v){ return v > 0.3 ? 'ret-pos' : v < -0.3 ? 'ret-neg' : 'ret-flat'; };
-    var rf  = function(v){ return v == null ? '—' : (v>0?'+':'')+v.toFixed(1)+'%'; };
-    var yld = e.div_yield ? '<span class="yield-cell">'+e.div_yield.toFixed(1)+'%</span>' : '<span style="color:var(--muted2)">n.d.</span>';
-    var chartId = 'chart-' + idx;
-    rows += '<tr class="etf-row" onclick="toggleChart('+idx+')">' +
-      '<td style="color:var(--muted);font-size:10px" id="arrow-'+idx+'">▶</td>'+
-      '<td class="tk">'+e.ticker+'</td>'+
-      '<td class="nm" title="'+e.name+'">'+e.name+'</td>'+
-      '<td><span class="cat-badge c-'+e.cat+'">'+(CAT_LABELS[e.cat]||e.cat)+'</span></td>'+
-      '<td><span class="cedola-badge">'+e.cedola+'</span></td>'+
-      '<td class="w-cell" style="color:'+(CAT_COLORS[e.cat]||'var(--text)')+'">'+e.weight+'%</td>'+
-      '<td>'+ds+'</td>'+
-      '<td>'+e.final_score+'</td>'+
-      '<td style="color:var(--accent)">'+e.macro_score+'</td>'+
-      '<td style="color:var(--accent2)">'+e.momentum_score+'</td>'+
-      '<td>'+yld+'</td>'+
-      '<td class="'+rcf(e.ret_4w)+'">'+rf(e.ret_4w)+'</td>'+
-      '<td class="'+rcf(e.ret_12w)+'">'+rf(e.ret_12w)+'</td>'+
-      '<td style="color:var(--muted)">'+e.currency+'</td>'+
-    '</tr>'+
-    '<tr class="chart-row" id="chart-row-'+idx+'"><td colspan="14"><div class="chart-panel" id="chart-panel-'+idx+'">'+
-      '<div class="chart-canvas-wrap"><canvas id="'+chartId+'"></canvas></div>'+
-    '</div></td></tr>';
-  });
-  document.getElementById('pfBody').innerHTML = rows;
-  // ETF esclusi
-  var excluded = week.excluded || [];
-  if (excluded.length) {
-    document.getElementById('excluded-section').style.display = 'block';
-    document.getElementById('excludedBody').innerHTML = excluded.map(function(e){
-      var rcf = function(v){ return v > 0.3 ? 'ret-pos' : v < -0.3 ? 'ret-neg' : 'ret-flat'; };
-      var rf  = function(v){ return v == null ? '—' : (v>0?'+':'')+v.toFixed(1)+'%'; };
-      var reasonColor = e.exclusion_reason === 'Score insufficiente' ? 'var(--muted)' : 'var(--warning)';
-      return '<tr>'+
-        '<td class="tk">'+e.ticker+'</td>'+
-        '<td class="nm">'+e.name+'</td>'+
-        '<td><span class="cat-badge c-'+e.cat+'">'+(CAT_LABELS[e.cat]||e.cat)+'</span></td>'+
-        '<td>'+e.final_score+'</td>'+
-        '<td style="color:var(--accent)">'+e.macro_score+'</td>'+
-        '<td style="color:var(--accent2)">'+e.momentum_score+'</td>'+
-        '<td class="'+rcf(e.ret_4w)+'">'+rf(e.ret_4w)+'</td>'+
-        '<td class="'+rcf(e.ret_12w)+'">'+rf(e.ret_12w)+'</td>'+
-        '<td style="font-size:11px;color:'+reasonColor+'">'+e.exclusion_reason+'</td>'+
-      '</tr>';
-    }).join('');
+async function initCompareChart(){
+  const [bondData, accData] = await Promise.all([
+    loadJSON('nav_history_bond.json'),
+    loadJSON('nav_history_bond_acc.json'),
+  ]);
+  // Antonacci/Faber: nessun backtest ancora caricato -> placeholder null.
+  // Quando esisteranno nav_history_antonacci.json / nav_history_faber.json,
+  // aggiungere qui le stesse due chiamate loadJSON.
+  const antoData = await loadJSON('nav_history_antonacci.json');
+  const faberData = await loadJSON('nav_history_faber.json');
+
+  const bondSeries  = normalizeSeries(bondData);
+  const accSeries   = normalizeSeries(accData);
+  const antoSeries  = normalizeSeries(antoData);
+  const faberSeries = normalizeSeries(faberData);
+
+  // Asse date: uso l'unione delle date disponibili tra le serie reali (bond/acc)
+  const allDates = [...new Set([
+    ...bondSeries.map(s => s.date),
+    ...accSeries.map(s => s.date),
+  ])].sort();
+
+  document.getElementById('asOf').textContent = allDates.length
+    ? 'Aggiornato al ' + fmtDate(allDates[allDates.length - 1])
+    : 'Nessun dato disponibile';
+
+  // Se non ci sono dati backtest per Antonacci/Faber, mostro una linea piatta a 100
+  // sulle stesse date del bond, chiaramente marcata come placeholder in nota e badge.
+  const antoPlaceholder = antoSeries.length ? antoSeries : allDates.map(d => ({date:d, idx:100}));
+  const faberPlaceholder = faberSeries.length ? faberSeries : allDates.map(d => ({date:d, idx:100}));
+
+  // Asse a categoria (come nelle altre pagine del repo, niente adapter data richiesto):
+  // allineo ogni serie all'unione delle date con null nei buchi.
+  function alignToLabels(series){
+    const byDate = Object.fromEntries(series.map(s => [s.date, s.idx]));
+    return allDates.map(d => (d in byDate ? byDate[d] : null));
   }
 
-  document.getElementById('expInfo').textContent =
-    'Universo: '+UNIVERSE_META.length+' ETF · Portafoglio corrente: '+pf.length+' posizioni · '+week.date;
-}
+  const datasets = [
+    {label:'Bond Distribuzione', data: alignToLabels(bondSeries), borderColor: LINE_COLORS.bond, backgroundColor:'transparent', tension:.25, pointRadius:2, spanGaps:true},
+    {label:'Bond Accumulo', data: alignToLabels(accSeries), borderColor: LINE_COLORS.acc, backgroundColor:'transparent', tension:.25, pointRadius:2, spanGaps:true},
+    {label:'Antonacci (placeholder)', data: alignToLabels(antoPlaceholder), borderColor: LINE_COLORS.anto, backgroundColor:'transparent', borderDash:[5,4], tension:.25, pointRadius:0, spanGaps:true},
+    {label:'Faber (placeholder)', data: alignToLabels(faberPlaceholder), borderColor: LINE_COLORS.faber, backgroundColor:'transparent', borderDash:[5,4], tension:.25, pointRadius:0, spanGaps:true},
+  ];
 
-function toggleChart(idx) {
-  var panel = document.getElementById('chart-panel-'+idx);
-  var arrow = document.getElementById('arrow-'+idx);
-  var isOpen = panel.classList.contains('open');
-  panel.classList.toggle('open');
-  arrow.textContent = isOpen ? '▶' : '▼';
-  if (!isOpen) renderChart(idx);
-}
-
-function renderChart(idx) {
-  var week = PF.history[0];
-  var e    = week.portfolio[idx];
-  var cd   = e.chart;
-  if (!cd || !cd.dates || !cd.dates.length) return;
-
-  var canvasId = 'chart-' + idx;
-  if (chartInstances[canvasId]) {
-    chartInstances[canvasId].destroy();
-    delete chartInstances[canvasId];
-  }
-
-  // Segnali BUY/SELL come punti colorati
-  var buyPoints  = cd.dates.map(function(){ return null; });
-  var sellPoints = cd.dates.map(function(){ return null; });
-  (cd.signals || []).forEach(function(s){
-    var i = s.i - (cd.dates.length - cd.close.length);
-    if (i >= 0 && i < cd.close.length) {
-      if (s.type === 'BUY')  buyPoints[i]  = cd.close[i];
-      if (s.type === 'SELL') sellPoints[i] = cd.close[i];
-    }
-  });
-
-  var ctx = document.getElementById(canvasId).getContext('2d');
-  chartInstances[canvasId] = new Chart(ctx, {
+  new Chart(document.getElementById('compareChart'), {
     type: 'line',
-    data: {
-      labels: cd.dates,
-      datasets: [
-        {label:'Prezzo', data:cd.close, borderColor:'#1a2332', borderWidth:1.5, pointRadius:0, tension:0.2, fill:false},
-        {label:'KAMA',   data:cd.kama,  borderColor:'#f97316', borderWidth:1.8, pointRadius:0, tension:0.3, fill:false, borderDash:[3,2]},
-        {label:'SAR',    data:cd.sar,   borderColor:'#6b7c93', borderWidth:0,   pointRadius:2, pointBackgroundColor:'#6b7c93', showLine:false, fill:false},
-        {label:'BUY',    data:buyPoints, borderWidth:0, pointRadius:7, pointStyle:'triangle',
-          pointBackgroundColor:'#16a34a', pointBorderColor:'#16a34a', showLine:false, fill:false},
-        {label:'SELL',   data:sellPoints, borderWidth:0, pointRadius:7, pointStyle:'triangle',
-          pointBackgroundColor:'#dc2626', pointBorderColor:'#dc2626', pointRotation:180, showLine:false, fill:false},
-      ]
-    },
-    options:{
+    data: { labels: allDates.map(fmtDate), datasets },
+    options: {
       responsive:true, maintainAspectRatio:false,
       interaction:{mode:'index', intersect:false},
-      plugins:{
-        legend:{display:true, position:'top', labels:{font:{size:10}, boxWidth:12}},
-        tooltip:{callbacks:{label:function(ctx){ return ' '+ctx.dataset.label+': '+(ctx.parsed.y?ctx.parsed.y.toFixed(3):''); }}}
-      },
       scales:{
-        x:{ticks:{maxTicksLimit:8, font:{size:9}, color:'#888'}, grid:{color:'#f0f0f0'}},
-        y:{ticks:{font:{size:9}, color:'#888'}, grid:{color:'#f0f0f0'}}
-      }
+        x:{grid:{display:false}},
+        y:{grid:{color:'#eef0f5'}, title:{display:true, text:'Indice (base 100)'}}
+      },
+      plugins:{ legend:{display:false} }
     }
   });
+
+  document.getElementById('kpiRow').innerHTML =
+    kpiCard('Bond Distribuzione', LINE_COLORS.bond, bondSeries, 'live') +
+    kpiCard('Bond Accumulo', LINE_COLORS.acc, accSeries, 'live') +
+    kpiCard('Antonacci', LINE_COLORS.anto, antoSeries, 'backtest') +
+    kpiCard('Faber', LINE_COLORS.faber, faberSeries, 'backtest');
 }
 
-function exportExcel() {
-  var week = PF ? PF.history[0] : null;
-  var sep = ';';
-  var lines = ['RAPTOR BOND — Esportazione completa'];
-  lines.push('');
-  lines.push('=== UNIVERSO (tutti gli ETF) ===');
-  lines.push(['Ticker','Nome','Categoria','Rischio','Valuta','Cedola'].join(sep));
-  UNIVERSE_META.forEach(function(u){
-    lines.push([u.ticker, u.name, CAT_LABELS[u.cat]||u.cat, u.risk, u.cur, u.cedola].map(function(v){ return '"'+v+'"'; }).join(sep));
-  });
-  lines.push('');
-  if (week) {
-    lines.push('=== PORTAFOGLIO CORRENTE — '+week.date+' ===');
-    lines.push(['Ticker','Nome','Categoria','Peso%','Delta','Score','Macro','Mom','Yield%','4W%','12W%','CCY'].join(sep));
-    (week.portfolio||[]).forEach(function(e){
-      lines.push([
-        e.ticker, e.name, CAT_LABELS[e.cat]||e.cat,
-        e.weight,
-        e.weight_prev===0?'NEW':(e.weight_delta>0?'+':'')+e.weight_delta,
-        e.final_score, e.macro_score, e.momentum_score,
-        e.div_yield!=null?e.div_yield.toFixed(2)+'%':'n.d.',
-        e.ret_4w!=null?(e.ret_4w>0?'+':'')+e.ret_4w+'%':'—',
-        e.ret_12w!=null?(e.ret_12w>0?'+':'')+e.ret_12w+'%':'—',
-        e.currency
-      ].map(function(v){ return '"'+String(v).replace(/"/g,'""')+'"'; }).join(sep));
-    });
-    lines.push('');
-    lines.push('=== ETF NON SELEZIONATI — '+week.date+' ===');
-    lines.push(['Ticker','Nome','Categoria','Score','Macro','Mom','4W%','12W%','Motivo esclusione'].join(sep));
-    (week.excluded||[]).forEach(function(e){
-      lines.push([
-        e.ticker, e.name, CAT_LABELS[e.cat]||e.cat,
-        e.final_score, e.macro_score, e.momentum_score,
-        e.ret_4w!=null?(e.ret_4w>0?'+':'')+e.ret_4w+'%':'—',
-        e.ret_12w!=null?(e.ret_12w>0?'+':'')+e.ret_12w+'%':'—',
-        e.exclusion_reason||'—'
-      ].map(function(v){ return '"'+String(v).replace(/"/g,'""')+'"'; }).join(sep));
-    });
-  }
-  var blob = new Blob(['\uFEFF'+lines.join('\n')], {type:'text/csv;charset=utf-8;'});
-  var a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'RAPTOR_BOND_'+(week?week.date:'')+'.csv';
-  a.click();
-}
-
-window.addEventListener('load', load);
+initCompareChart();
 </script>
 </body>
 </html>
