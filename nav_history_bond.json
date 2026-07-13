@@ -504,9 +504,9 @@
       "EUHI.MI": 9,
       "XAT1.MI": 9
     },
-    "ret_port": 0.1253,
-    "ret_xeon": 0.0173,
-    "ret_vagf": 0.1058,
-    "ret_xgiu": 0.1595
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
