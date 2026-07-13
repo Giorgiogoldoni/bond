@@ -1,0 +1,44 @@
+name: RAPTOR BOND Backtest (one-shot)
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: 'Data di inizio backtest (YYYY-MM-DD)'
+        required: true
+        default: '2022-01-01'
+
+jobs:
+  backtest:
+    name: Backtest storico 4 linee
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    # NIENTE "permissions: contents: write" — questo job non fa commit,
+    # produce solo un artifact scaricabile da rivedere prima di caricare nel repo.
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance numpy --break-system-packages -q
+
+      - name: Run backtest
+        run: python backtest_all.py --start ${{ github.event.inputs.start_date }}
+
+      - name: Upload risultati come artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-results-${{ github.run_number }}
+          path: |
+            nav_history_bond_backtest.json
+            nav_history_bond_acc_backtest.json
+            nav_history_antonacci.json
+            nav_history_faber.json
+            data/price_history_all.json
+          retention-days: 14
+          if-no-files-found: warn
