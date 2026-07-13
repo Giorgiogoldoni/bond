@@ -13,8 +13,8 @@
         "GEO_SHOCK": 17,
         "EUFORIA": 5
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 14% su EDMA.DE · XGIU in · EDMA.DE out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -1078,8 +1078,8 @@
           "risk_factor": 0.7,
           "currency": "EUR",
           "weight": 14,
-          "weight_prev": 0,
-          "weight_delta": 14,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 75,
           "momentum_score": 53,
           "final_score": 67,
@@ -3641,7 +3641,7 @@
         "CORP_IG": 10,
         "EM_BOND": 18
       },
-      "generated_at": "2026-07-13T07:06:49.444715+00:00"
+      "generated_at": "2026-07-13T10:35:56.253258+00:00"
     },
     {
       "date": "2026-07-10",
