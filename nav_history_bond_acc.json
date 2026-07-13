@@ -429,24 +429,24 @@
     "xgiu": 99.7091,
     "prices": {
       "CSBGU7.MI": 124.95,
-      "EUGO.MI": 25.383,
-      "XGIU.MI": 22.61,
       "CRPA.MI": 5.208,
+      "IEAA.MI": 5.404,
       "EMSA.MI": 5.605,
-      "EMLB.MI": 112.96
+      "EMLB.MI": 112.96,
+      "EUHA.MI": 12.47
     },
     "bench_px": {
       "VAGF.MI": 23.65999984741211,
       "XGIU.MI": 22.61
     },
     "weights": {
-      "IS0F.DE": 24,
-      "CSBGU7.MI": 18,
-      "EUGO.MI": 16,
-      "XGIU.MI": 14,
-      "CRPA.MI": 10,
-      "EMSA.MI": 9,
-      "EMLB.MI": 9
+      "CSBGU7.MI": 20,
+      "CRPA.MI": 18,
+      "IEAA.MI": 16,
+      "EMSA.MI": 13,
+      "EMLB.MI": 11,
+      "JCHY.MI": 11,
+      "EUHA.MI": 11
     },
     "ret_port": 0.0,
     "ret_xeon": 0.0,
