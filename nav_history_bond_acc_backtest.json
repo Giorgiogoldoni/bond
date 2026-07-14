@@ -1,0 +1,3320 @@
+[
+  {
+    "date": "2022-01-03",
+    "nav": 100.0,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-10",
+    "nav": 99.929,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-17",
+    "nav": 99.7207,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-24",
+    "nav": 99.9343,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-31",
+    "nav": 100.0299,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-07",
+    "nav": 99.3731,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-14",
+    "nav": 99.7311,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-21",
+    "nav": 99.3989,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-28",
+    "nav": 99.7895,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "IS0F.DE": 12,
+      "CSBGU7.MI": 10,
+      "XGIU.MI": 10,
+      "AGGH.MI": 10,
+      "OM3J.MU": 9,
+      "XEON.MI": 39
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-07",
+    "nav": 101.2666,
+    "weights": {
+      "XGIU.MI": 10,
+      "EDMA.DE": 10,
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-14",
+    "nav": 99.9324,
+    "weights": {
+      "XGIU.MI": 10,
+      "EDMA.DE": 10,
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-21",
+    "nav": 99.3532,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "XGIU.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-28",
+    "nav": 99.3646,
+    "weights": {
+      "XGIU.MI": 10,
+      "EDMA.DE": 10,
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-04",
+    "nav": 99.2065,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-11",
+    "nav": 99.1174,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EDMA.DE": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-18",
+    "nav": 99.1978,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-25",
+    "nav": 99.7194,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-02",
+    "nav": 99.3446,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-09",
+    "nav": 99.342,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-16",
+    "nav": 100.0882,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-23",
+    "nav": 98.9337,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-30",
+    "nav": 98.6019,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-06",
+    "nav": 98.1859,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-13",
+    "nav": 98.0341,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-20",
+    "nav": 97.9415,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-27",
+    "nav": 98.5014,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-04",
+    "nav": 99.2464,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-11",
+    "nav": 99.413,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-18",
+    "nav": 99.3326,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "IS0F.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-25",
+    "nav": 99.5487,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "IS0F.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-01",
+    "nav": 100.1863,
+    "weights": {
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-08",
+    "nav": 100.0956,
+    "weights": {
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-15",
+    "nav": 99.6398,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-22",
+    "nav": 99.4089,
+    "weights": {
+      "XGIU.MI": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "EMSA.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-29",
+    "nav": 99.3335,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUNQ.DE": 10,
+      "EUGO.MI": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-05",
+    "nav": 98.7565,
+    "weights": {
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "EDMA.DE": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-12",
+    "nav": 97.7551,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-19",
+    "nav": 97.582,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-26",
+    "nav": 97.9426,
+    "weights": {
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-03",
+    "nav": 97.7925,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-10",
+    "nav": 97.5308,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-17",
+    "nav": 97.4266,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-24",
+    "nav": 96.9709,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-31",
+    "nav": 97.0399,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EDMA.DE": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-07",
+    "nav": 96.6377,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "OM3J.MU": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-14",
+    "nav": 96.6206,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-21",
+    "nav": 96.4574,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-28",
+    "nav": 96.4093,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-05",
+    "nav": 96.1381,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-12",
+    "nav": 95.9664,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-19",
+    "nav": 94.9344,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-26",
+    "nav": 94.8787,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-02",
+    "nav": 94.745,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "IS0F.DE": 10,
+      "XGIU.MI": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-09",
+    "nav": 94.844,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-16",
+    "nav": 94.8776,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-23",
+    "nav": 95.0343,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-30",
+    "nav": 94.9776,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-06",
+    "nav": 95.0886,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-13",
+    "nav": 94.8936,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-20",
+    "nav": 94.5769,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-27",
+    "nav": 94.6215,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-06",
+    "nav": 94.2823,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-13",
+    "nav": 94.4026,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "IS0F.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-20",
+    "nav": 94.8136,
+    "weights": {
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-27",
+    "nav": 94.3451,
+    "weights": {
+      "XGIU.MI": 10,
+      "EDMA.DE": 10,
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-03",
+    "nav": 94.2355,
+    "weights": {
+      "XGIU.MI": 10,
+      "EDMA.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-10",
+    "nav": 94.2768,
+    "weights": {
+      "XGIU.MI": 10,
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-17",
+    "nav": 93.6451,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-24",
+    "nav": 93.6991,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-01",
+    "nav": 93.8087,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "XGIU.MI": 10,
+      "IS0F.DE": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-08",
+    "nav": 93.7363,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-15",
+    "nav": 93.8784,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-22",
+    "nav": 93.7898,
+    "weights": {
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-29",
+    "nav": 93.4359,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-05",
+    "nav": 93.564,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-12",
+    "nav": 93.5027,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-19",
+    "nav": 93.0317,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-26",
+    "nav": 93.3877,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "XGIU.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-03",
+    "nav": 93.2904,
+    "weights": {
+      "EDMA.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-10",
+    "nav": 92.8408,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-17",
+    "nav": 92.5627,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-24",
+    "nav": 92.6308,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-31",
+    "nav": 92.7825,
+    "weights": {
+      "EDMA.DE": 10,
+      "CSBGE3.MI": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-07",
+    "nav": 92.6992,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-14",
+    "nav": 92.7828,
+    "weights": {
+      "EDMA.DE": 10,
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-21",
+    "nav": 92.8897,
+    "weights": {
+      "EDMA.DE": 10,
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-28",
+    "nav": 93.0264,
+    "weights": {
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-04",
+    "nav": 93.033,
+    "weights": {
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-11",
+    "nav": 93.0499,
+    "weights": {
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-18",
+    "nav": 93.4238,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-25",
+    "nav": 93.417,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-02",
+    "nav": 92.9059,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-09",
+    "nav": 93.3691,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-16",
+    "nav": 93.0654,
+    "weights": {
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-23",
+    "nav": 92.6206,
+    "weights": {
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-30",
+    "nav": 93.4097,
+    "weights": {
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-06",
+    "nav": 93.0111,
+    "weights": {
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-13",
+    "nav": 93.1199,
+    "weights": {
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-20",
+    "nav": 92.5582,
+    "weights": {
+      "EDMA.DE": 10,
+      "CSBGE3.MI": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-27",
+    "nav": 92.6536,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-04",
+    "nav": 93.0332,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-11",
+    "nav": 93.5051,
+    "weights": {
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-18",
+    "nav": 93.8538,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "XGIU.MI": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-25",
+    "nav": 93.8749,
+    "weights": {
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-01",
+    "nav": 93.7595,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "XGIU.MI": 10,
+      "CSBGE3.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-08",
+    "nav": 93.3932,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-15",
+    "nav": 93.6162,
+    "weights": {
+      "EDMA.DE": 10,
+      "XGIU.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-22",
+    "nav": 93.5613,
+    "weights": {
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-29",
+    "nav": 93.758,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-05",
+    "nav": 93.8934,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-12",
+    "nav": 93.7875,
+    "weights": {
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUNQ.DE": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-19",
+    "nav": 93.8242,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-26",
+    "nav": 93.9103,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-04",
+    "nav": 93.9131,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-11",
+    "nav": 94.049,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-18",
+    "nav": 93.8936,
+    "weights": {
+      "EDMA.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-25",
+    "nav": 93.404,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "EMSA.MI": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-01",
+    "nav": 93.5342,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-08",
+    "nav": 93.2499,
+    "weights": {
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "CEMM.DE": 10,
+      "EMSA.MI": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-15",
+    "nav": 93.2364,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-22",
+    "nav": 93.3909,
+    "weights": {
+      "IS0F.DE": 10,
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-29",
+    "nav": 93.0183,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-06",
+    "nav": 92.5845,
+    "weights": {
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "CEMM.DE": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-13",
+    "nav": 92.6061,
+    "weights": {
+      "EDMA.DE": 10,
+      "EUNQ.DE": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-20",
+    "nav": 92.3805,
+    "weights": {
+      "XGIU.MI": 10,
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-27",
+    "nav": 92.3669,
+    "weights": {
+      "XGIU.MI": 10,
+      "CSBGE3.MI": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-03",
+    "nav": 92.4677,
+    "weights": {
+      "XGIU.MI": 10,
+      "CSBGE3.MI": 10,
+      "EUNQ.DE": 10,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-10",
+    "nav": 92.6781,
+    "weights": {
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "EUNQ.DE": 10,
+      "PJSR.MI": 10,
+      "EMSA.MI": 9,
+      "AGGH.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-17",
+    "nav": 93.1132,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "XGIU.MI": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "EMSA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-24",
+    "nav": 93.1854,
+    "weights": {
+      "EUNQ.DE": 10,
+      "CSBGU7.MI": 10,
+      "IS0F.DE": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-01",
+    "nav": 92.923,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "PJSR.MI": 10,
+      "EUNQ.DE": 10,
+      "AGGH.MI": 9,
+      "OM3J.MU": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-08",
+    "nav": 92.9676,
+    "weights": {
+      "IS0F.DE": 10,
+      "CSBGU7.MI": 10,
+      "XGIU.MI": 10,
+      "PJSR.MI": 10,
+      "AGGH.MI": 9,
+      "CRPA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-15",
+    "nav": 93.1086,
+    "weights": {
+      "CSBGE3.MI": 10,
+      "PJSR.MI": 10,
+      "EUGO.MI": 10,
+      "GOVB.MI": 10,
+      "AGGH.MI": 9,
+      "IEAA.MI": 9,
+      "XEON.MI": 42
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-22",
+    "nav": 93.1292,
+    "weights": {
+      "CSBGE3.MI": 17,
+      "XGIU.MI": 11,
+      "AGGH.MI": 16,
+      "CSBGU7.MI": 13,
+      "PJSR.MI": 25,
+      "IEAA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-29",
+    "nav": 93.5203,
+    "weights": {
+      "CSBGU7.MI": 15,
+      "XGIU.MI": 11,
+      "CSBGE3.MI": 16,
+      "PJSR.MI": 25,
+      "AGGH.MI": 15,
+      "IEAA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-05",
+    "nav": 93.9402,
+    "weights": {
+      "CSBGU7.MI": 15,
+      "EDMA.DE": 13,
+      "EUNQ.DE": 14,
+      "AGGH.MI": 16,
+      "PJSR.MI": 24,
+      "CRPA.MI": 9,
+      "IEAA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-12",
+    "nav": 93.85,
+    "weights": {
+      "CSBGU7.MI": 18,
+      "EUNQ.DE": 16,
+      "EDMA.DE": 12,
+      "AGGH.MI": 18,
+      "CSBGE3.MI": 18,
+      "CRPA.MI": 9,
+      "IEAA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-19",
+    "nav": 93.5315,
+    "weights": {
+      "AGGH.MI": 17,
+      "CSBGU7.MI": 12,
+      "CSBGE3.MI": 16,
+      "PJSR.MI": 25,
+      "EUGO.MI": 12,
+      "CRPA.MI": 9,
+      "IEAA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-26",
+    "nav": 93.5457,
+    "weights": {
+      "IEAA.MI": 19,
+      "EUHA.MI": 13,
+      "CRPA.MI": 16,
+      "AGGH.MI": 24,
+      "EMSA.MI": 10,
+      "EMLB.MI": 9,
+      "OM3J.MU": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-02",
+    "nav": 93.7759,
+    "weights": {
+      "AGGH.MI": 18,
+      "CSBGE3.MI": 16,
+      "CRPA.MI": 9,
+      "IEAA.MI": 10,
+      "PJSR.MI": 24,
+      "EUGO.MI": 12,
+      "GOVB.MI": 11
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-09",
+    "nav": 94.155,
+    "weights": {
+      "XGIU.MI": 14,
+      "CSBGU7.MI": 16,
+      "CSBGE3.MI": 19,
+      "AGGH.MI": 19,
+      "EDMA.DE": 13,
+      "CRPA.MI": 9,
+      "IEAA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-16",
+    "nav": 94.3979,
+    "weights": {
+      "AGGH.MI": 17,
+      "XGIU.MI": 11,
+      "CSBGE3.MI": 16,
+      "PJSR.MI": 25,
+      "EUGO.MI": 13,
+      "IEAA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-23",
+    "nav": 94.2912,
+    "weights": {
+      "EDMA.DE": 14,
+      "EUNQ.DE": 15,
+      "PJSR.MI": 25,
+      "EUGO.MI": 13,
+      "OM3J.MU": 9,
+      "AGGH.MI": 15,
+      "IEAA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-30",
+    "nav": 94.3787,
+    "weights": {
+      "EMSA.MI": 11,
+      "EMLB.MI": 11,
+      "OM3J.MU": 11,
+      "EUHA.MI": 12,
+      "IEAA.MI": 17,
+      "EDMA.DE": 17,
+      "AGGH.MI": 21
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-07",
+    "nav": 94.5159,
+    "weights": {
+      "EMSA.MI": 13,
+      "EMLB.MI": 13,
+      "OM3J.MU": 14,
+      "EUHA.MI": 12,
+      "EDMA.DE": 16,
+      "IEAA.MI": 15,
+      "EUNQ.DE": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-14",
+    "nav": 94.8295,
+    "weights": {
+      "OM3J.MU": 16,
+      "EMLB.MI": 13,
+      "AYE8.DE": 14,
+      "EUHA.MI": 12,
+      "EDMA.DE": 16,
+      "EUNQ.DE": 17,
+      "CRPA.MI": 12
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-21",
+    "nav": 95.2795,
+    "weights": {
+      "EMSA.MI": 12,
+      "EMLB.MI": 12,
+      "OM3J.MU": 14,
+      "EUHA.MI": 12,
+      "EDMA.DE": 18,
+      "EUNQ.DE": 19,
+      "CRPA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-28",
+    "nav": 95.3042,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 13,
+      "OM3J.MU": 12,
+      "EUHA.MI": 11,
+      "IS0F.DE": 25,
+      "EDMA.DE": 13,
+      "EUNQ.DE": 15
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-04",
+    "nav": 94.2588,
+    "weights": {
+      "OM3J.MU": 16,
+      "EMLB.MI": 12,
+      "AYE8.DE": 14,
+      "EUHA.MI": 13,
+      "IEAA.MI": 16,
+      "EDMA.DE": 13,
+      "EUNQ.DE": 16
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-11",
+    "nav": 95.5576,
+    "weights": {
+      "EMSA.MI": 14,
+      "OM3J.MU": 15,
+      "EMLB.MI": 12,
+      "EUHA.MI": 12,
+      "EDMA.DE": 16,
+      "EUNQ.DE": 17,
+      "IEAA.MI": 14
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-18",
+    "nav": 95.8306,
+    "weights": {
+      "OM3J.MU": 15,
+      "EMSA.MI": 12,
+      "EMLB.MI": 12,
+      "EUHA.MI": 12,
+      "EDMA.DE": 17,
+      "EUNQ.DE": 19,
+      "CRPA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-25",
+    "nav": 96.9476,
+    "weights": {
+      "EDMA.DE": 16,
+      "EUNQ.DE": 18,
+      "OM3J.MU": 10,
+      "IS0F.DE": 23,
+      "CSBGU7.MI": 15,
+      "EMSA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-02",
+    "nav": 97.5991,
+    "weights": {
+      "EDMA.DE": 14,
+      "EUNQ.DE": 16,
+      "IS0F.DE": 20,
+      "PJSR.MI": 23,
+      "OM3J.MU": 9,
+      "CRPA.MI": 9,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-09",
+    "nav": 97.2225,
+    "weights": {
+      "EDMA.DE": 14,
+      "EUNQ.DE": 15,
+      "IS0F.DE": 19,
+      "PJSR.MI": 24,
+      "OM3J.MU": 10,
+      "EUHA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-16",
+    "nav": 97.2289,
+    "weights": {
+      "EDMA.DE": 13,
+      "EUNQ.DE": 15,
+      "IS0F.DE": 20,
+      "PJSR.MI": 23,
+      "OM3J.MU": 10,
+      "EUHA.MI": 10,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-23",
+    "nav": 97.5949,
+    "weights": {
+      "OM3J.MU": 15,
+      "EUHA.MI": 15,
+      "EMLB.MI": 10,
+      "AYE8.DE": 11,
+      "CRPA.MI": 15,
+      "EDMA.DE": 17,
+      "IEAA.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-30",
+    "nav": 96.9828,
+    "weights": {
+      "OM3J.MU": 14,
+      "EMSA.MI": 11,
+      "EUHA.MI": 13,
+      "CRPA.MI": 17,
+      "EMLB.MI": 9,
+      "CSBGU7.MI": 19,
+      "IEAA.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-06",
+    "nav": 97.1984,
+    "weights": {
+      "OM3J.MU": 14,
+      "EUHA.MI": 12,
+      "EMSA.MI": 10,
+      "IS0F.DE": 26,
+      "EMLB.MI": 10,
+      "CRPA.MI": 13,
+      "EDMA.DE": 15
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-13",
+    "nav": 97.974,
+    "weights": {
+      "OM3J.MU": 15,
+      "EUHA.MI": 13,
+      "EMSA.MI": 10,
+      "CRPA.MI": 13,
+      "IS0F.DE": 26,
+      "EMLB.MI": 10,
+      "IEAA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-20",
+    "nav": 97.4838,
+    "weights": {
+      "OM3J.MU": 15,
+      "EUHA.MI": 12,
+      "IS0F.DE": 26,
+      "EMSA.MI": 10,
+      "EMLB.MI": 10,
+      "EDMA.DE": 15,
+      "CRPA.MI": 12
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-27",
+    "nav": 96.9582,
+    "weights": {
+      "OM3J.MU": 9,
+      "PJSR.MI": 25,
+      "EUGO.MI": 16,
+      "GOVB.MI": 16,
+      "CEMM.DE": 16,
+      "EMSA.MI": 9,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-03",
+    "nav": 97.2976,
+    "weights": {
+      "EDMA.DE": 15,
+      "EUNQ.DE": 17,
+      "IS0F.DE": 24,
+      "CSBGU7.MI": 16,
+      "OM3J.MU": 10,
+      "EMSA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-10",
+    "nav": 97.5199,
+    "weights": {
+      "EDMA.DE": 18,
+      "EUNQ.DE": 20,
+      "XGIU.MI": 16,
+      "CSBGU7.MI": 18,
+      "EMSA.MI": 10,
+      "OM3J.MU": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-17",
+    "nav": 95.9207,
+    "weights": {
+      "PJSR.MI": 25,
+      "EUGO.MI": 15,
+      "GOVB.MI": 15,
+      "CEMM.DE": 15,
+      "EMSA.MI": 10,
+      "IEAA.MI": 11,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-24",
+    "nav": 95.9215,
+    "weights": {
+      "CSBGU7.MI": 15,
+      "EDMA.DE": 13,
+      "IS0F.DE": 21,
+      "PJSR.MI": 23,
+      "EMSA.MI": 10,
+      "CRPA.MI": 9,
+      "OM3J.MU": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-03",
+    "nav": 96.2064,
+    "weights": {
+      "CSBGU7.MI": 15,
+      "XGIU.MI": 11,
+      "IS0F.DE": 19,
+      "PJSR.MI": 24,
+      "EMSA.MI": 9,
+      "AGGH.MI": 13,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-10",
+    "nav": 94.2851,
+    "weights": {
+      "CSBGE3.MI": 20,
+      "CSBGU7.MI": 14,
+      "AGGH.MI": 17,
+      "IS0F.DE": 20,
+      "XGIU.MI": 11,
+      "IEAA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-17",
+    "nav": 93.8766,
+    "weights": {
+      "CSBGE3.MI": 17,
+      "AGGH.MI": 15,
+      "CSBGU7.MI": 11,
+      "IS0F.DE": 17,
+      "PJSR.MI": 22,
+      "IEAA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-24",
+    "nav": 94.192,
+    "weights": {
+      "EMSA.MI": 10,
+      "AGGH.MI": 22,
+      "IEAA.MI": 16,
+      "EMLB.MI": 10,
+      "CSBGE3.MI": 21,
+      "CRPA.MI": 12,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-31",
+    "nav": 94.2298,
+    "weights": {
+      "AGGH.MI": 19,
+      "CSBGE3.MI": 19,
+      "IEAA.MI": 13,
+      "EMLB.MI": 9,
+      "AYE8.DE": 9,
+      "XGIU.MI": 9,
+      "PJSR.MI": 22
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-07",
+    "nav": 94.0821,
+    "weights": {
+      "IEAA.MI": 16,
+      "AGGH.MI": 22,
+      "EMLB.MI": 9,
+      "AYE8.DE": 9,
+      "CSBGE3.MI": 20,
+      "CSBGU7.MI": 14,
+      "CRPA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-14",
+    "nav": 93.0347,
+    "weights": {
+      "IEAA.MI": 17,
+      "AGGH.MI": 23,
+      "CSBGE3.MI": 22,
+      "EMLB.MI": 10,
+      "AYE8.DE": 10,
+      "EUHA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-21",
+    "nav": 93.3481,
+    "weights": {
+      "EMLB.MI": 10,
+      "AYE8.DE": 11,
+      "IEAA.MI": 18,
+      "AGGH.MI": 22,
+      "CSBGE3.MI": 20,
+      "EUHA.MI": 9,
+      "CRPA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-28",
+    "nav": 93.5204,
+    "weights": {
+      "EMLB.MI": 10,
+      "AYE8.DE": 12,
+      "IEAA.MI": 18,
+      "EUHA.MI": 12,
+      "AGGH.MI": 21,
+      "CRPA.MI": 10,
+      "CSBGE3.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-05",
+    "nav": 93.4212,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 12,
+      "IEAA.MI": 18,
+      "EUHA.MI": 11,
+      "AGGH.MI": 21,
+      "CRPA.MI": 10,
+      "CSBGE3.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-12",
+    "nav": 93.4103,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 12,
+      "IEAA.MI": 19,
+      "EUHA.MI": 11,
+      "OM3J.MU": 10,
+      "AGGH.MI": 20,
+      "CSBGE3.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-19",
+    "nav": 93.3158,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 13,
+      "IEAA.MI": 19,
+      "EUHA.MI": 11,
+      "AGGH.MI": 19,
+      "OM3J.MU": 9,
+      "CSBGE3.MI": 18
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-26",
+    "nav": 93.2257,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 12,
+      "IEAA.MI": 18,
+      "EUHA.MI": 10,
+      "AGGH.MI": 20,
+      "CRPA.MI": 11,
+      "CSBGE3.MI": 18
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-02",
+    "nav": 93.3092,
+    "weights": {
+      "IEAA.MI": 22,
+      "EUHA.MI": 15,
+      "EMLB.MI": 9,
+      "AYE8.DE": 10,
+      "OM3J.MU": 9,
+      "CRPA.MI": 14,
+      "AGGH.MI": 21
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-09",
+    "nav": 93.3634,
+    "weights": {
+      "IEAA.MI": 19,
+      "EMLB.MI": 10,
+      "AYE8.DE": 11,
+      "EUHA.MI": 10,
+      "AGGH.MI": 21,
+      "CSBGE3.MI": 19,
+      "CRPA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-16",
+    "nav": 93.4082,
+    "weights": {
+      "IEAA.MI": 18,
+      "EMLB.MI": 10,
+      "AYE8.DE": 11,
+      "AGGH.MI": 22,
+      "EUHA.MI": 10,
+      "CSBGE3.MI": 19,
+      "CRPA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-23",
+    "nav": 93.5238,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 13,
+      "IEAA.MI": 20,
+      "EUHA.MI": 13,
+      "AGGH.MI": 23,
+      "OM3J.MU": 9,
+      "CRPA.MI": 11
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-30",
+    "nav": 93.4135,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 13,
+      "IEAA.MI": 20,
+      "EUHA.MI": 13,
+      "AGGH.MI": 23,
+      "OM3J.MU": 9,
+      "CRPA.MI": 11
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-07",
+    "nav": 93.4076,
+    "weights": {
+      "EMSA.MI": 12,
+      "EMLB.MI": 12,
+      "IEAA.MI": 20,
+      "EUHA.MI": 12,
+      "OM3J.MU": 10,
+      "AGGH.MI": 21,
+      "CRPA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-14",
+    "nav": 93.3638,
+    "weights": {
+      "EMSA.MI": 15,
+      "EMLB.MI": 11,
+      "OM3J.MU": 11,
+      "IEAA.MI": 18,
+      "EUHA.MI": 12,
+      "CRPA.MI": 15,
+      "AGGH.MI": 18
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-21",
+    "nav": 93.5808,
+    "weights": {
+      "EMSA.MI": 16,
+      "EMLB.MI": 12,
+      "IEAA.MI": 18,
+      "EUHA.MI": 12,
+      "OM3J.MU": 10,
+      "CRPA.MI": 13,
+      "AGGH.MI": 19
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-28",
+    "nav": 93.8304,
+    "weights": {
+      "EMSA.MI": 13,
+      "EMLB.MI": 10,
+      "OM3J.MU": 11,
+      "IEAA.MI": 18,
+      "EUHA.MI": 10,
+      "CRPA.MI": 12,
+      "PJSR.MI": 26
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-04",
+    "nav": 94.1895,
+    "weights": {
+      "EMSA.MI": 10,
+      "PJSR.MI": 26,
+      "EDMA.DE": 13,
+      "EUGO.MI": 16,
+      "GOVB.MI": 15,
+      "EUHA.MI": 10,
+      "OM3J.MU": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-11",
+    "nav": 94.1559,
+    "weights": {
+      "PJSR.MI": 25,
+      "EUGO.MI": 14,
+      "GOVB.MI": 14,
+      "CEMM.DE": 14,
+      "AGGH.MI": 15,
+      "EMSA.MI": 9,
+      "IEAA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-18",
+    "nav": 94.0891,
+    "weights": {
+      "PJSR.MI": 25,
+      "EUGO.MI": 14,
+      "GOVB.MI": 13,
+      "CEMM.DE": 13,
+      "EMSA.MI": 9,
+      "AGGH.MI": 16,
+      "IEAA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-25",
+    "nav": 94.1205,
+    "weights": {
+      "EMSA.MI": 11,
+      "EUHA.MI": 14,
+      "CRPA.MI": 16,
+      "OM3J.MU": 11,
+      "IEAA.MI": 18,
+      "EMLB.MI": 9,
+      "AGGH.MI": 21
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-01",
+    "nav": 94.1525,
+    "weights": {
+      "CSBGE3.MI": 18,
+      "AGGH.MI": 18,
+      "IEAA.MI": 10,
+      "OM3J.MU": 9,
+      "EMSA.MI": 9,
+      "PJSR.MI": 24,
+      "EUGO.MI": 12
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-08",
+    "nav": 94.4617,
+    "weights": {
+      "XGIU.MI": 12,
+      "CSBGU7.MI": 14,
+      "CSBGE3.MI": 16,
+      "PJSR.MI": 24,
+      "AGGH.MI": 16,
+      "EMSA.MI": 9,
+      "OM3J.MU": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-15",
+    "nav": 94.4907,
+    "weights": {
+      "CSBGU7.MI": 14,
+      "PJSR.MI": 25,
+      "EUGO.MI": 14,
+      "GOVB.MI": 14,
+      "AGGH.MI": 15,
+      "CRPA.MI": 9,
+      "EMSA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-22",
+    "nav": 94.3042,
+    "weights": {
+      "PJSR.MI": 25,
+      "EUGO.MI": 14,
+      "GOVB.MI": 14,
+      "CEMM.DE": 14,
+      "AGGH.MI": 15,
+      "EMSA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-29",
+    "nav": 94.4336,
+    "weights": {
+      "PJSR.MI": 25,
+      "EUGO.MI": 15,
+      "GOVB.MI": 15,
+      "CEMM.DE": 15,
+      "EMSA.MI": 9,
+      "CRPA.MI": 9,
+      "AGGH.MI": 12
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-06",
+    "nav": 94.4625,
+    "weights": {
+      "EUGO.MI": 18,
+      "GOVB.MI": 18,
+      "CEMM.DE": 18,
+      "EUNQ.DE": 17,
+      "EMSA.MI": 10,
+      "CRPA.MI": 10,
+      "OM3J.MU": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-13",
+    "nav": 95.1072,
+    "weights": {
+      "EUNQ.DE": 19,
+      "CSBGU7.MI": 18,
+      "EDMA.DE": 15,
+      "EUGO.MI": 17,
+      "EMSA.MI": 9,
+      "CRPA.MI": 9,
+      "AGGH.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-20",
+    "nav": 95.0797,
+    "weights": {
+      "CSBGU7.MI": 18,
+      "EUNQ.DE": 18,
+      "EDMA.DE": 14,
+      "EUGO.MI": 17,
+      "EMSA.MI": 9,
+      "AGGH.MI": 15,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-27",
+    "nav": 95.2518,
+    "weights": {
+      "CEMM.DE": 19,
+      "EMSA.MI": 9,
+      "XGIU.MI": 15,
+      "EUGO.MI": 18,
+      "GOVB.MI": 18,
+      "CRPA.MI": 12,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-03",
+    "nav": 95.2461,
+    "weights": {
+      "EMSA.MI": 13,
+      "EUHA.MI": 17,
+      "OM3J.MU": 14,
+      "EMLB.MI": 10,
+      "CRPA.MI": 16,
+      "IEAA.MI": 15,
+      "EUNQ.DE": 15
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-10",
+    "nav": 95.2162,
+    "weights": {
+      "EMSA.MI": 13,
+      "OM3J.MU": 14,
+      "EUHA.MI": 16,
+      "EMLB.MI": 11,
+      "CRPA.MI": 15,
+      "IEAA.MI": 15,
+      "AGGH.MI": 16
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-17",
+    "nav": 94.9948,
+    "weights": {
+      "EMSA.MI": 10,
+      "EUGO.MI": 18,
+      "GOVB.MI": 18,
+      "CSBGU7.MI": 18,
+      "EUNQ.DE": 18,
+      "OM3J.MU": 9,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-24",
+    "nav": 95.4786,
+    "weights": {
+      "CSBGU7.MI": 18,
+      "EUNQ.DE": 18,
+      "EDMA.DE": 14,
+      "EUGO.MI": 17,
+      "EMSA.MI": 9,
+      "AGGH.MI": 15,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-01",
+    "nav": 94.7294,
+    "weights": {
+      "EMSA.MI": 10,
+      "EUGO.MI": 18,
+      "GOVB.MI": 18,
+      "CSBGU7.MI": 18,
+      "XGIU.MI": 14,
+      "CRPA.MI": 12,
+      "EUHA.MI": 10
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-08",
+    "nav": 94.6209,
+    "weights": {
+      "CEMM.DE": 19,
+      "EUGO.MI": 18,
+      "GOVB.MI": 18,
+      "EMLB.MI": 10,
+      "EMSA.MI": 9,
+      "CSBGU7.MI": 17,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-15",
+    "nav": 94.364,
+    "weights": {
+      "CEMM.DE": 19,
+      "EMSA.MI": 10,
+      "OM3J.MU": 9,
+      "IS0F.DE": 23,
+      "EUHA.MI": 9,
+      "EUGO.MI": 15,
+      "GOVB.MI": 15
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-22",
+    "nav": 94.3276,
+    "weights": {
+      "EMSA.MI": 15,
+      "EMLB.MI": 14,
+      "OM3J.MU": 11,
+      "EUHA.MI": 12,
+      "CEMM.DE": 19,
+      "IEAA.MI": 16,
+      "CRPA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-29",
+    "nav": 94.4665,
+    "weights": {
+      "EMSA.MI": 15,
+      "EMLB.MI": 14,
+      "EUHA.MI": 12,
+      "OM3J.MU": 10,
+      "CEMM.DE": 20,
+      "IEAA.MI": 17,
+      "CRPA.MI": 12
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-05",
+    "nav": 94.779,
+    "weights": {
+      "EMLB.MI": 16,
+      "EMSA.MI": 14,
+      "OM3J.MU": 12,
+      "EUHA.MI": 12,
+      "CRPA.MI": 13,
+      "IEAA.MI": 16,
+      "CEMM.DE": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-12",
+    "nav": 95.2582,
+    "weights": {
+      "EMLB.MI": 17,
+      "EMSA.MI": 14,
+      "EUHA.MI": 13,
+      "OM3J.MU": 11,
+      "CEMM.DE": 20,
+      "CRPA.MI": 12,
+      "IEAA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-19",
+    "nav": 95.3706,
+    "weights": {
+      "EMLB.MI": 17,
+      "EMSA.MI": 13,
+      "OM3J.MU": 12,
+      "EUHA.MI": 12,
+      "CRPA.MI": 15,
+      "EDMA.DE": 14,
+      "CEMM.DE": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-26",
+    "nav": 94.176,
+    "weights": {
+      "EMLB.MI": 11,
+      "AYE8.DE": 10,
+      "IEAA.MI": 14,
+      "EUHA.MI": 10,
+      "CSBGE3.MI": 16,
+      "PJSR.MI": 26,
+      "CEMM.DE": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-02",
+    "nav": 94.3181,
+    "weights": {
+      "EMLB.MI": 18,
+      "AYE8.DE": 15,
+      "EUHA.MI": 14,
+      "IEAA.MI": 17,
+      "CRPA.MI": 11,
+      "OM3J.MU": 9,
+      "EUGO.MI": 16
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-09",
+    "nav": 94.341,
+    "weights": {
+      "EMLB.MI": 10,
+      "AYE8.DE": 9,
+      "IEAA.MI": 14,
+      "PJSR.MI": 25,
+      "AGGH.MI": 17,
+      "CSBGE3.MI": 16,
+      "EUHA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-16",
+    "nav": 94.5681,
+    "weights": {
+      "EMLB.MI": 13,
+      "EMSA.MI": 10,
+      "IEAA.MI": 17,
+      "AGGH.MI": 21,
+      "EUHA.MI": 10,
+      "CRPA.MI": 11,
+      "CSBGE3.MI": 18
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-23",
+    "nav": 94.8175,
+    "weights": {
+      "EMLB.MI": 12,
+      "CEMM.DE": 20,
+      "EMSA.MI": 9,
+      "IEAA.MI": 15,
+      "AGGH.MI": 20,
+      "XGIU.MI": 13,
+      "CRPA.MI": 11
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-02",
+    "nav": 94.9622,
+    "weights": {
+      "EMLB.MI": 14,
+      "EMSA.MI": 12,
+      "XGIU.MI": 16,
+      "EDMA.DE": 15,
+      "EUHA.MI": 10,
+      "EUNQ.DE": 17,
+      "EUGO.MI": 16
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-09",
+    "nav": 94.6128,
+    "weights": {
+      "EMSA.MI": 11,
+      "AYE8.DE": 13,
+      "XGIU.MI": 19,
+      "EUHA.MI": 10,
+      "OM3J.MU": 9,
+      "CRPA.MI": 13,
+      "IS0F.DE": 25
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-16",
+    "nav": 94.8064,
+    "weights": {
+      "EMSA.MI": 10,
+      "EMLB.MI": 10,
+      "OM3J.MU": 10,
+      "IS0F.DE": 26,
+      "CSBGU7.MI": 17,
+      "EUNQ.DE": 16,
+      "CRPA.MI": 11
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-23",
+    "nav": 93.3763,
+    "weights": {
+      "EMLB.MI": 10,
+      "AYE8.DE": 10,
+      "OM3J.MU": 10,
+      "IS0F.DE": 26,
+      "XGIU.MI": 15,
+      "CSBGU7.MI": 17,
+      "CRPA.MI": 12
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-30",
+    "nav": 93.8778,
+    "weights": {
+      "EMSA.MI": 10,
+      "AYE8.DE": 11,
+      "OM3J.MU": 11,
+      "CRPA.MI": 14,
+      "EUHA.MI": 10,
+      "CSBGU7.MI": 18,
+      "IS0F.DE": 26
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-06",
+    "nav": 93.785,
+    "weights": {
+      "EMLB.MI": 12,
+      "OM3J.MU": 11,
+      "EMSA.MI": 10,
+      "EUHA.MI": 10,
+      "IS0F.DE": 26,
+      "CRPA.MI": 14,
+      "CSBGU7.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-13",
+    "nav": 93.2855,
+    "weights": {
+      "EMLB.MI": 14,
+      "EMSA.MI": 11,
+      "OM3J.MU": 11,
+      "IEAA.MI": 16,
+      "EUHA.MI": 10,
+      "CRPA.MI": 12,
+      "PJSR.MI": 26
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-20",
+    "nav": 93.5745,
+    "weights": {
+      "EMLB.MI": 15,
+      "EMSA.MI": 12,
+      "IEAA.MI": 19,
+      "EUHA.MI": 11,
+      "OM3J.MU": 9,
+      "AGGH.MI": 21,
+      "CRPA.MI": 13
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-27",
+    "nav": 93.3338,
+    "weights": {
+      "EMLB.MI": 13,
+      "EMSA.MI": 13,
+      "OM3J.MU": 14,
+      "EUHA.MI": 12,
+      "CRPA.MI": 14,
+      "IEAA.MI": 16,
+      "AGGH.MI": 18
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-04",
+    "nav": 93.1959,
+    "weights": {
+      "OM3J.MU": 15,
+      "EMSA.MI": 12,
+      "EUHA.MI": 14,
+      "CRPA.MI": 16,
+      "EMLB.MI": 10,
+      "IEAA.MI": 17,
+      "AGGH.MI": 16
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-11",
+    "nav": 93.2585,
+    "weights": {
+      "OM3J.MU": 14,
+      "EMSA.MI": 11,
+      "EUHA.MI": 12,
+      "CRPA.MI": 16,
+      "IEAA.MI": 18,
+      "EMLB.MI": 9,
+      "AGGH.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-18",
+    "nav": 93.1349,
+    "weights": {
+      "OM3J.MU": 15,
+      "EUHA.MI": 13,
+      "CRPA.MI": 16,
+      "IEAA.MI": 17,
+      "EMSA.MI": 9,
+      "EMLB.MI": 9,
+      "IS0F.DE": 21
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-25",
+    "nav": 93.7337,
+    "weights": {
+      "OM3J.MU": 15,
+      "EUHA.MI": 14,
+      "CRPA.MI": 16,
+      "IEAA.MI": 18,
+      "AYE8.DE": 9,
+      "EMSA.MI": 9,
+      "IS0F.DE": 19
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-01",
+    "nav": 93.8273,
+    "weights": {
+      "EDMA.DE": 15,
+      "EUNQ.DE": 17,
+      "EUGO.MI": 16,
+      "IS0F.DE": 24,
+      "OM3J.MU": 10,
+      "EMSA.MI": 9,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-08",
+    "nav": 94.338,
+    "weights": {
+      "EUNQ.DE": 18,
+      "IS0F.DE": 24,
+      "EDMA.DE": 15,
+      "EUGO.MI": 16,
+      "OM3J.MU": 9,
+      "CRPA.MI": 9,
+      "EMSA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-15",
+    "nav": 94.4212,
+    "weights": {
+      "CEMM.DE": 18,
+      "EDMA.DE": 13,
+      "EUNQ.DE": 16,
+      "GOVB.MI": 16,
+      "EMSA.MI": 9,
+      "IEAA.MI": 11,
+      "AGGH.MI": 17
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-22",
+    "nav": 94.8355,
+    "weights": {
+      "EDMA.DE": 15,
+      "EUNQ.DE": 17,
+      "GOVB.MI": 16,
+      "IS0F.DE": 23,
+      "EMSA.MI": 10,
+      "EMLB.MI": 10,
+      "CRPA.MI": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-29",
+    "nav": 95.5852,
+    "weights": {
+      "EDMA.DE": 18,
+      "EUNQ.DE": 20,
+      "GOVB.MI": 17,
+      "CSBGU7.MI": 17,
+      "EMSA.MI": 10,
+      "EMLB.MI": 9,
+      "OM3J.MU": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-07-06",
+    "nav": 95.3517,
+    "weights": {
+      "EDMA.DE": 16,
+      "EUNQ.DE": 18,
+      "EMSA.MI": 10,
+      "IS0F.DE": 23,
+      "CSBGU7.MI": 15,
+      "EMLB.MI": 9,
+      "OM3J.MU": 9
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-07-13",
+    "nav": 95.1002,
+    "weights": {
+      "OM3J.MU": 12,
+      "EMLB.MI": 9,
+      "EMSA.MI": 9,
+      "EDMA.DE": 15,
+      "EUNQ.DE": 17,
+      "CRPA.MI": 13,
+      "IS0F.DE": 25
+    },
+    "backtest": true
+  }
+]

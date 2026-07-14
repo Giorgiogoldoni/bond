@@ -1,0 +1,2362 @@
+[
+  {
+    "date": "2022-01-03",
+    "nav": 100.0,
+    "weights": {
+      "XEON.MI": 100
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-10",
+    "nav": 99.9873,
+    "weights": {
+      "XEON.MI": 100
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-17",
+    "nav": 99.9805,
+    "weights": {
+      "XEON.MI": 100
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-24",
+    "nav": 99.9741,
+    "weights": {
+      "XEON.MI": 100
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-01-31",
+    "nav": 99.9415,
+    "weights": {
+      "XEON.MI": 100
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-07",
+    "nav": 99.9463,
+    "weights": {
+      "XEON.MI": 50,
+      "SEMB.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-14",
+    "nav": 99.2465,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-21",
+    "nav": 98.6774,
+    "weights": {
+      "XEON.MI": 50,
+      "XGIU.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-02-28",
+    "nav": 98.982,
+    "weights": {
+      "XEON.MI": 50,
+      "XGIU.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-07",
+    "nav": 100.5516,
+    "weights": {
+      "XGIU.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-14",
+    "nav": 99.067,
+    "weights": {
+      "XGIU.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-21",
+    "nav": 98.2085,
+    "weights": {
+      "XGIU.MI": 50,
+      "XEON.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-03-28",
+    "nav": 98.5389,
+    "weights": {
+      "XGIU.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-04",
+    "nav": 99.029,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-11",
+    "nav": 98.1499,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-18",
+    "nav": 98.6743,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-04-25",
+    "nav": 98.6555,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-02",
+    "nav": 98.6574,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-09",
+    "nav": 97.0743,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-16",
+    "nav": 98.7084,
+    "weights": {
+      "AT1.MI": 50,
+      "XGIU.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-23",
+    "nav": 96.6698,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-05-30",
+    "nav": 97.2183,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-06",
+    "nav": 97.4136,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-13",
+    "nav": 95.9295,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-20",
+    "nav": 95.3697,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-06-27",
+    "nav": 95.1935,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-04",
+    "nav": 95.5262,
+    "weights": {
+      "XEON.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-11",
+    "nav": 96.6038,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-18",
+    "nav": 95.3627,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-07-25",
+    "nav": 96.7979,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-01",
+    "nav": 97.8462,
+    "weights": {
+      "AT1.MI": 50,
+      "XGIU.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-08",
+    "nav": 97.9512,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-15",
+    "nav": 97.9106,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-22",
+    "nav": 96.6859,
+    "weights": {
+      "AT1.MI": 50,
+      "XGIU.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-08-29",
+    "nav": 95.912,
+    "weights": {
+      "AT1.MI": 50,
+      "SEMB.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-05",
+    "nav": 95.1431,
+    "weights": {
+      "SEMB.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-12",
+    "nav": 95.1014,
+    "weights": {
+      "SEMB.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-19",
+    "nav": 94.5363,
+    "weights": {
+      "SEMB.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-09-26",
+    "nav": 95.1167,
+    "weights": {
+      "SEMB.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-03",
+    "nav": 91.7364,
+    "weights": {
+      "XEON.MI": 50,
+      "SEMB.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-10",
+    "nav": 91.5514,
+    "weights": {
+      "XEON.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-17",
+    "nav": 90.2422,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-24",
+    "nav": 89.9481,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-10-31",
+    "nav": 90.5622,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-07",
+    "nav": 90.0775,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-14",
+    "nav": 89.9942,
+    "weights": {
+      "XEON.MI": 50,
+      "SEMB.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-21",
+    "nav": 90.3418,
+    "weights": {
+      "XEON.MI": 50,
+      "SEMB.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-11-28",
+    "nav": 90.3486,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-05",
+    "nav": 90.7395,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-12",
+    "nav": 90.5737,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-19",
+    "nav": 89.543,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2022-12-26",
+    "nav": 89.3686,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-02",
+    "nav": 89.0686,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-09",
+    "nav": 89.5973,
+    "weights": {
+      "SEMB.MI": 50,
+      "XEON.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-16",
+    "nav": 89.7729,
+    "weights": {
+      "SEMB.MI": 50,
+      "AT1.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-23",
+    "nav": 89.8319,
+    "weights": {
+      "SEMB.MI": 50,
+      "AT1.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-01-30",
+    "nav": 89.7244,
+    "weights": {
+      "VAGF.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-06",
+    "nav": 90.9443,
+    "weights": {
+      "AT1.MI": 50,
+      "SEMB.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-13",
+    "nav": 89.5626,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-20",
+    "nav": 89.0646,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-02-27",
+    "nav": 89.2642,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-06",
+    "nav": 88.822,
+    "weights": {
+      "XEON.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-13",
+    "nav": 87.3814,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-20",
+    "nav": 87.5111,
+    "weights": {
+      "VAGF.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-03-27",
+    "nav": 87.6411,
+    "weights": {
+      "VAGF.MI": 50,
+      "XGIU.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-03",
+    "nav": 87.9351,
+    "weights": {
+      "VAGF.MI": 50,
+      "XGIU.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-10",
+    "nav": 88.1198,
+    "weights": {
+      "VAGF.MI": 50,
+      "XGIU.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-17",
+    "nav": 86.9697,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-04-24",
+    "nav": 87.0016,
+    "weights": {
+      "VAGF.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-01",
+    "nav": 87.3109,
+    "weights": {
+      "VAGF.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-08",
+    "nav": 87.2028,
+    "weights": {
+      "VAGF.MI": 50,
+      "XEON.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-15",
+    "nav": 87.2811,
+    "weights": {
+      "VAGF.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-22",
+    "nav": 86.8633,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-05-29",
+    "nav": 86.9305,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-05",
+    "nav": 87.421,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-12",
+    "nav": 87.3334,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-19",
+    "nav": 86.9925,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-06-26",
+    "nav": 87.4229,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-03",
+    "nav": 87.5483,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-10",
+    "nav": 86.3121,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-17",
+    "nav": 86.5463,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-24",
+    "nav": 86.9974,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-07-31",
+    "nav": 87.1806,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-07",
+    "nav": 86.5676,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-14",
+    "nav": 86.7166,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-21",
+    "nav": 85.8212,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-08-28",
+    "nav": 86.7297,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-04",
+    "nav": 86.8543,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-11",
+    "nav": 86.6884,
+    "weights": {
+      "IS02.MI": 50,
+      "XEON.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-18",
+    "nav": 87.1555,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-09-25",
+    "nav": 87.3799,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-02",
+    "nav": 87.2622,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-09",
+    "nav": 86.2244,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-16",
+    "nav": 86.8831,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-23",
+    "nav": 86.017,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-10-30",
+    "nav": 86.4485,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-06",
+    "nav": 86.9762,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-13",
+    "nav": 87.4329,
+    "weights": {
+      "AT1.MI": 50,
+      "XEON.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-20",
+    "nav": 87.0036,
+    "weights": {
+      "AT1.MI": 50,
+      "SEMB.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-11-27",
+    "nav": 87.2836,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-04",
+    "nav": 88.8805,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-11",
+    "nav": 89.7676,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-18",
+    "nav": 90.7958,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2023-12-25",
+    "nav": 90.5811,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-01",
+    "nav": 90.4258,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-08",
+    "nav": 89.9039,
+    "weights": {
+      "AT1.MI": 50,
+      "VAGF.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-15",
+    "nav": 90.4674,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-22",
+    "nav": 90.4136,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-01-29",
+    "nav": 91.5186,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-05",
+    "nav": 91.5415,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-12",
+    "nav": 91.4048,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-19",
+    "nav": 91.4336,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-02-26",
+    "nav": 91.5351,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-04",
+    "nav": 91.7074,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-11",
+    "nav": 91.9265,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-18",
+    "nav": 92.0551,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-03-25",
+    "nav": 92.9753,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-01",
+    "nav": 93.3092,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-08",
+    "nav": 92.4887,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-15",
+    "nav": 92.6029,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-22",
+    "nav": 92.7881,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-04-29",
+    "nav": 92.2528,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-06",
+    "nav": 92.7255,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-13",
+    "nav": 92.8711,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-20",
+    "nav": 92.8918,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-05-27",
+    "nav": 92.5665,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-03",
+    "nav": 92.4844,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-10",
+    "nav": 93.1558,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-17",
+    "nav": 93.3483,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-06-24",
+    "nav": 93.8258,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-01",
+    "nav": 93.4525,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-08",
+    "nav": 93.5136,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-15",
+    "nav": 93.5556,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-22",
+    "nav": 93.5172,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-07-29",
+    "nav": 94.1632,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-05",
+    "nav": 92.9831,
+    "weights": {
+      "VAGF.MI": 50,
+      "XGIU.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-12",
+    "nav": 92.9742,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-19",
+    "nav": 93.1583,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-08-26",
+    "nav": 93.1774,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-02",
+    "nav": 93.0641,
+    "weights": {
+      "IS02.MI": 50,
+      "VAGF.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-09",
+    "nav": 93.7725,
+    "weights": {
+      "VAGF.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-16",
+    "nav": 94.1646,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-23",
+    "nav": 93.7349,
+    "weights": {
+      "AT1.MI": 50,
+      "VAGF.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-09-30",
+    "nav": 93.7646,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-07",
+    "nav": 93.7686,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-14",
+    "nav": 94.191,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-21",
+    "nav": 94.8245,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-10-28",
+    "nav": 94.4686,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-04",
+    "nav": 93.8438,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-11",
+    "nav": 96.0977,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-18",
+    "nav": 95.9937,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-11-25",
+    "nav": 97.2528,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-02",
+    "nav": 97.5948,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-09",
+    "nav": 97.3497,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-16",
+    "nav": 97.3333,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-23",
+    "nav": 97.431,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2024-12-30",
+    "nav": 97.5477,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-06",
+    "nav": 97.7175,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-13",
+    "nav": 98.7794,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-20",
+    "nav": 98.419,
+    "weights": {
+      "AT1.MI": 50,
+      "SEMB.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-01-27",
+    "nav": 97.6931,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-03",
+    "nav": 99.596,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-10",
+    "nav": 100.1794,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-17",
+    "nav": 98.8687,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-02-24",
+    "nav": 98.9208,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-03",
+    "nav": 99.3016,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-10",
+    "nav": 95.8023,
+    "weights": {
+      "XEON.MI": 50,
+      "XHYA.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-17",
+    "nav": 95.806,
+    "weights": {
+      "XEON.MI": 50,
+      "XHYA.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-24",
+    "nav": 95.9036,
+    "weights": {
+      "XEON.MI": 50,
+      "XHYA.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-03-31",
+    "nav": 95.7163,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-07",
+    "nav": 95.1985,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-14",
+    "nav": 95.3953,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-21",
+    "nav": 95.7114,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-04-28",
+    "nav": 96.0273,
+    "weights": {
+      "VAGF.MI": 50,
+      "XEON.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-05",
+    "nav": 95.8853,
+    "weights": {
+      "XEON.MI": 50,
+      "VAGF.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-12",
+    "nav": 95.9322,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-19",
+    "nav": 95.943,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-05-26",
+    "nav": 95.8863,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-02",
+    "nav": 96.2734,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-09",
+    "nav": 96.3704,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-16",
+    "nav": 96.4747,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-23",
+    "nav": 96.3653,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-06-30",
+    "nav": 96.6419,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-07",
+    "nav": 96.5982,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-14",
+    "nav": 96.6145,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-21",
+    "nav": 96.8404,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-07-28",
+    "nav": 96.8649,
+    "weights": {
+      "XHYA.MI": 50,
+      "SEMB.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-04",
+    "nav": 97.3374,
+    "weights": {
+      "SEMB.MI": 50,
+      "XHYA.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-11",
+    "nav": 97.2427,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-18",
+    "nav": 97.2169,
+    "weights": {
+      "XHYA.MI": 50,
+      "VAGF.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-08-25",
+    "nav": 97.2026,
+    "weights": {
+      "XHYA.MI": 50,
+      "SEMB.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-01",
+    "nav": 97.0823,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-08",
+    "nav": 97.404,
+    "weights": {
+      "VAGF.MI": 50,
+      "IS02.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-15",
+    "nav": 97.6256,
+    "weights": {
+      "IS02.MI": 50,
+      "SEMB.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-22",
+    "nav": 97.3427,
+    "weights": {
+      "SEMB.MI": 50,
+      "XHYA.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-09-29",
+    "nav": 97.9027,
+    "weights": {
+      "SEMB.MI": 50,
+      "IS02.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-06",
+    "nav": 97.9266,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-13",
+    "nav": 98.8183,
+    "weights": {
+      "IS02.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-20",
+    "nav": 99.023,
+    "weights": {
+      "IS02.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-10-27",
+    "nav": 100.1579,
+    "weights": {
+      "SEMB.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-03",
+    "nav": 100.7953,
+    "weights": {
+      "IS02.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-10",
+    "nav": 100.6232,
+    "weights": {
+      "SEMB.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-17",
+    "nav": 100.2177,
+    "weights": {
+      "SEMB.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-11-24",
+    "nav": 100.8875,
+    "weights": {
+      "SEMB.MI": 50,
+      "IS02.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-01",
+    "nav": 100.4518,
+    "weights": {
+      "IS02.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-08",
+    "nav": 100.1383,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-15",
+    "nav": 99.5126,
+    "weights": {
+      "IS02.MI": 50,
+      "SEMB.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-22",
+    "nav": 99.6368,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2025-12-29",
+    "nav": 99.7849,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-05",
+    "nav": 100.1001,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-12",
+    "nav": 100.4671,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-19",
+    "nav": 100.4131,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-01-26",
+    "nav": 99.0835,
+    "weights": {
+      "XHYA.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-02",
+    "nav": 99.3013,
+    "weights": {
+      "XHYA.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-09",
+    "nav": 99.2033,
+    "weights": {
+      "XHYA.MI": 50,
+      "XEON.MI": 30,
+      "VAGF.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-16",
+    "nav": 99.2767,
+    "weights": {
+      "IS02.MI": 50,
+      "VAGF.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-02-23",
+    "nav": 99.5827,
+    "weights": {
+      "IS02.MI": 50,
+      "XGIU.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-02",
+    "nav": 100.168,
+    "weights": {
+      "IS02.MI": 50,
+      "XGIU.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-09",
+    "nav": 99.7224,
+    "weights": {
+      "XGIU.MI": 50,
+      "IS02.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-16",
+    "nav": 99.7105,
+    "weights": {
+      "AT1.MI": 50,
+      "XGIU.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-23",
+    "nav": 98.0976,
+    "weights": {
+      "XGIU.MI": 50,
+      "XEON.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-03-30",
+    "nav": 98.481,
+    "weights": {
+      "XGIU.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-06",
+    "nav": 98.401,
+    "weights": {
+      "XGIU.MI": 50,
+      "AT1.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-13",
+    "nav": 98.0597,
+    "weights": {
+      "XEON.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-20",
+    "nav": 98.1615,
+    "weights": {
+      "XHYA.MI": 50,
+      "IS02.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-04-27",
+    "nav": 98.0687,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-04",
+    "nav": 98.1256,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-11",
+    "nav": 98.1599,
+    "weights": {
+      "XHYA.MI": 50,
+      "AT1.MI": 30,
+      "IS02.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-18",
+    "nav": 98.0707,
+    "weights": {
+      "AT1.MI": 50,
+      "XGIU.MI": 30,
+      "XEON.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-05-25",
+    "nav": 98.8643,
+    "weights": {
+      "AT1.MI": 50,
+      "XGIU.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-01",
+    "nav": 98.7538,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-08",
+    "nav": 99.0418,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-15",
+    "nav": 99.7006,
+    "weights": {
+      "IS02.MI": 50,
+      "XHYA.MI": 30,
+      "AT1.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-22",
+    "nav": 100.3919,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "SEMB.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-06-29",
+    "nav": 100.7757,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-07-06",
+    "nav": 100.7958,
+    "weights": {
+      "IS02.MI": 50,
+      "AT1.MI": 30,
+      "XHYA.MI": 20
+    },
+    "backtest": true
+  },
+  {
+    "date": "2026-07-13",
+    "nav": 100.439,
+    "weights": {
+      "AT1.MI": 50,
+      "IS02.MI": 30,
+      "XGIU.MI": 20
+    },
+    "backtest": true
+  }
+]
