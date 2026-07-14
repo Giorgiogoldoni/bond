@@ -538,9 +538,9 @@
       "EMLI.MI": 12,
       "XAT1.MI": 9
     },
-    "ret_port": -0.0438,
-    "ret_xeon": 0.0029,
-    "ret_vagf": -0.4861,
-    "ret_xgiu": -0.0708
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
