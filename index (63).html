@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAPTOR BOND — Confronto Linee</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap');
+  :root {
+    --bg:#ffffff; --bg2:#f8f9fb; --bg3:#f0f2f5;
+    --border:#e4e8f0; --border2:#eef0f5;
+    --accent:#7c3aed; --accent2:#e07b00;
+    --text:#1a2332; --muted:#6b7c93; --muted2:#a0aec0;
+    --danger:#dc2626; --warning:#d97706; --success:#16a34a;
+    --line-bond:#059669; --line-acc:#2563eb; --line-anto:#dc2626; --line-faber:#e07b00;
+    --font:'Syne',system-ui,sans-serif; --mono:'Space Mono',monospace;
+    --radius:8px; --shadow:0 1px 3px rgba(0,0,0,.06);
+    --sw:210px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{height:100%;}
+  body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:13px;line-height:1.5;display:flex;}
+
+  /* ── SIDEBAR ─────────────────────────────────────────────────── */
+  #sidebar{width:var(--sw);min-width:var(--sw);height:100vh;background:var(--bg2);
+    border-right:1px solid var(--border);display:flex;flex-direction:column;
+    flex-shrink:0;position:sticky;top:0;overflow-y:auto;}
+  .sb-logo{padding:20px 16px 14px;border-bottom:1px solid var(--border);}
+  .sb-logo-text{font-size:16px;font-weight:800;letter-spacing:-.3px;}
+  .sb-logo-text span{color:var(--accent);}
+  .sb-logo-sub{font-size:9px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px;}
+  nav{padding:12px 10px;flex:1;}
+  .nav-section-label{font-size:9px;color:var(--muted2);text-transform:uppercase;letter-spacing:1px;
+    padding:8px 8px 4px;font-weight:700;}
+  .nav-item{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:6px;cursor:pointer;
+    font-size:12px;color:var(--muted);transition:all .12s;user-select:none;margin-bottom:2px;
+    white-space:nowrap;position:relative;font-weight:600;}
+  .nav-item:hover{background:var(--bg3);color:var(--text);}
+  .nav-item.active{background:#f1eafe;color:var(--accent);}
+  .nav-item.active::before{content:'';position:absolute;left:0;top:15%;bottom:15%;width:3px;
+    background:var(--accent);border-radius:0 3px 3px 0;}
+  .nav-badge{margin-left:auto;font-size:8px;font-weight:700;padding:1px 5px;border-radius:3px;
+    background:var(--bg3);color:var(--muted);}
+  .nav-badge.live{background:#f0fdf4;color:var(--success);}
+  .nav-badge.bt{background:#fef3f0;color:var(--accent2);}
+  .sb-footer{padding:14px 16px;border-top:1px solid var(--border);}
+  .sb-footer a{font-size:10.5px;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:5px;}
+  .sb-footer a:hover{color:var(--accent);}
+
+  /* ── CONTENT ─────────────────────────────────────────────────── */
+  #content{flex:1;height:100vh;overflow-y:auto;}
+  .tab-pane{display:none;height:100%;}
+  .tab-pane.active{display:block;}
+  .wrap{max-width:1280px;margin:0 auto;padding:24px 28px;}
+
+  .hdr{display:flex;align-items:center;justify-content:space-between;padding-bottom:16px;
+    border-bottom:2px solid var(--border);margin-bottom:20px;flex-wrap:wrap;gap:12px;}
+  .hdr h1{font-size:19px;font-weight:800;}
+  .hdr-sub{font-size:11px;color:var(--muted);margin-top:2px;}
+  .as-of{font-family:var(--mono);font-size:10.5px;color:var(--muted);background:var(--bg2);
+    border:1px solid var(--border);border-radius:20px;padding:4px 12px;}
+
+  .chart-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:20px;margin-bottom:20px;}
+  .chart-card h2{font-size:13px;font-weight:700;margin-bottom:4px;}
+  .chart-sub{font-size:11px;color:var(--muted);margin-bottom:14px;}
+  .chart-wrap{position:relative;height:420px;}
+
+  .legend-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;}
+  .legend-chip{display:flex;align-items:center;gap:6px;font-size:11px;padding:5px 10px;
+    border-radius:20px;background:var(--bg2);border:1px solid var(--border);}
+  .legend-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+  .legend-badge{font-size:8px;font-weight:700;padding:1px 5px;border-radius:3px;margin-left:2px;}
+  .legend-badge.live{background:#f0fdf4;color:var(--success);}
+  .legend-badge.bt{background:#fef3f0;color:var(--accent2);}
+
+  .cards-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
+  .kpi-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:16px;}
+  .kpi-card .name{font-size:11px;color:var(--muted);font-weight:600;margin-bottom:6px;
+    display:flex;align-items:center;gap:6px;}
+  .kpi-card .val{font-family:var(--mono);font-size:22px;font-weight:700;}
+  .kpi-card .val.pos{color:var(--success);}
+  .kpi-card .val.neg{color:var(--danger);}
+  .kpi-card .sub{font-size:10px;color:var(--muted2);margin-top:4px;}
+
+  .note-box{background:#fef9f0;border:1px solid #fde4c1;border-radius:var(--radius);
+    padding:14px 16px;font-size:11.5px;color:#7a5210;margin-bottom:20px;line-height:1.6;}
+
+  .placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;
+    height:60vh;text-align:center;color:var(--muted);gap:10px;}
+  .placeholder h2{font-size:16px;color:var(--text);}
+  .placeholder p{font-size:12px;max-width:420px;}
+
+  iframe.embed{width:100%;height:100vh;border:none;display:block;}
+
+  @media (max-width:900px){.cards-row{grid-template-columns:repeat(2,1fr);}}
+</style>
+</head>
+<body>
+
+<aside id="sidebar">
+  <div class="sb-logo">
+    <div class="sb-logo-text">RAPTOR <span>BOND</span></div>
+    <div class="sb-logo-sub">Multi-linea obbligazionario</div>
+  </div>
+  <nav>
+    <div class="nav-section-label">Overview</div>
+    <div class="nav-item active" data-tab="confronto" onclick="showTab('confronto', this)">
+      📊 Confronto <span class="nav-badge live">4 linee</span>
+    </div>
+
+    <div class="nav-section-label">Portafogli attuali</div>
+    <div class="nav-item" data-tab="bond-dist" onclick="showTab('bond-dist', this)">
+      🏦 Bond Distribuzione <span class="nav-badge live">live</span>
+    </div>
+    <div class="nav-item" data-tab="bond-acc" onclick="showTab('bond-acc', this)">
+      💎 Bond Accumulo <span class="nav-badge live">live</span>
+    </div>
+
+    <div class="nav-section-label">Nuove linee momentum</div>
+    <div class="nav-item" data-tab="antonacci" onclick="showTab('antonacci', this)">
+      🎯 Antonacci <span class="nav-badge bt">backtest</span>
+    </div>
+    <div class="nav-item" data-tab="faber" onclick="showTab('faber', this)">
+      ⚡ Faber <span class="nav-badge bt">backtest</span>
+    </div>
+  </nav>
+  <div class="sb-footer">
+    <a href="renko.html">📈 Analisi Renko storica →</a>
+  </div>
+</aside>
+
+<div id="content">
+
+  <!-- ═══ TAB: CONFRONTO (homepage di default) ═══ -->
+  <div class="tab-pane active" id="tab-confronto">
+    <div class="wrap">
+      <div class="hdr">
+        <div>
+          <h1>Confronto performance — 4 linee</h1>
+          <div class="hdr-sub">Indice normalizzato a 100 dalla data comune più recente</div>
+        </div>
+        <div class="as-of" id="asOf">caricamento…</div>
+      </div>
+
+      <div class="note-box" id="dataNote">
+        ⚠ Antonacci e Faber sono in attesa del backtest storico (dal 2022) e non hanno ancora dati —
+        vengono mostrate come linee piatte a 100 finché il motore di backtest non è caricato.
+        Bond Distribuzione e Bond Accumulo mostrano invece dati reali live.
+      </div>
+
+      <div class="cards-row" id="kpiRow"></div>
+
+      <div class="chart-card">
+        <h2>NAV normalizzato (base 100)</h2>
+        <div class="chart-sub">Ogni linea parte da 100 alla prima data disponibile in comune</div>
+        <div class="chart-wrap"><canvas id="compareChart"></canvas></div>
+        <div class="legend-row">
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-bond)"></span>
+            Bond Distribuzione <span class="legend-badge live">live</span></div>
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-acc)"></span>
+            Bond Accumulo <span class="legend-badge live">live</span></div>
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-anto)"></span>
+            Antonacci <span class="legend-badge bt">backtest</span></div>
+          <div class="legend-chip"><span class="legend-dot" style="background:var(--line-faber)"></span>
+            Faber <span class="legend-badge bt">backtest</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ TAB: BOND DISTRIBUZIONE (pagina esistente, embed) ═══ -->
+  <div class="tab-pane" id="tab-bond-dist">
+    <iframe class="embed" src="bond-dist.html" title="Bond Distribuzione"></iframe>
+  </div>
+
+  <!-- ═══ TAB: BOND ACCUMULO (pagina esistente, embed) ═══ -->
+  <div class="tab-pane" id="tab-bond-acc">
+    <iframe class="embed" src="bond-acc.html" title="Bond Accumulo"></iframe>
+  </div>
+
+  <!-- ═══ TAB: ANTONACCI ═══ -->
+  <div class="tab-pane" id="tab-antonacci">
+    <div class="wrap">
+      <div class="hdr">
+        <div>
+          <h1>🎯 Antonacci — Dual Momentum</h1>
+          <div class="hdr-sub">Filtro assoluto 12M per strumento + Top2 relativo (60/40) — ribilancio settimanale</div>
+        </div>
+        <div class="as-of" id="antoAsOf">caricamento…</div>
+      </div>
+      <div class="cards-row" id="antoKpiRow"></div>
+      <div class="chart-card">
+        <h2>Composizione attuale del portafoglio</h2>
+        <div class="chart-sub" id="antoCompSub"></div>
+        <div id="antoCompTable"></div>
+      </div>
+      <div class="chart-card">
+        <h2>NAV storico — Antonacci</h2>
+        <div class="chart-wrap" style="height:320px"><canvas id="antoNavChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ TAB: FABER ═══ -->
+  <div class="tab-pane" id="tab-faber">
+    <div class="wrap">
+      <div class="hdr">
+        <div>
+          <h1>⚡ Faber — Momentum Aggressivo</h1>
+          <div class="hdr-sub">Composite momentum 40% 1M / 35% 3M / 25% 6M, Top3 (50/30/20), nessun filtro di trend — ribilancio settimanale</div>
+        </div>
+        <div class="as-of" id="faberAsOf">caricamento…</div>
+      </div>
+      <div class="cards-row" id="faberKpiRow"></div>
+      <div class="chart-card">
+        <h2>Composizione attuale del portafoglio</h2>
+        <div class="chart-sub" id="faberCompSub"></div>
+        <div id="faberCompTable"></div>
+      </div>
+      <div class="chart-card">
+        <h2>NAV storico — Faber</h2>
+        <div class="chart-wrap" style="height:320px"><canvas id="faberNavChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const LINE_COLORS = {
+  bond:   getComputedStyle(document.documentElement).getPropertyValue('--line-bond').trim(),
+  acc:    getComputedStyle(document.documentElement).getPropertyValue('--line-acc').trim(),
+  anto:   getComputedStyle(document.documentElement).getPropertyValue('--line-anto').trim(),
+  faber:  getComputedStyle(document.documentElement).getPropertyValue('--line-faber').trim(),
+};
+
+function showTab(id, el){
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  el.classList.add('active');
+}
+
+function fmtDate(d){
+  const dt = new Date(d);
+  return dt.toLocaleDateString('it-IT', {day:'2-digit', month:'short', year:'numeric'});
+}
+
+async function loadJSON(path){
+  try {
+    const r = await fetch(path, {cache:'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return await r.json();
+  } catch (e) {
+    console.warn('Impossibile caricare', path, e);
+    return null;
+  }
+}
+
+function normalizeSeries(history){
+  // history: array di {date, nav}. Ritorna array {date, idx} normalizzato a 100 dal primo punto.
+  if (!history || !history.length) return [];
+  const base = history[0].nav || 100;
+  return history.map(h => ({date: h.date, idx: (h.nav / base) * 100}));
+}
+
+function lastReturn(series){
+  if (!series.length) return null;
+  return series[series.length - 1].idx - 100;
+}
+
+function kpiCard(name, color, series, badge){
+  const ret = lastReturn(series);
+  const cls = ret === null ? '' : (ret >= 0 ? 'pos' : 'neg');
+  const valTxt = ret === null ? '—' : (ret >= 0 ? '+' : '') + ret.toFixed(2) + '%';
+  const badgeHtml = badge === 'live'
+    ? '<span class="legend-badge live">live</span>'
+    : '<span class="legend-badge bt">backtest</span>';
+  return `<div class="kpi-card">
+    <div class="name"><span class="legend-dot" style="background:${color}"></span>${name} ${badgeHtml}</div>
+    <div class="val ${cls}">${valTxt}</div>
+    <div class="sub">${series.length ? series.length + ' punti storico' : 'dati non disponibili'}</div>
+  </div>`;
+}
+
+async function initCompareChart(){
+  const [bondData, accData] = await Promise.all([
+    loadJSON('nav_history_bond.json'),
+    loadJSON('nav_history_bond_acc.json'),
+  ]);
+  // Antonacci/Faber: nessun backtest ancora caricato -> placeholder null.
+  // Quando esisteranno nav_history_antonacci.json / nav_history_faber.json,
+  // aggiungere qui le stesse due chiamate loadJSON.
+  const antoData = await loadJSON('nav_history_antonacci.json');
+  const faberData = await loadJSON('nav_history_faber.json');
+
+  const bondSeries  = normalizeSeries(bondData);
+  const accSeries   = normalizeSeries(accData);
+  const antoSeries  = normalizeSeries(antoData);
+  const faberSeries = normalizeSeries(faberData);
+
+  // Asse date: uso l'unione delle date disponibili tra le serie reali (bond/acc)
+  const allDates = [...new Set([
+    ...bondSeries.map(s => s.date),
+    ...accSeries.map(s => s.date),
+  ])].sort();
+
+  document.getElementById('asOf').textContent = allDates.length
+    ? 'Aggiornato al ' + fmtDate(allDates[allDates.length - 1])
+    : 'Nessun dato disponibile';
+
+  // Se non ci sono dati backtest per Antonacci/Faber, mostro una linea piatta a 100
+  // sulle stesse date del bond, chiaramente marcata come placeholder in nota e badge.
+  const antoPlaceholder = antoSeries.length ? antoSeries : allDates.map(d => ({date:d, idx:100}));
+  const faberPlaceholder = faberSeries.length ? faberSeries : allDates.map(d => ({date:d, idx:100}));
+
+  // Asse a categoria (come nelle altre pagine del repo, niente adapter data richiesto):
+  // allineo ogni serie all'unione delle date con null nei buchi.
+  function alignToLabels(series){
+    const byDate = Object.fromEntries(series.map(s => [s.date, s.idx]));
+    return allDates.map(d => (d in byDate ? byDate[d] : null));
+  }
+
+  const datasets = [
+    {label:'Bond Distribuzione', data: alignToLabels(bondSeries), borderColor: LINE_COLORS.bond, backgroundColor:'transparent', tension:.25, pointRadius:2, spanGaps:true},
+    {label:'Bond Accumulo', data: alignToLabels(accSeries), borderColor: LINE_COLORS.acc, backgroundColor:'transparent', tension:.25, pointRadius:2, spanGaps:true},
+    {label:'Antonacci (placeholder)', data: alignToLabels(antoPlaceholder), borderColor: LINE_COLORS.anto, backgroundColor:'transparent', borderDash:[5,4], tension:.25, pointRadius:0, spanGaps:true},
+    {label:'Faber (placeholder)', data: alignToLabels(faberPlaceholder), borderColor: LINE_COLORS.faber, backgroundColor:'transparent', borderDash:[5,4], tension:.25, pointRadius:0, spanGaps:true},
+  ];
+
+  new Chart(document.getElementById('compareChart'), {
+    type: 'line',
+    data: { labels: allDates.map(fmtDate), datasets },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      interaction:{mode:'index', intersect:false},
+      scales:{
+        x:{grid:{display:false}},
+        y:{grid:{color:'#eef0f5'}, title:{display:true, text:'Indice (base 100)'}}
+      },
+      plugins:{ legend:{display:false} }
+    }
+  });
+
+  document.getElementById('kpiRow').innerHTML =
+    kpiCard('Bond Distribuzione', LINE_COLORS.bond, bondSeries, 'live') +
+    kpiCard('Bond Accumulo', LINE_COLORS.acc, accSeries, 'live') +
+    kpiCard('Antonacci', LINE_COLORS.anto, antoSeries, 'backtest') +
+    kpiCard('Faber', LINE_COLORS.faber, faberSeries, 'backtest');
+}
+
+initCompareChart();
+
+// ── TICKER NAMES (universo momentum, 7 strumenti — SXRI escluso, dato non disponibile) ──
+const MOMENTUM_TICKER_NAMES = {
+  'XEON.MI': 'Amundi Govt MMF (Cash)',
+  'IS02.MI': 'iShares EUR Govt 1-3Y',
+  'VAGF.MI': 'Vanguard EUR Govt',
+  'XHYA.MI': 'Xtrackers EUR HY',
+  'AT1.MI':  'WisdomTree AT1 CoCo',
+  'SEMB.MI': 'iShares EM Bond EUR Hed',
+  'XGIU.MI': 'Xtrackers TIPS',
+};
+
+function renderCompositionTable(weights){
+  if (!weights || !Object.keys(weights).length){
+    return '<p style="color:var(--muted);font-size:12px;">Nessun dato di composizione disponibile.</p>';
+  }
+  const rows = Object.entries(weights)
+    .sort((a,b) => b[1]-a[1])
+    .map(([tk,w]) => {
+      const name = MOMENTUM_TICKER_NAMES[tk] || tk;
+      return `<tr>
+        <td style="padding:8px 10px;font-family:var(--mono);font-size:12px;">${tk}</td>
+        <td style="padding:8px 10px;font-size:12px;">${name}</td>
+        <td style="padding:8px 10px;font-family:var(--mono);font-size:13px;font-weight:700;text-align:right;">${w}%</td>
+        <td style="padding:8px 10px;">
+          <div style="background:var(--bg3);border-radius:4px;height:8px;width:100%;overflow:hidden;">
+            <div style="background:var(--accent);height:100%;width:${w}%;"></div>
+          </div>
+        </td>
+      </tr>`;
+    }).join('');
+  return `<table style="width:100%;border-collapse:collapse;">
+    <thead><tr style="border-bottom:1px solid var(--border);">
+      <th style="text-align:left;padding:8px 10px;font-size:10.5px;color:var(--muted);text-transform:uppercase;">Ticker</th>
+      <th style="text-align:left;padding:8px 10px;font-size:10.5px;color:var(--muted);text-transform:uppercase;">Strumento</th>
+      <th style="text-align:right;padding:8px 10px;font-size:10.5px;color:var(--muted);text-transform:uppercase;">Peso</th>
+      <th style="padding:8px 10px;width:35%;"></th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+async function initLineDetail(lineName, navPath, color, prefix){
+  const data = await loadJSON(navPath);
+  if (!data || !data.length){
+    document.getElementById(prefix+'AsOf').textContent = 'Dati non disponibili';
+    return;
+  }
+  const series = normalizeSeries(data);
+  const latest = data[data.length - 1];
+  const isBacktest = latest.backtest === true;
+
+  document.getElementById(prefix+'AsOf').textContent =
+    (isBacktest ? '🔬 Backtest' : '🟢 Live') + ' — aggiornato al ' + fmtDate(latest.date);
+
+  const ret = lastReturn(series);
+  const retTxt = ret === null ? '—' : (ret >= 0 ? '+' : '') + ret.toFixed(2) + '%';
+  const retCls = ret >= 0 ? 'pos' : 'neg';
+  const numPos = Object.keys(latest.weights || {}).length;
+
+  document.getElementById(prefix+'KpiRow').innerHTML = `
+    <div class="kpi-card"><div class="name">Rendimento dal ${fmtDate(data[0].date)}</div>
+      <div class="val ${retCls}">${retTxt}</div></div>
+    <div class="kpi-card"><div class="name">Posizioni attuali</div>
+      <div class="val">${numPos}</div></div>
+    <div class="kpi-card"><div class="name">Punti storico</div>
+      <div class="val">${data.length}</div></div>
+    <div class="kpi-card"><div class="name">Ultimo ribilancio</div>
+      <div class="val" style="font-size:14px;">${fmtDate(latest.date)}</div></div>
+  `;
+
+  document.getElementById(prefix+'CompSub').textContent =
+    'Pesi correnti (ultimo ribilancio settimanale: ' + fmtDate(latest.date) + ')';
+  document.getElementById(prefix+'CompTable').innerHTML = renderCompositionTable(latest.weights);
+
+  new Chart(document.getElementById(prefix+'NavChart'), {
+    type: 'line',
+    data: {
+      labels: data.map(d => fmtDate(d.date)),
+      datasets: [{
+        label: lineName,
+        data: series.map(s => s.idx),
+        borderColor: color, backgroundColor: 'transparent',
+        tension: .25, pointRadius: 0, borderWidth: 2,
+      }]
+    },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      scales:{ x:{grid:{display:false}, ticks:{maxTicksLimit:10}}, y:{grid:{color:'#eef0f5'}} },
+      plugins:{ legend:{display:false} }
+    }
+  });
+}
+
+initLineDetail('Antonacci', 'nav_history_antonacci.json', LINE_COLORS.anto, 'anto');
+initLineDetail('Faber', 'nav_history_faber.json', LINE_COLORS.faber, 'faber');
+</script>
+</body>
+</html>
