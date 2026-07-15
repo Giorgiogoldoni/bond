@@ -3790,9 +3790,9 @@
       "EMSA.MI": 11,
       "EUHA.MI": 10
     },
-    "ret_port": -0.1728,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.446,
-    "ret_xgiu": -0.0752
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
