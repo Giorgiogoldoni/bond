@@ -123,12 +123,11 @@ const UNIVERSE = [
   {t:"IEAA.MI",n:"iShares Core EUR Corporate Acc",cat:"CORP_IG",risk:0.7,line:"Bond Acc"},
   {t:"EMSA.MI",n:"iShares JP Morgan Adv USD EM",cat:"EM_BOND",risk:1.2,line:"Bond Acc"},
   {t:"EMLB.MI",n:"PIMCO Adv EM Local Bond Acc",cat:"EM_BOND",risk:1.2,line:"Bond Acc"},
-  {t:"AYE8.DE",n:"iShares JP Morgan EM CHF Hed",cat:"EM_BOND",risk:1.1,line:"Bond Acc"},
+  {t:"IS0B.MU",n:"iShares JP Morgan EM Bond (gettex)",cat:"EM_BOND",risk:1.1,line:"Bond Acc"},
   {t:"EUHA.MI",n:"PIMCO Adv Euro ST HY Acc",cat:"HY_EUR",risk:1.0,line:"Bond Acc"},
-  {t:"JCHY.MI",n:"JPMorgan Global HY Multi-Factor",cat:"HY_USD",risk:1.1,line:"Bond Acc"},
+  {t:"OM3J.MU",n:"PIMCO US HY Acc (gettex)",cat:"HY_USD",risk:1.1,line:"Bond Acc"},
   {t:"IS02.MI",n:"iShares EUR Govt 1-3Y",cat:"GOVT_IG",risk:0.3,line:"Momentum"},
   {t:"VAGF.MI",n:"Vanguard EUR Govt",cat:"GOVT_IG",risk:0.5,line:"Momentum"},
-  {t:"SXRI.MI",n:"iShares EUR Corp Bond",cat:"CORP_IG",risk:0.6,line:"Momentum"},
   {t:"XHYA.MI",n:"Xtrackers EUR HY",cat:"HY_EUR",risk:1.0,line:"Momentum"},
   {t:"AT1.MI",n:"WisdomTree AT1 CoCo",cat:"AT1",risk:1.5,line:"Momentum"},
   {t:"SEMB.MI",n:"iShares EM Bond EUR Hed",cat:"EM_BOND",risk:1.2,line:"Momentum"},
@@ -192,19 +191,16 @@ function buildRenkoBricks(dates, closes, brickSize){
   if (!brickSize || brickSize <= 0 || closes.length < 2) return [];
   const bricks = [];
   let base = closes[0];
-  let dir = 0; // 0=nessuna direzione ancora, 1=up, -1=down
 
   for (let i=1; i<closes.length; i++){
     const px = closes[i];
     while (true) {
-      if (dir >= 0 && px >= base + brickSize) {
+      if (px >= base + brickSize) {
         bricks.push({dir:1, from:base, to:base+brickSize, date:dates[i]});
         base += brickSize;
-        dir = 1;
-      } else if (dir <= 0 && px <= base - brickSize) {
+      } else if (px <= base - brickSize) {
         bricks.push({dir:-1, from:base, to:base-brickSize, date:dates[i]});
         base -= brickSize;
-        dir = -1;
       } else {
         break;
       }
