@@ -3848,9 +3848,9 @@
       "IHYG.MI": 12,
       "XAT1.MI": 9
     },
-    "ret_port": -0.1115,
-    "ret_xeon": 0.0177,
-    "ret_vagf": 0.446,
-    "ret_xgiu": -0.0752
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
