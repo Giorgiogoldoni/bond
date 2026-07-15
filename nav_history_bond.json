@@ -3827,8 +3827,8 @@
     "xgiu": 99.5635,
     "prices": {
       "STHY.MI": 81.89,
-      "PJS1.MI": 97.616,
       "XGIU.MI": 22.577,
+      "PJS1.MI": 97.616,
       "EMLI.MI": 58.13,
       "IEMB.MI": 80.95,
       "IHYG.MI": 91.12,
@@ -3841,11 +3841,11 @@
     },
     "weights": {
       "STHY.MI": 20,
+      "XGIU.MI": 16,
       "PJS1.MI": 16,
-      "XGIU.MI": 15,
       "EMLI.MI": 14,
       "IEMB.MI": 13,
-      "IHYG.MI": 13,
+      "IHYG.MI": 12,
       "XAT1.MI": 9
     },
     "ret_port": 0.0,
