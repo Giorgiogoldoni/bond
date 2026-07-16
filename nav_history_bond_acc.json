@@ -3822,9 +3822,9 @@
       "EMSA.MI": 10,
       "EMLB.MI": 10
     },
-    "ret_port": 0.0513,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.0846,
-    "ret_xgiu": 0.2037
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
