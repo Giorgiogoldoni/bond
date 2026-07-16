@@ -13,7 +13,7 @@
         "GEO_SHOCK": 15
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -41,8 +41,8 @@
           "risk_factor": 0.6,
           "currency": "USD",
           "weight": 18,
-          "weight_prev": 17,
-          "weight_delta": 1,
+          "weight_prev": 18,
+          "weight_delta": 0,
           "macro_score": 39,
           "momentum_score": 70,
           "final_score": 50,
@@ -1227,8 +1227,8 @@
           "risk_factor": 1.1,
           "currency": "EUR",
           "weight": 13,
-          "weight_prev": 14,
-          "weight_delta": -1,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 59,
           "momentum_score": 100,
           "final_score": 73,
@@ -3773,7 +3773,7 @@
         "EM_BOND": 20,
         "HY_USD": 13
       },
-      "generated_at": "2026-07-16T15:28:49.076360+00:00"
+      "generated_at": "2026-07-16T17:44:41.581167+00:00"
     },
     {
       "date": "2026-07-15",
