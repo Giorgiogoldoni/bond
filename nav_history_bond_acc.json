@@ -3836,10 +3836,7 @@
     "prices": {
       "CSBGU7.MI": 124.93,
       "OM3J.MU": 6.349,
-      "CRPA.MI": 5.195,
-      "IEAA.MI": 5.384,
       "EMLB.MI": 113.12,
-      "EUHA.MI": 12.452,
       "EMSA.MI": 5.589
     },
     "bench_px": {
@@ -3847,13 +3844,13 @@
       "XGIU.MI": 22.586
     },
     "weights": {
-      "CSBGU7.MI": 19,
-      "OM3J.MU": 16,
-      "CRPA.MI": 16,
-      "IEAA.MI": 16,
-      "EMLB.MI": 12,
-      "EUHA.MI": 11,
-      "EMSA.MI": 10
+      "IS0F.DE": 23,
+      "CSBGU7.MI": 18,
+      "EUNQ.DE": 17,
+      "EDMA.DE": 14,
+      "OM3J.MU": 10,
+      "EMLB.MI": 9,
+      "EMSA.MI": 9
     },
     "ret_port": 0.0,
     "ret_xeon": 0.0,
