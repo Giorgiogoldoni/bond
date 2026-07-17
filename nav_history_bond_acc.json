@@ -3835,6 +3835,7 @@
     "xgiu": 99.6032,
     "prices": {
       "CSBGU7.MI": 124.93,
+      "XGIU.MI": 22.586,
       "OM3J.MU": 6.349,
       "EMLB.MI": 113.12,
       "EMSA.MI": 5.589
@@ -3844,11 +3845,11 @@
       "XGIU.MI": 22.586
     },
     "weights": {
-      "IS0F.DE": 23,
-      "CSBGU7.MI": 18,
-      "EUNQ.DE": 17,
-      "EDMA.DE": 14,
-      "OM3J.MU": 10,
+      "IS0F.DE": 24,
+      "CSBGU7.MI": 19,
+      "XGIU.MI": 15,
+      "EDMA.DE": 15,
+      "OM3J.MU": 9,
       "EMLB.MI": 9,
       "EMSA.MI": 9
     },
