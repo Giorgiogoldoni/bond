@@ -13,8 +13,8 @@
         "TIGHTENING": 14,
         "GEO_SHOCK": 15
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 9% su CRPA.MI · CRPA in · EMSA out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -1252,8 +1252,8 @@
           "risk_factor": 0.7,
           "currency": "USD",
           "weight": 14,
-          "weight_prev": 15,
-          "weight_delta": -1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 78,
           "momentum_score": 50,
           "final_score": 68,
@@ -1270,8 +1270,8 @@
           "risk_factor": 1.1,
           "currency": "EUR",
           "weight": 10,
-          "weight_prev": 9,
-          "weight_delta": 1,
+          "weight_prev": 10,
+          "weight_delta": 0,
           "macro_score": 48,
           "momentum_score": 100,
           "final_score": 66,
@@ -2444,8 +2444,8 @@
           "risk_factor": 0.8,
           "currency": "USD",
           "weight": 9,
-          "weight_prev": 0,
-          "weight_delta": 9,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 53,
           "momentum_score": 63,
           "final_score": 56,
@@ -3181,7 +3181,7 @@
         "EM_BOND": 9,
         "HY_USD": 10
       },
-      "generated_at": "2026-07-20T10:21:25.266660+00:00"
+      "generated_at": "2026-07-20T12:13:16.096769+00:00"
     },
     {
       "date": "2026-07-17",
