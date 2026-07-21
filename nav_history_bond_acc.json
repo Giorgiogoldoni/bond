@@ -3919,9 +3919,9 @@
       "OM3J.MU": 13,
       "EUHA.MI": 9
     },
-    "ret_port": -0.0054,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.0636,
-    "ret_xgiu": -0.1194
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]

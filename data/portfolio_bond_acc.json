@@ -15,7 +15,7 @@
         "WAR": 5
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 3.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "CSBGU7",
@@ -630,8 +630,8 @@
           "risk_factor": 0.8,
           "currency": "USD",
           "weight": 16,
-          "weight_prev": 15,
-          "weight_delta": 1,
+          "weight_prev": 16,
+          "weight_delta": 0,
           "macro_score": 45,
           "momentum_score": 65,
           "final_score": 52,
@@ -1223,8 +1223,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 15,
-          "weight_prev": 12,
-          "weight_delta": 3,
+          "weight_prev": 15,
+          "weight_delta": 0,
           "macro_score": 60,
           "momentum_score": 94,
           "final_score": 72,
@@ -2469,8 +2469,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 13,
-          "weight_prev": 14,
-          "weight_delta": -1,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 60,
           "momentum_score": 87,
           "final_score": 69,
@@ -3050,8 +3050,8 @@
           "risk_factor": 1.1,
           "currency": "EUR",
           "weight": 13,
-          "weight_prev": 14,
-          "weight_delta": -1,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 45,
           "momentum_score": 100,
           "final_score": 64,
@@ -3649,8 +3649,8 @@
           "risk_factor": 1.0,
           "currency": "EUR",
           "weight": 9,
-          "weight_prev": 11,
-          "weight_delta": -2,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 46,
           "momentum_score": 32,
           "final_score": 41,
@@ -4037,7 +4037,7 @@
         "HY_EUR": 9,
         "HY_USD": 13
       },
-      "generated_at": "2026-07-21T09:40:50.279349+00:00"
+      "generated_at": "2026-07-21T11:44:37.940810+00:00"
     },
     {
       "date": "2026-07-20",
