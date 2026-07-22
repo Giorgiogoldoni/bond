@@ -3996,9 +3996,9 @@
     "vagf": 99.0519,
     "xgiu": 99.5062,
     "prices": {
-      "STHY.MI": 81.68,
       "EMLI.MI": 57.71,
-      "IEMB.MI": 80.55,
+      "STHY.MI": 81.68,
+      "SEML.MI": 39.9,
       "PJS1.MI": 97.452,
       "IHYG.MI": 90.97,
       "XGIU.MI": 22.564,
@@ -4010,10 +4010,10 @@
       "XGIU.MI": 22.564
     },
     "weights": {
-      "STHY.MI": 19,
       "EMLI.MI": 18,
-      "IEMB.MI": 17,
-      "PJS1.MI": 15,
+      "STHY.MI": 18,
+      "SEML.MI": 17,
+      "PJS1.MI": 16,
       "IHYG.MI": 12,
       "XGIU.MI": 10,
       "XAT1.MI": 9
