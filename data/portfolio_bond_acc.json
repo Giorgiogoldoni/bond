@@ -16,7 +16,7 @@
         "WAR": 4
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 3.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "CSBGU7",
@@ -26,8 +26,8 @@
           "risk_factor": 0.6,
           "currency": "USD",
           "weight": 17,
-          "weight_prev": 19,
-          "weight_delta": -2,
+          "weight_prev": 17,
+          "weight_delta": 0,
           "macro_score": 31,
           "momentum_score": 58,
           "final_score": 40,
@@ -631,8 +631,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 16,
-          "weight_prev": 13,
-          "weight_delta": 3,
+          "weight_prev": 16,
+          "weight_delta": 0,
           "macro_score": 65,
           "momentum_score": 90,
           "final_score": 74,
@@ -1805,8 +1805,8 @@
           "risk_factor": 1.1,
           "currency": "EUR",
           "weight": 15,
-          "weight_prev": 14,
-          "weight_delta": 1,
+          "weight_prev": 15,
+          "weight_delta": 0,
           "macro_score": 49,
           "momentum_score": 100,
           "final_score": 67,
@@ -2404,8 +2404,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 14,
-          "weight_prev": 15,
-          "weight_delta": -1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 65,
           "momentum_score": 76,
           "final_score": 69,
@@ -3650,8 +3650,8 @@
           "risk_factor": 1.0,
           "currency": "EUR",
           "weight": 9,
-          "weight_prev": 10,
-          "weight_delta": -1,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 51,
           "momentum_score": 21,
           "final_score": 40,
@@ -4042,7 +4042,7 @@
         "HY_EUR": 9,
         "HY_USD": 15
       },
-      "generated_at": "2026-07-22T09:39:21.196027+00:00"
+      "generated_at": "2026-07-22T11:45:01.310979+00:00"
     },
     {
       "date": "2026-07-21",
