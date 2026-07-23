@@ -3964,9 +3964,9 @@
     "prices": {
       "CSBGU7.MI": 124.77,
       "EMLB.MI": 113.08,
-      "OM3J.MU": 6.36,
       "CRPA.MI": 5.19,
       "EMSA.MI": 5.571,
+      "OM3J.MU": 6.36,
       "EUHA.MI": 12.426
     },
     "bench_px": {
@@ -3977,9 +3977,9 @@
       "IS0F.DE": 23,
       "CSBGU7.MI": 16,
       "EMLB.MI": 15,
-      "OM3J.MU": 13,
       "CRPA.MI": 13,
-      "EMSA.MI": 11,
+      "EMSA.MI": 12,
+      "OM3J.MU": 12,
       "EUHA.MI": 9
     },
     "ret_port": 0.0,
