@@ -15,7 +15,7 @@
         "WAR": 5
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -1792,8 +1792,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 12,
-          "weight_prev": 11,
-          "weight_delta": 1,
+          "weight_prev": 12,
+          "weight_delta": 0,
           "macro_score": 60,
           "momentum_score": 62,
           "final_score": 61,
@@ -2409,8 +2409,8 @@
           "risk_factor": 1.1,
           "currency": "EUR",
           "weight": 12,
-          "weight_prev": 13,
-          "weight_delta": -1,
+          "weight_prev": 12,
+          "weight_delta": 0,
           "macro_score": 45,
           "momentum_score": 86,
           "final_score": 59,
@@ -3398,7 +3398,7 @@
         "HY_EUR": 9,
         "HY_USD": 12
       },
-      "generated_at": "2026-07-23T15:50:33.359695+00:00"
+      "generated_at": "2026-07-23T17:54:13.562505+00:00"
     },
     {
       "date": "2026-07-22",
