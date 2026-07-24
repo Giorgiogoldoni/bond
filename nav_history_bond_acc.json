@@ -4015,9 +4015,9 @@
       "OM3J.MU": 11,
       "IEAA.MI": 11
     },
-    "ret_port": -0.0983,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.3407,
-    "ret_xgiu": -0.0887
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
