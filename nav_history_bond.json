@@ -4148,9 +4148,9 @@
     "weights": {
       "SEML.MI": 18,
       "EMLI.MI": 18,
-      "STHY.MI": 18,
+      "STHY.MI": 17,
       "PJS1.MI": 17,
-      "EUHI.MI": 11,
+      "EUHI.MI": 12,
       "XAT1.MI": 9,
       "XGIU.MI": 9
     },
