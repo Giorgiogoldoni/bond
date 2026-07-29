@@ -4112,9 +4112,9 @@
       "CRPA.MI": 12,
       "IEAA.MI": 12
     },
-    "ret_port": 0.1027,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.0849,
-    "ret_xgiu": -0.0754
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
