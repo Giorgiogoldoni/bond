@@ -4167,10 +4167,10 @@
     "xgiu": 99.3694,
     "prices": {
       "EMLI.MI": 57.81,
-      "PJS1.MI": 97.489,
       "SEML.MI": 39.925,
+      "PJS1.MI": 97.489,
       "STHY.MI": 81.49,
-      "EUHI.MI": 9.276,
+      "IHYG.MI": 90.81,
       "XGIU.MI": 22.533,
       "XAT1.MI": 16.14
     },
@@ -4180,11 +4180,11 @@
       "XGIU.MI": 22.533
     },
     "weights": {
-      "EMLI.MI": 18,
-      "PJS1.MI": 18,
-      "SEML.MI": 17,
-      "STHY.MI": 17,
-      "EUHI.MI": 11,
+      "EMLI.MI": 19,
+      "SEML.MI": 18,
+      "PJS1.MI": 17,
+      "STHY.MI": 16,
+      "IHYG.MI": 11,
       "XGIU.MI": 10,
       "XAT1.MI": 9
     },
