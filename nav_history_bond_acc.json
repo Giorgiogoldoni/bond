@@ -4145,9 +4145,9 @@
       "EMSA.MI": 10,
       "CRPA.MI": 10
     },
-    "ret_port": -0.0942,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1273,
-    "ret_xgiu": -0.1021
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
