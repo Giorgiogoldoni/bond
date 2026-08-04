@@ -4317,10 +4317,10 @@
     },
     "weights": {
       "PJS1.MI": 19,
-      "EMLI.MI": 18,
+      "EMLI.MI": 17,
       "SEML.MI": 17,
       "STHY.MI": 17,
-      "EUHI.MI": 11,
+      "EUHI.MI": 12,
       "XAT1.MI": 9,
       "XGIU.MI": 9
     },
