@@ -14,7 +14,7 @@
         "EUFORIA": 8
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "PJSR",
@@ -1186,8 +1186,8 @@
           "risk_factor": 0.7,
           "currency": "EUR",
           "weight": 14,
-          "weight_prev": 13,
-          "weight_delta": 1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 50,
           "momentum_score": 38,
           "final_score": 46,
@@ -2468,8 +2468,8 @@
           "risk_factor": 0.8,
           "currency": "USD",
           "weight": 11,
-          "weight_prev": 12,
-          "weight_delta": -1,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 50,
           "momentum_score": 40,
           "final_score": 46,
@@ -3509,7 +3509,7 @@
         "HY_EUR": 10,
         "HY_USD": 12
       },
-      "generated_at": "2026-08-04T16:09:12.882884+00:00"
+      "generated_at": "2026-08-04T18:10:39.274387+00:00"
     },
     {
       "date": "2026-08-03",
