@@ -4286,11 +4286,11 @@
     "vagf": 99.4942,
     "xgiu": 98.9241,
     "prices": {
+      "CEMM.DE": 5.06,
       "EMLB.MI": 113.2,
       "IEAA.MI": 5.403,
-      "CEMM.DE": 5.06,
-      "OM3J.MU": 6.322,
       "CRPA.MI": 5.163,
+      "OM3J.MU": 6.322,
       "EUHA.MI": 12.458
     },
     "bench_px": {
@@ -4298,12 +4298,12 @@
       "XGIU.MI": 22.432
     },
     "weights": {
+      "CEMM.DE": 18,
       "EMLB.MI": 17,
       "IEAA.MI": 17,
-      "CEMM.DE": 17,
-      "AYE8.DE": 15,
+      "AYE8.DE": 13,
+      "CRPA.MI": 13,
       "OM3J.MU": 12,
-      "CRPA.MI": 12,
       "EUHA.MI": 10
     },
     "ret_port": 0.0,
