@@ -4418,11 +4418,11 @@
       "XGIU.MI": 22.419
     },
     "weights": {
-      "EMLI.MI": 20,
-      "SEML.MI": 17,
-      "PJS1.MI": 17,
+      "EMLI.MI": 21,
+      "SEML.MI": 18,
+      "PJS1.MI": 16,
       "STHY.MI": 14,
-      "EUHI.MI": 14,
+      "EUHI.MI": 13,
       "XAT1.MI": 9,
       "XGIU.MI": 9
     },
