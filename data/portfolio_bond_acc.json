@@ -15,7 +15,7 @@
         "EUFORIA": 5
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "IS0F",
@@ -25,8 +25,8 @@
           "risk_factor": 0.4,
           "currency": "USD",
           "weight": 21,
-          "weight_prev": 22,
-          "weight_delta": -1,
+          "weight_prev": 21,
+          "weight_delta": 0,
           "macro_score": 26,
           "momentum_score": 50,
           "final_score": 34,
@@ -43,8 +43,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 17,
-          "weight_prev": 16,
-          "weight_delta": 1,
+          "weight_prev": 17,
+          "weight_delta": 0,
           "macro_score": 72,
           "momentum_score": 100,
           "final_score": 82,
@@ -1277,8 +1277,8 @@
           "risk_factor": 1.1,
           "currency": "CHF",
           "weight": 14,
-          "weight_prev": 13,
-          "weight_delta": 1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 72,
           "momentum_score": 50,
           "final_score": 64,
@@ -2237,8 +2237,8 @@
           "risk_factor": 0.8,
           "currency": "USD",
           "weight": 11,
-          "weight_prev": 12,
-          "weight_delta": -1,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 48,
           "momentum_score": 25,
           "final_score": 40,
@@ -2969,7 +2969,7 @@
         "HY_EUR": 11,
         "HY_USD": 11
       },
-      "generated_at": "2026-08-07T14:48:05.732539+00:00"
+      "generated_at": "2026-08-07T17:14:22.862232+00:00"
     },
     {
       "date": "2026-08-06",
