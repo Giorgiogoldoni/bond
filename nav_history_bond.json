@@ -4440,8 +4440,8 @@
     "prices": {
       "EMLI.MI": 57.91,
       "SEML.MI": 39.99,
-      "IHYG.MI": 91.31,
       "PJS1.MI": 97.63,
+      "IHYG.MI": 91.31,
       "STHY.MI": 80.97,
       "XAT1.MI": 16.294,
       "XGIU.MI": 22.419
@@ -4453,10 +4453,10 @@
     },
     "weights": {
       "EMLI.MI": 21,
-      "SEML.MI": 19,
-      "IHYG.MI": 15,
-      "PJS1.MI": 15,
-      "STHY.MI": 12,
+      "SEML.MI": 18,
+      "PJS1.MI": 16,
+      "IHYG.MI": 14,
+      "STHY.MI": 13,
       "XAT1.MI": 9,
       "XGIU.MI": 9
     },
