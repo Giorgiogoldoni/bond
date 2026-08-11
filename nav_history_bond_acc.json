@@ -4400,9 +4400,9 @@
       "CRPA.MI": 12,
       "OM3J.MU": 11
     },
-    "ret_port": -0.1536,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1909,
-    "ret_xgiu": -0.0446
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
