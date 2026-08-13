@@ -4447,8 +4447,8 @@
       "EMLB.MI": 113.44,
       "IEAA.MI": 5.392,
       "CEMM.DE": 5.0382,
-      "CRPA.MI": 5.15,
       "EUHA.MI": 12.476,
+      "CRPA.MI": 5.15,
       "OM3J.MU": 6.315
     },
     "bench_px": {
@@ -4458,10 +4458,10 @@
     "weights": {
       "EMLB.MI": 17,
       "IEAA.MI": 17,
-      "CEMM.DE": 16,
+      "CEMM.DE": 17,
       "AYE8.DE": 14,
-      "CRPA.MI": 13,
       "EUHA.MI": 12,
+      "CRPA.MI": 12,
       "OM3J.MU": 11
     },
     "ret_port": 0.0,
