@@ -4487,16 +4487,16 @@
     },
     "weights": {
       "IS0F.DE": 23,
-      "EMLB.MI": 16,
+      "EMLB.MI": 17,
       "AYE8.DE": 14,
-      "IEAA.MI": 14,
+      "IEAA.MI": 13,
       "EDMA.DE": 12,
       "OM3J.MU": 11,
       "EUHA.MI": 10
     },
-    "ret_port": 0.0229,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1274,
-    "ret_xgiu": 0.116
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
