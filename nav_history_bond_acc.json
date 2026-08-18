@@ -4550,13 +4550,13 @@
     "weights": {
       "IS0F.DE": 22,
       "EMLB.MI": 16,
-      "IEAA.MI": 16,
+      "IEAA.MI": 15,
       "AYE8.DE": 13,
       "EUHA.MI": 12,
       "CRPA.MI": 12,
-      "OM3J.MU": 9
+      "OM3J.MU": 10
     },
-    "ret_port": -0.0412,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
     "ret_vagf": 0.0,
     "ret_xgiu": 0.0
