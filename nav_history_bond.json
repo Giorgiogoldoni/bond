@@ -4642,9 +4642,9 @@
     "vagf": 99.115,
     "xgiu": 98.6287,
     "prices": {
-      "PJS1.MI": 97.667,
       "EMLI.MI": 57.67,
       "SEML.MI": 39.9,
+      "PJS1.MI": 97.667,
       "IHYG.MI": 91.32,
       "EUHI.MI": 9.329,
       "XAT1.MI": 16.284,
@@ -4656,11 +4656,11 @@
       "XGIU.MI": 22.365
     },
     "weights": {
-      "PJS1.MI": 20,
-      "EMLI.MI": 17,
+      "EMLI.MI": 18,
       "SEML.MI": 17,
-      "IHYG.MI": 15,
-      "EUHI.MI": 13,
+      "PJS1.MI": 17,
+      "IHYG.MI": 16,
+      "EUHI.MI": 14,
       "XAT1.MI": 9,
       "XGIU.MI": 9
     },
