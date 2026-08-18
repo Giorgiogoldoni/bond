@@ -4539,8 +4539,8 @@
     "prices": {
       "EMLB.MI": 113.28,
       "IEAA.MI": 5.39,
-      "EUHA.MI": 12.488,
       "CRPA.MI": 5.167,
+      "EUHA.MI": 12.488,
       "OM3J.MU": 6.305
     },
     "bench_px": {
@@ -4548,12 +4548,12 @@
       "XGIU.MI": 22.365
     },
     "weights": {
-      "IS0F.DE": 22,
+      "IS0F.DE": 23,
       "EMLB.MI": 16,
       "IEAA.MI": 15,
       "AYE8.DE": 13,
-      "EUHA.MI": 12,
       "CRPA.MI": 12,
+      "EUHA.MI": 11,
       "OM3J.MU": 10
     },
     "ret_port": 0.0,
