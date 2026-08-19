@@ -4571,8 +4571,8 @@
       "PJSR.MI": 107.718,
       "EMLB.MI": 113.28,
       "IEAA.MI": 5.386,
-      "EUHA.MI": 12.496,
       "GOVB.MI": 24.64,
+      "EUHA.MI": 12.496,
       "OM3J.MU": 6.311
     },
     "bench_px": {
@@ -4580,17 +4580,17 @@
       "XGIU.MI": 22.365
     },
     "weights": {
-      "PJSR.MI": 24,
+      "PJSR.MI": 25,
       "EMLB.MI": 15,
       "IEAA.MI": 14,
-      "AYE8.DE": 13,
+      "GOVB.MI": 13,
+      "AYE8.DE": 12,
       "EUHA.MI": 12,
-      "GOVB.MI": 12,
-      "OM3J.MU": 10
+      "OM3J.MU": 9
     },
-    "ret_port": 0.0068,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.085,
+    "ret_vagf": 0.0,
     "ret_xgiu": 0.0
   }
 ]
