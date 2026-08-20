@@ -16,7 +16,7 @@
         "WAR": 5
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "PJS1",
@@ -598,8 +598,8 @@
           "currency": "USD",
           "cedola": "trimestrale",
           "weight": 17,
-          "weight_prev": 16,
-          "weight_delta": 1,
+          "weight_prev": 17,
+          "weight_delta": 0,
           "macro_score": 63,
           "momentum_score": 100,
           "final_score": 76,
@@ -1235,8 +1235,8 @@
           "currency": "USD",
           "cedola": "mensile",
           "weight": 17,
-          "weight_prev": 16,
-          "weight_delta": 1,
+          "weight_prev": 17,
+          "weight_delta": 0,
           "macro_score": 63,
           "momentum_score": 97,
           "final_score": 75,
@@ -1872,8 +1872,8 @@
           "currency": "EUR",
           "cedola": "mensile",
           "weight": 14,
-          "weight_prev": 15,
-          "weight_delta": -1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 46,
           "momentum_score": 65,
           "final_score": 53,
@@ -2473,8 +2473,8 @@
           "currency": "EUR",
           "cedola": "trimestrale",
           "weight": 13,
-          "weight_prev": 14,
-          "weight_delta": -1,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 46,
           "momentum_score": 66,
           "final_score": 53,
@@ -4297,7 +4297,7 @@
         "AT1": 9
       },
       "weighted_yield": 3.99,
-      "generated_at": "2026-08-20T07:56:57.325488+00:00"
+      "generated_at": "2026-08-20T10:23:58.439853+00:00"
     },
     {
       "date": "2026-08-19",
