@@ -4601,11 +4601,11 @@
     "xgiu": 98.492,
     "prices": {
       "PJSR.MI": 107.723,
-      "EMLB.MI": 113.28,
+      "AGGH.MI": 4.885,
       "GOVB.MI": 24.64,
+      "EMLB.MI": 113.28,
       "IEAA.MI": 5.369,
-      "EUHA.MI": 12.466,
-      "OM3J.MU": 6.293
+      "EUHA.MI": 12.466
     },
     "bench_px": {
       "VAGF.MI": 23.469999313354492,
@@ -4613,12 +4613,12 @@
     },
     "weights": {
       "PJSR.MI": 26,
-      "EMLB.MI": 15,
-      "GOVB.MI": 15,
-      "IEAA.MI": 12,
+      "AGGH.MI": 15,
+      "GOVB.MI": 14,
+      "EMLB.MI": 13,
       "AYE8.DE": 11,
-      "EUHA.MI": 11,
-      "OM3J.MU": 10
+      "IEAA.MI": 11,
+      "EUHA.MI": 10
     },
     "ret_port": 0.0,
     "ret_xeon": 0.0,
