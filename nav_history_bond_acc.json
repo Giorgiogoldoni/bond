@@ -4604,8 +4604,7 @@
       "GOVB.MI": 24.64,
       "EMLB.MI": 113.28,
       "IEAA.MI": 5.369,
-      "EUHA.MI": 12.466,
-      "OM3J.MU": 6.293
+      "EUHA.MI": 12.466
     },
     "bench_px": {
       "VAGF.MI": 23.469999313354492,
@@ -4613,16 +4612,16 @@
     },
     "weights": {
       "PJSR.MI": 26,
-      "GOVB.MI": 16,
-      "EMLB.MI": 14,
-      "IEAA.MI": 12,
-      "AYE8.DE": 11,
-      "EUHA.MI": 11,
-      "OM3J.MU": 10
+      "IS0F.DE": 18,
+      "GOVB.MI": 13,
+      "EMLB.MI": 12,
+      "IEAA.MI": 11,
+      "AYE8.DE": 10,
+      "EUHA.MI": 10
     },
-    "ret_port": -0.0916,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1489,
-    "ret_xgiu": -0.1386
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
