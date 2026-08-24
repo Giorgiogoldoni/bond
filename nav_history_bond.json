@@ -4800,9 +4800,9 @@
       "XAT1.MI": 10,
       "XGIU.MI": 9
     },
-    "ret_port": -0.2586,
-    "ret_xeon": 0.0345,
-    "ret_vagf": -0.1701,
-    "ret_xgiu": -0.1748
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
