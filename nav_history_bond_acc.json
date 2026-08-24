@@ -4684,9 +4684,9 @@
       "IEAA.MI": 11,
       "AYE8.DE": 10
     },
-    "ret_port": -0.0036,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1701,
-    "ret_xgiu": -0.1748
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
