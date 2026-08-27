@@ -4752,33 +4752,32 @@
   },
   {
     "date": "2026-08-27",
-    "nav": 99.6136,
+    "nav": 99.6107,
     "xeon": 100.0,
-    "vagf": 99.2625,
-    "xgiu": 98.7036,
+    "vagf": 99.3257,
+    "xgiu": 98.5625,
     "prices": {
-      "PJSR.MI": 107.734,
-      "CSBGE3.MI": 116.46,
-      "GOVB.MI": 24.64,
-      "EMLB.MI": 113.17,
-      "AGGH.MI": 4.905
+      "PJSR.MI": 107.754,
+      "CSBGE3.MI": 116.43,
+      "AGGH.MI": 4.903,
+      "EMLB.MI": 113.17
     },
     "bench_px": {
-      "VAGF.MI": 23.559999465942383,
-      "XGIU.MI": 22.382
+      "VAGF.MI": 23.575000762939453,
+      "XGIU.MI": 22.35
     },
     "weights": {
       "PJSR.MI": 22,
       "XEON.MI": 21,
       "IS0F.DE": 16,
       "CSBGE3.MI": 13,
-      "GOVB.MI": 10,
-      "EMLB.MI": 9,
-      "AGGH.MI": 9
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
+      "EMLB.MI": 9
     },
-    "ret_port": 0.0,
+    "ret_port": -0.0029,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.0,
-    "ret_xgiu": 0.0
+    "ret_vagf": 0.0637,
+    "ret_xgiu": -0.143
   }
 ]
