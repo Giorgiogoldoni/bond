@@ -16,7 +16,7 @@
         "WAR": 7
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 2.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "PJSR",
@@ -601,8 +601,8 @@
           "risk_factor": 0.0,
           "currency": "EUR",
           "weight": 21,
-          "weight_prev": 23,
-          "weight_delta": -2,
+          "weight_prev": 21,
+          "weight_delta": 0,
           "macro_score": 50,
           "momentum_score": 50,
           "final_score": 50,
@@ -619,8 +619,8 @@
           "risk_factor": 0.4,
           "currency": "USD",
           "weight": 16,
-          "weight_prev": 14,
-          "weight_delta": 2,
+          "weight_prev": 16,
+          "weight_delta": 0,
           "macro_score": 70,
           "momentum_score": 50,
           "final_score": 63,
@@ -3010,7 +3010,7 @@
         "EM_BOND": 9,
         "CASH": 21
       },
-      "generated_at": "2026-08-27T18:18:20.663943+00:00"
+      "generated_at": "2026-08-27T20:06:48.203668+00:00"
     },
     {
       "date": "2026-08-26",
