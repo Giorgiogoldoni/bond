@@ -3,20 +3,21 @@
     {
       "date": "2026-08-28",
       "regime": "GEO_SHOCK",
-      "regime_prob": 26,
+      "regime_prob": 23,
       "regime_probs": {
         "GOLDILOCKS": 4,
         "REFLAZIONE": 20,
-        "STAGFLAZIONE": 9,
-        "RISK_OFF": 7,
-        "DISINFLAZIONE": 16,
+        "STAGFLAZIONE": 8,
+        "RISK_OFF": 6,
+        "DISINFLAZIONE": 20,
         "ZIRP": 4,
-        "GEO_SHOCK": 26,
-        "EUFORIA": 7,
-        "WAR": 7
+        "TIGHTENING": 3,
+        "GEO_SHOCK": 23,
+        "EUFORIA": 6,
+        "WAR": 6
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 2.0%)",
       "portfolio": [
         {
           "ticker": "PJSR",
@@ -25,9 +26,9 @@
           "cat": "GOVT_IG",
           "risk_factor": 0.3,
           "currency": "EUR",
-          "weight": 22,
+          "weight": 23,
           "weight_prev": 22,
-          "weight_delta": 0,
+          "weight_delta": 1,
           "macro_score": 70,
           "momentum_score": 58,
           "final_score": 66,
@@ -600,9 +601,9 @@
           "cat": "CASH",
           "risk_factor": 0.0,
           "currency": "EUR",
-          "weight": 21,
+          "weight": 19,
           "weight_prev": 21,
-          "weight_delta": 0,
+          "weight_delta": -2,
           "macro_score": 50,
           "momentum_score": 50,
           "final_score": 50,
@@ -1313,10 +1314,10 @@
           "cat": "AGGREGATE",
           "risk_factor": 0.5,
           "currency": "EUR",
-          "weight": 9,
+          "weight": 10,
           "weight_prev": 9,
-          "weight_delta": 0,
-          "macro_score": 51,
+          "weight_delta": 1,
+          "macro_score": 52,
           "momentum_score": 44,
           "final_score": 49,
           "price": 4.903,
@@ -2614,9 +2615,9 @@
           "name": "iShares Core EUR Corporate Acc",
           "cat": "CORP_IG",
           "currency": "EUR",
-          "macro_score": 24,
+          "macro_score": 25,
           "momentum_score": 47,
-          "final_score": 32,
+          "final_score": 33,
           "ret_4w": 0.26,
           "ret_12w": -0.02,
           "exclusion_reason": "Score insufficiente"
@@ -2648,29 +2649,29 @@
           "exclusion_reason": "Score insufficiente (max 7 posizioni)"
         },
         {
-          "ticker": "CRPA",
-          "ticker_full": "CRPA.MI",
-          "name": "iShares Global Corporate Bond",
-          "cat": "CORP_IG",
-          "currency": "USD",
-          "macro_score": 24,
-          "momentum_score": 4,
-          "final_score": 17,
-          "ret_4w": -1.25,
-          "ret_12w": -0.52,
-          "exclusion_reason": "Score insufficiente (max 7 posizioni)"
-        },
-        {
           "ticker": "OM3J.MU",
           "ticker_full": "OM3J.MU",
           "name": "PIMCO US HY Acc (gettex)",
           "cat": "HY_USD",
           "currency": "EUR",
-          "macro_score": 12,
-          "momentum_score": 24,
-          "final_score": 16,
-          "ret_4w": -1.49,
-          "ret_12w": 0.67,
+          "macro_score": 13,
+          "momentum_score": 49,
+          "final_score": 26,
+          "ret_4w": -0.65,
+          "ret_12w": 1.01,
+          "exclusion_reason": "Score insufficiente (max 7 posizioni)"
+        },
+        {
+          "ticker": "CRPA",
+          "ticker_full": "CRPA.MI",
+          "name": "iShares Global Corporate Bond",
+          "cat": "CORP_IG",
+          "currency": "USD",
+          "macro_score": 25,
+          "momentum_score": 4,
+          "final_score": 18,
+          "ret_4w": -1.25,
+          "ret_12w": -0.52,
           "exclusion_reason": "Score insufficiente (max 7 posizioni)"
         },
         {
@@ -2688,12 +2689,12 @@
         }
       ],
       "macro_breakdown": {
-        "GOVT_IG": 61,
-        "AGGREGATE": 9,
+        "GOVT_IG": 62,
+        "AGGREGATE": 10,
         "EM_BOND": 9,
-        "CASH": 21
+        "CASH": 19
       },
-      "generated_at": "2026-08-28T01:02:00.891578+00:00"
+      "generated_at": "2026-08-28T19:27:13.356040+00:00"
     },
     {
       "date": "2026-08-27",
