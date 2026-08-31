@@ -5004,9 +5004,9 @@
       "XAT1.MI": 9,
       "STHE.MI": 9
     },
-    "ret_port": -0.0488,
-    "ret_xeon": 0.0217,
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
     "ret_vagf": 0.0,
-    "ret_xgiu": 0.0805
+    "ret_xgiu": 0.0
   }
 ]
