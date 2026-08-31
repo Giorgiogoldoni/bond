@@ -4865,9 +4865,9 @@
       "AGGH.MI": 10,
       "EMLB.MI": 9
     },
-    "ret_port": -0.0347,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1909,
-    "ret_xgiu": 0.0447
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]

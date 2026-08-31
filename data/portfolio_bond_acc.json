@@ -14,8 +14,8 @@
         "GEO_SHOCK": 42,
         "WAR": 8
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 10% su GOVB.MI · GOVB in · EUNQ.DE out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -636,8 +636,8 @@
           "risk_factor": 0.6,
           "currency": "EUR",
           "weight": 10,
-          "weight_prev": 0,
-          "weight_delta": 10,
+          "weight_prev": 10,
+          "weight_delta": 0,
           "macro_score": 79,
           "momentum_score": 54,
           "final_score": 70,
@@ -2404,7 +2404,7 @@
         "EM_BOND": 9,
         "CASH": 28
       },
-      "generated_at": "2026-08-31T17:21:28.759684+00:00"
+      "generated_at": "2026-08-31T19:47:03.164948+00:00"
     },
     {
       "date": "2026-08-29",
