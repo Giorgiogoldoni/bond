@@ -4918,8 +4918,8 @@
       "XGIU.MI": 22.273
     },
     "weights": {
-      "XEON.MI": 29,
-      "PJSR.MI": 19,
+      "XEON.MI": 28,
+      "PJSR.MI": 20,
       "IS0F.DE": 14,
       "GOVB.MI": 10,
       "EDMA.DE": 10,
