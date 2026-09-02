@@ -5072,9 +5072,9 @@
       "EUHI.MI": 9,
       "STHE.MI": 9
     },
-    "ret_port": -0.0916,
-    "ret_xeon": 0.0011,
-    "ret_vagf": -0.51,
-    "ret_xgiu": -0.4692
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
