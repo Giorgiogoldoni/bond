@@ -14,8 +14,8 @@
         "GEO_SHOCK": 42,
         "WAR": 8
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 11% su CSBGE3.MI · CSBGE3 in · GOVB out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -636,8 +636,8 @@
           "risk_factor": 0.5,
           "currency": "EUR",
           "weight": 11,
-          "weight_prev": 0,
-          "weight_delta": 11,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 79,
           "momentum_score": 52,
           "final_score": 70,
@@ -1313,8 +1313,8 @@
           "risk_factor": 0.7,
           "currency": "USD",
           "weight": 9,
-          "weight_prev": 10,
-          "weight_delta": -1,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 79,
           "momentum_score": 50,
           "final_score": 69,
@@ -2734,7 +2734,7 @@
         "EM_BOND": 9,
         "CASH": 28
       },
-      "generated_at": "2026-09-03T12:07:10.474041+00:00"
+      "generated_at": "2026-09-03T14:04:10.785621+00:00"
     },
     {
       "date": "2026-09-02",
