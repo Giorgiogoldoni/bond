@@ -5212,5 +5212,39 @@
     "ret_xeon": 0.0,
     "ret_vagf": 0.0,
     "ret_xgiu": 0.0
+  },
+  {
+    "date": "2026-09-09",
+    "nav": 99.3865,
+    "xeon": 100.4749,
+    "vagf": 98.6304,
+    "xgiu": 98.4258,
+    "prices": {
+      "XEON.MI": 150.126,
+      "PJS1.MI": 97.487,
+      "XGIU.MI": 22.319,
+      "EMLI.MI": 57.4,
+      "SEML.MI": 39.915,
+      "STHE.MI": 71.08,
+      "EUHI.MI": 9.261
+    },
+    "bench_px": {
+      "VAGF.MI": 23.40999984741211,
+      "XEON.MI": 150.126,
+      "XGIU.MI": 22.319
+    },
+    "weights": {
+      "XEON.MI": 28,
+      "PJS1.MI": 21,
+      "XGIU.MI": 12,
+      "EMLI.MI": 10,
+      "SEML.MI": 10,
+      "STHE.MI": 10,
+      "EUHI.MI": 9
+    },
+    "ret_port": -0.0722,
+    "ret_xeon": 0.0121,
+    "ret_vagf": -0.2131,
+    "ret_xgiu": -0.0716
   }
 ]
