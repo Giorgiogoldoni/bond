@@ -5117,7 +5117,6 @@
     "xgiu": 98.2317,
     "prices": {
       "PJSR.MI": 107.805,
-      "CSBGE3.MI": 116.15,
       "EMLB.MI": 113.7,
       "AGGH.MI": 4.8635
     },
@@ -5126,17 +5125,17 @@
       "XGIU.MI": 22.275
     },
     "weights": {
-      "XEON.MI": 30,
+      "XEON.MI": 29,
       "PJSR.MI": 19,
-      "IS0F.DE": 13,
-      "CSBGE3.MI": 10,
+      "IS0F.DE": 14,
       "EDMA.DE": 10,
+      "EUNQ.DE": 10,
       "EMLB.MI": 9,
       "AGGH.MI": 9
     },
-    "ret_port": -0.0241,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.427,
-    "ret_xgiu": -0.438
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
