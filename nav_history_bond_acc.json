@@ -5216,12 +5216,12 @@
       "XGIU.MI": 22.233
     },
     "weights": {
-      "XEON.MI": 28,
+      "XEON.MI": 27,
       "PJSR.MI": 20,
       "IS0F.DE": 13,
       "CSBGE3.MI": 11,
       "EDMA.DE": 10,
-      "EMLB.MI": 9,
+      "EMLB.MI": 10,
       "AGGH.MI": 9
     },
     "ret_port": 0.0,
