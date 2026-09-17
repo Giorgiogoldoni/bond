@@ -5238,26 +5238,25 @@
     "prices": {
       "PJSR.MI": 107.727,
       "CSBGE3.MI": 115.87,
-      "GOVB.MI": 24.475,
-      "AGGH.MI": 4.831,
-      "EMLB.MI": 113.02
+      "EMLB.MI": 113.02,
+      "AGGH.MI": 4.831
     },
     "bench_px": {
       "VAGF.MI": 23.155000686645508,
       "XGIU.MI": 22.212
     },
     "weights": {
-      "XEON.MI": 27,
-      "PJSR.MI": 21,
-      "IS0F.DE": 13,
+      "XEON.MI": 24,
+      "PJSR.MI": 22,
+      "IS0F.DE": 14,
       "CSBGE3.MI": 12,
-      "GOVB.MI": 9,
-      "AGGH.MI": 9,
-      "EMLB.MI": 9
+      "EDMA.DE": 10,
+      "EMLB.MI": 9,
+      "AGGH.MI": 9
     },
-    "ret_port": -0.0195,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.1509,
-    "ret_xgiu": -0.0945
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
