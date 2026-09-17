@@ -14,8 +14,8 @@
         "GEO_SHOCK": 36,
         "WAR": 6
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 10% su EDMA.DE · EDMA.DE in · GOVB out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -25,8 +25,8 @@
           "risk_factor": 0.0,
           "currency": "EUR",
           "weight": 24,
-          "weight_prev": 27,
-          "weight_delta": -3,
+          "weight_prev": 24,
+          "weight_delta": 0,
           "macro_score": 50,
           "momentum_score": 50,
           "final_score": 50,
@@ -43,8 +43,8 @@
           "risk_factor": 0.3,
           "currency": "EUR",
           "weight": 22,
-          "weight_prev": 21,
-          "weight_delta": 1,
+          "weight_prev": 22,
+          "weight_delta": 0,
           "macro_score": 77,
           "momentum_score": 100,
           "final_score": 85,
@@ -624,8 +624,8 @@
           "risk_factor": 0.4,
           "currency": "USD",
           "weight": 14,
-          "weight_prev": 13,
-          "weight_delta": 1,
+          "weight_prev": 14,
+          "weight_delta": 0,
           "macro_score": 77,
           "momentum_score": 50,
           "final_score": 68,
@@ -1259,8 +1259,8 @@
           "risk_factor": 0.7,
           "currency": "USD",
           "weight": 10,
-          "weight_prev": 0,
-          "weight_delta": 10,
+          "weight_prev": 10,
+          "weight_delta": 0,
           "macro_score": 77,
           "momentum_score": 50,
           "final_score": 68,
@@ -2698,7 +2698,7 @@
         "EM_BOND": 9,
         "CASH": 24
       },
-      "generated_at": "2026-09-17T14:36:12.462940+00:00"
+      "generated_at": "2026-09-17T17:53:14.116319+00:00"
     },
     {
       "date": "2026-09-16",
