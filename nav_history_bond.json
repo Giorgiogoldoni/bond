@@ -5472,9 +5472,9 @@
       "XGIU.MI": 22.247
     },
     "weights": {
-      "XEON.MI": 29,
-      "PJS1.MI": 22,
-      "XGIU.MI": 11,
+      "XEON.MI": 27,
+      "PJS1.MI": 23,
+      "XGIU.MI": 12,
       "EMLI.MI": 10,
       "SEML.MI": 10,
       "STHY.MI": 9,
