@@ -5480,9 +5480,9 @@
       "STHY.MI": 9,
       "STHE.MI": 9
     },
-    "ret_port": 0.0834,
-    "ret_xeon": 0.0001,
-    "ret_vagf": 0.1943,
-    "ret_xgiu": 0.1576
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
