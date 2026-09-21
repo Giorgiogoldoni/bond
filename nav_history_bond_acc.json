@@ -5306,11 +5306,11 @@
       "XGIU.MI": 22.299
     },
     "weights": {
-      "XEON.MI": 26,
+      "XEON.MI": 27,
       "PJSR.MI": 21,
       "IS0F.DE": 14,
       "CSBGE3.MI": 11,
-      "EDMA.DE": 10,
+      "EDMA.DE": 9,
       "EMLB.MI": 9,
       "OM3J.MU": 9
     },
