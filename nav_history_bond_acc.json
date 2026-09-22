@@ -5338,9 +5338,9 @@
     "weights": {
       "XEON.MI": 27,
       "PJSR.MI": 21,
-      "IS0F.DE": 14,
+      "IS0F.DE": 13,
       "CSBGE3.MI": 11,
-      "EDMA.DE": 9,
+      "EDMA.DE": 10,
       "EMLB.MI": 9,
       "AGGH.MI": 9
     },
