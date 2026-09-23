@@ -5365,17 +5365,17 @@
       "XGIU.MI": 22.36
     },
     "weights": {
-      "XEON.MI": 27,
-      "PJSR.MI": 21,
-      "IS0F.DE": 14,
+      "XEON.MI": 25,
+      "PJSR.MI": 22,
+      "IS0F.DE": 15,
       "EDMA.DE": 10,
       "EUNQ.DE": 10,
       "EMLB.MI": 9,
       "OM3J.MU": 9
     },
-    "ret_port": 0.0265,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.2585,
-    "ret_xgiu": 0.2736
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
