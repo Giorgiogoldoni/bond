@@ -5610,9 +5610,9 @@
     "weights": {
       "XEON.MI": 26,
       "PJS1.MI": 24,
-      "XGIU.MI": 13,
+      "XGIU.MI": 12,
       "EMLI.MI": 10,
-      "STHY.MI": 9,
+      "STHY.MI": 10,
       "SEML.MI": 9,
       "STHE.MI": 9
     },
