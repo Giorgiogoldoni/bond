@@ -5425,10 +5425,10 @@
       "XGIU.MI": 22.275
     },
     "weights": {
-      "XEON.MI": 24,
-      "PJSR.MI": 22,
+      "XEON.MI": 26,
+      "PJSR.MI": 21,
       "IS0F.DE": 14,
-      "CSBGE3.MI": 12,
+      "CSBGE3.MI": 11,
       "EDMA.DE": 10,
       "EMLB.MI": 9,
       "AGGH.MI": 9
