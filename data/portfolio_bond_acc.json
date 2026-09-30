@@ -13,7 +13,7 @@
         "EUFORIA": 13
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -1197,8 +1197,8 @@
           "risk_factor": 0.6,
           "currency": "USD",
           "weight": 11,
-          "weight_prev": 10,
-          "weight_delta": 1,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 64,
           "momentum_score": 63,
           "final_score": 64,
@@ -2203,8 +2203,8 @@
           "risk_factor": 1.2,
           "currency": "USD",
           "weight": 9,
-          "weight_prev": 10,
-          "weight_delta": -1,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 19,
           "momentum_score": 100,
           "final_score": 47,
@@ -3612,7 +3612,7 @@
         "EM_BOND": 9,
         "CASH": 25
       },
-      "generated_at": "2026-09-30T13:44:29.121191+00:00"
+      "generated_at": "2026-09-30T16:13:34.046676+00:00"
     },
     {
       "date": "2026-09-29",
