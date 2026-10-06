@@ -5641,8 +5641,8 @@
       "CSBGE3.MI": 116.0,
       "CSBGU7.MI": 124.29,
       "GOVB.MI": 24.475,
-      "EMLB.MI": 114.16,
-      "OM3J.MU": 6.403
+      "AGGH.MI": 4.7955,
+      "EMLB.MI": 114.16
     },
     "bench_px": {
       "VAGF.MI": 23.084999084472656,
@@ -5654,8 +5654,8 @@
       "CSBGE3.MI": 13,
       "CSBGU7.MI": 12,
       "GOVB.MI": 10,
-      "EMLB.MI": 9,
-      "OM3J.MU": 9
+      "AGGH.MI": 9,
+      "EMLB.MI": 9
     },
     "ret_port": 0.0,
     "ret_xeon": 0.0,
