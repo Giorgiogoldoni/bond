@@ -5649,11 +5649,11 @@
       "XGIU.MI": 22.321
     },
     "weights": {
-      "XEON.MI": 24,
+      "XEON.MI": 25,
       "PJSR.MI": 22,
       "CSBGE3.MI": 13,
       "CSBGU7.MI": 12,
-      "GOVB.MI": 11,
+      "GOVB.MI": 10,
       "EMLB.MI": 9,
       "OM3J.MU": 9
     },
