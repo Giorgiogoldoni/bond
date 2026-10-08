@@ -5713,17 +5713,17 @@
       "XGIU.MI": 22.378
     },
     "weights": {
-      "XEON.MI": 26,
+      "XEON.MI": 25,
       "PJSR.MI": 22,
       "CSBGE3.MI": 13,
-      "CSBGU7.MI": 11,
+      "CSBGU7.MI": 12,
       "GOVB.MI": 10,
       "EMLB.MI": 9,
       "AGGH.MI": 9
     },
-    "ret_port": 0.0341,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.1961,
-    "ret_xgiu": 0.3588
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
