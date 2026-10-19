@@ -6194,9 +6194,9 @@
       "STHY.MI": 9,
       "IHYG.MI": 9
     },
-    "ret_port": -0.5356,
-    "ret_xeon": 0.0213,
-    "ret_vagf": 0.9557,
-    "ret_xgiu": -0.3445
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
