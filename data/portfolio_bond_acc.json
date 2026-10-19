@@ -12,8 +12,8 @@
         "TIGHTENING": 18,
         "GEO_SHOCK": 37
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 21% su PJSR.MI · CSBGE3, PJSR in · IS0F.DE, EDMA.DE out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -41,8 +41,8 @@
           "risk_factor": 0.3,
           "currency": "EUR",
           "weight": 21,
-          "weight_prev": 0,
-          "weight_delta": 21,
+          "weight_prev": 21,
+          "weight_delta": 0,
           "macro_score": 83,
           "momentum_score": 56,
           "final_score": 74,
@@ -640,8 +640,8 @@
           "risk_factor": 0.5,
           "currency": "EUR",
           "weight": 13,
-          "weight_prev": 0,
-          "weight_delta": 13,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 83,
           "momentum_score": 59,
           "final_score": 75,
@@ -1275,8 +1275,8 @@
           "risk_factor": 0.6,
           "currency": "USD",
           "weight": 12,
-          "weight_prev": 14,
-          "weight_delta": -2,
+          "weight_prev": 12,
+          "weight_delta": 0,
           "macro_score": 83,
           "momentum_score": 77,
           "final_score": 81,
@@ -1838,8 +1838,8 @@
           "risk_factor": 0.7,
           "currency": "EUR",
           "weight": 10,
-          "weight_prev": 12,
-          "weight_delta": -2,
+          "weight_prev": 10,
+          "weight_delta": 0,
           "macro_score": 83,
           "momentum_score": 63,
           "final_score": 76,
@@ -3852,7 +3852,7 @@
         "EM_BOND": 9,
         "CASH": 26
       },
-      "generated_at": "2026-10-19T14:42:22.149486+00:00"
+      "generated_at": "2026-10-19T16:45:32.959233+00:00"
     },
     {
       "date": "2026-10-16",
