@@ -5959,8 +5959,8 @@
       "XGIU.MI": 22.541
     },
     "weights": {
-      "XEON.MI": 26,
-      "PJSR.MI": 21,
+      "XEON.MI": 25,
+      "PJSR.MI": 22,
       "CSBGE3.MI": 13,
       "CSBGU7.MI": 12,
       "XGIU.MI": 10,
