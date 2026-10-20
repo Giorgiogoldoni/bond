@@ -6228,9 +6228,9 @@
       "STHY.MI": 10,
       "EUHI.MI": 9
     },
-    "ret_port": 0.0543,
-    "ret_xeon": -0.0064,
-    "ret_vagf": -0.3227,
-    "ret_xgiu": -0.1108
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
