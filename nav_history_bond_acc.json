@@ -6021,17 +6021,17 @@
       "XGIU.MI": 22.632
     },
     "weights": {
-      "XEON.MI": 27,
-      "IS0F.DE": 17,
+      "XEON.MI": 25,
+      "IS0F.DE": 18,
       "CSBGE3.MI": 14,
       "CSBGU7.MI": 13,
-      "XGIU.MI": 11,
+      "XGIU.MI": 12,
       "AGGH.MI": 9,
       "EMLB.MI": 9
     },
-    "ret_port": 0.0089,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.194,
-    "ret_xgiu": 0.1992
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
