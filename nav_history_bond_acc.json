@@ -6033,5 +6033,35 @@
     "ret_xeon": 0.0,
     "ret_vagf": 0.0,
     "ret_xgiu": 0.0
+  },
+  {
+    "date": "2026-10-23",
+    "nav": 100.2079,
+    "xeon": 100.0,
+    "vagf": 97.956,
+    "xgiu": 100.3044,
+    "prices": {
+      "CSBGU7.MI": 126.32,
+      "XGIU.MI": 22.745,
+      "AGGH.MI": 4.859,
+      "EMLB.MI": 116.62
+    },
+    "bench_px": {
+      "VAGF.MI": 23.25,
+      "XGIU.MI": 22.745
+    },
+    "weights": {
+      "XEON.MI": 26,
+      "IS0F.DE": 18,
+      "CSBGU7.MI": 15,
+      "XGIU.MI": 12,
+      "EDMA.DE": 10,
+      "AGGH.MI": 10,
+      "EMLB.MI": 9
+    },
+    "ret_port": 0.2235,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.4103,
+    "ret_xgiu": 0.4993
   }
 ]
