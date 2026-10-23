@@ -6322,17 +6322,17 @@
       "XGIU.MI": 22.745
     },
     "weights": {
-      "XEON.MI": 23,
-      "PJS1.MI": 21,
-      "XGIU.MI": 18,
+      "XEON.MI": 25,
+      "PJS1.MI": 20,
+      "XGIU.MI": 17,
       "EMLI.MI": 10,
       "SEML.MI": 10,
       "STHY.MI": 9,
       "STHE.MI": 9
     },
-    "ret_port": 0.0952,
-    "ret_xeon": 0.0224,
-    "ret_vagf": 0.4103,
-    "ret_xgiu": 0.4993
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
