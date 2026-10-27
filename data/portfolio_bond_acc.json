@@ -14,8 +14,8 @@
         "GEO_SHOCK": 34,
         "WAR": 5
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 9% su CRPA.MI · CRPA in · EMLB out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -624,8 +624,8 @@
           "risk_factor": 0.7,
           "currency": "EUR",
           "weight": 13,
-          "weight_prev": 12,
-          "weight_delta": 1,
+          "weight_prev": 13,
+          "weight_delta": 0,
           "macro_score": 79,
           "momentum_score": 92,
           "final_score": 84,
@@ -1217,8 +1217,8 @@
           "risk_factor": 0.5,
           "currency": "EUR",
           "weight": 9,
-          "weight_prev": 10,
-          "weight_delta": -1,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 49,
           "momentum_score": 46,
           "final_score": 48,
@@ -1846,8 +1846,8 @@
           "risk_factor": 0.8,
           "currency": "USD",
           "weight": 9,
-          "weight_prev": 0,
-          "weight_delta": 9,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 20,
           "momentum_score": 85,
           "final_score": 43,
@@ -2578,7 +2578,7 @@
         "CORP_IG": 9,
         "CASH": 26
       },
-      "generated_at": "2026-10-27T13:12:56.213090+00:00"
+      "generated_at": "2026-10-27T15:40:46.664973+00:00"
     },
     {
       "date": "2026-10-26",
