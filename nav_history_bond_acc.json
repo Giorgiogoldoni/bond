@@ -6201,12 +6201,12 @@
       "XGIU.MI": 22.901
     },
     "weights": {
-      "XEON.MI": 26,
-      "IS0F.DE": 18,
-      "CSBGU7.MI": 15,
+      "XEON.MI": 28,
+      "IS0F.DE": 17,
+      "CSBGU7.MI": 14,
       "XGIU.MI": 13,
-      "AGGH.MI": 10,
-      "EDMA.DE": 9,
+      "EDMA.DE": 10,
+      "AGGH.MI": 9,
       "CRPA.MI": 9
     },
     "ret_port": 0.0,
