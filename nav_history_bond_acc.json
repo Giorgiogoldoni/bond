@@ -6201,9 +6201,9 @@
       "XGIU.MI": 22.901
     },
     "weights": {
-      "XEON.MI": 28,
-      "IS0F.DE": 17,
-      "CSBGU7.MI": 14,
+      "XEON.MI": 26,
+      "IS0F.DE": 18,
+      "CSBGU7.MI": 15,
       "XGIU.MI": 13,
       "EDMA.DE": 10,
       "AGGH.MI": 9,
