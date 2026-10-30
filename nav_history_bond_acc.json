@@ -6193,7 +6193,6 @@
     "prices": {
       "CSBGU7.MI": 127.03,
       "XGIU.MI": 22.901,
-      "CEMM.DE": 5.022,
       "AGGH.MI": 4.8655,
       "CRPA.MI": 5.229
     },
@@ -6202,17 +6201,17 @@
       "XGIU.MI": 22.901
     },
     "weights": {
-      "XEON.MI": 27,
-      "IS0F.DE": 17,
-      "CSBGU7.MI": 14,
+      "XEON.MI": 26,
+      "IS0F.DE": 18,
+      "CSBGU7.MI": 15,
       "XGIU.MI": 13,
-      "CEMM.DE": 11,
-      "AGGH.MI": 9,
+      "AGGH.MI": 10,
+      "EDMA.DE": 9,
       "CRPA.MI": 9
     },
-    "ret_port": 0.0551,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": 0.3225,
-    "ret_xgiu": 0.1049
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
