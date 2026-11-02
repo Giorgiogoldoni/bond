@@ -6231,17 +6231,17 @@
       "XGIU.MI": 22.94
     },
     "weights": {
-      "XEON.MI": 25,
-      "IS0F.DE": 18,
-      "CSBGU7.MI": 15,
-      "XGIU.MI": 13,
+      "XEON.MI": 24,
+      "IS0F.DE": 19,
+      "CSBGU7.MI": 16,
+      "XGIU.MI": 12,
       "EDMA.DE": 10,
       "AGGH.MI": 10,
       "CRPA.MI": 9
     },
-    "ret_port": 0.0849,
+    "ret_port": 0.0,
     "ret_xeon": 0.0,
-    "ret_vagf": -0.0214,
-    "ret_xgiu": 0.1703
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
