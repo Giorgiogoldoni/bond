@@ -6527,16 +6527,16 @@
     },
     "weights": {
       "XEON.MI": 22,
-      "PJS1.MI": 20,
+      "PJS1.MI": 21,
       "XGIU.MI": 19,
       "IEMB.MI": 10,
       "STHY.MI": 10,
-      "SEML.MI": 10,
+      "SEML.MI": 9,
       "EUHI.MI": 9
     },
-    "ret_port": -0.0215,
-    "ret_xeon": 0.0182,
-    "ret_vagf": -0.0214,
-    "ret_xgiu": 0.1703
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
