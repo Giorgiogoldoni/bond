@@ -6568,9 +6568,9 @@
       "SEML.MI": 10,
       "XAT1.MI": 9
     },
-    "ret_port": 0.0233,
-    "ret_xeon": -0.0019,
-    "ret_vagf": 0.2572,
-    "ret_xgiu": -0.0436
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
