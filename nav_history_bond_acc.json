@@ -6448,9 +6448,9 @@
       "XGIU.MI": 22.73
     },
     "weights": {
-      "XEON.MI": 27,
-      "IS0F.DE": 17,
-      "CSBGU7.MI": 14,
+      "XEON.MI": 25,
+      "IS0F.DE": 18,
+      "CSBGU7.MI": 15,
       "CEMM.DE": 13,
       "XGIU.MI": 11,
       "AGGH.MI": 9,
