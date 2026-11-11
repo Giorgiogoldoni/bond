@@ -6766,15 +6766,15 @@
     "weights": {
       "XEON.MI": 24,
       "PJS1.MI": 21,
-      "XGIU.MI": 18,
+      "XGIU.MI": 17,
       "IEMB.MI": 10,
-      "STHY.MI": 9,
+      "STHY.MI": 10,
       "SEML.MI": 9,
       "EUHI.MI": 9
     },
-    "ret_port": -0.0755,
-    "ret_xeon": 0.0115,
-    "ret_vagf": -0.4258,
-    "ret_xgiu": -0.738
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
