@@ -3,18 +3,18 @@
     {
       "date": "2026-11-12",
       "regime": "GEO_SHOCK",
-      "regime_prob": 33,
+      "regime_prob": 35,
       "regime_probs": {
-        "GOLDILOCKS": 5,
+        "GOLDILOCKS": 6,
         "RISK_OFF": 4,
-        "DISINFLAZIONE": 28,
-        "RECESSIONE": 11,
+        "DISINFLAZIONE": 26,
+        "RECESSIONE": 12,
         "ZIRP": 4,
-        "TIGHTENING": 15,
-        "GEO_SHOCK": 33
+        "TIGHTENING": 13,
+        "GEO_SHOCK": 35
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 1.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -23,9 +23,9 @@
           "cat": "CASH",
           "risk_factor": 0.0,
           "currency": "EUR",
-          "weight": 25,
+          "weight": 26,
           "weight_prev": 25,
-          "weight_delta": 0,
+          "weight_delta": 1,
           "macro_score": 50,
           "momentum_score": 50,
           "final_score": 50,
@@ -604,9 +604,9 @@
           "cat": "GOVT_IG",
           "risk_factor": 0.6,
           "currency": "EUR",
-          "weight": 13,
+          "weight": 12,
           "weight_prev": 13,
-          "weight_delta": 0,
+          "weight_delta": -1,
           "macro_score": 83,
           "momentum_score": 54,
           "final_score": 73,
@@ -3123,12 +3123,12 @@
         }
       ],
       "macro_breakdown": {
-        "GOVT_IG": 57,
+        "GOVT_IG": 56,
         "AGGREGATE": 9,
         "CORP_IG": 9,
-        "CASH": 25
+        "CASH": 26
       },
-      "generated_at": "2026-11-12T15:59:22.432323+00:00"
+      "generated_at": "2026-11-12T17:51:26.649712+00:00"
     },
     {
       "date": "2026-11-11",
