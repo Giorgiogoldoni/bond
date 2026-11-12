@@ -6479,11 +6479,11 @@
       "XGIU.MI": 22.829
     },
     "weights": {
-      "XEON.MI": 26,
+      "XEON.MI": 27,
       "IS0F.DE": 18,
       "CSBGU7.MI": 15,
       "CEMM.DE": 12,
-      "XGIU.MI": 11,
+      "XGIU.MI": 10,
       "AGGH.MI": 9,
       "CRPA.MI": 9
     },
