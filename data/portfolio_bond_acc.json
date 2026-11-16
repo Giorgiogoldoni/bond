@@ -13,7 +13,7 @@
         "GEO_SHOCK": 37
       },
       "rebalance": "HOLD",
-      "rebalance_reason": "Portafoglio stabile (dev max 2.0%)",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -23,8 +23,8 @@
           "risk_factor": 0.0,
           "currency": "EUR",
           "weight": 27,
-          "weight_prev": 25,
-          "weight_delta": 2,
+          "weight_prev": 27,
+          "weight_delta": 0,
           "macro_score": 50,
           "momentum_score": 50,
           "final_score": 50,
@@ -41,8 +41,8 @@
           "risk_factor": 0.4,
           "currency": "USD",
           "weight": 18,
-          "weight_prev": 19,
-          "weight_delta": -1,
+          "weight_prev": 18,
+          "weight_delta": 0,
           "macro_score": 85,
           "momentum_score": 50,
           "final_score": 73,
@@ -59,8 +59,8 @@
           "risk_factor": 0.6,
           "currency": "USD",
           "weight": 15,
-          "weight_prev": 16,
-          "weight_delta": -1,
+          "weight_prev": 15,
+          "weight_delta": 0,
           "macro_score": 85,
           "momentum_score": 100,
           "final_score": 90,
@@ -604,8 +604,8 @@
           "risk_factor": 0.7,
           "currency": "EUR",
           "weight": 11,
-          "weight_prev": 12,
-          "weight_delta": -1,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 85,
           "momentum_score": 57,
           "final_score": 75,
@@ -1191,8 +1191,8 @@
           "risk_factor": 0.7,
           "currency": "USD",
           "weight": 11,
-          "weight_prev": 10,
-          "weight_delta": 1,
+          "weight_prev": 11,
+          "weight_delta": 0,
           "macro_score": 85,
           "momentum_score": 50,
           "final_score": 73,
@@ -2534,7 +2534,7 @@
         "CORP_IG": 9,
         "CASH": 27
       },
-      "generated_at": "2026-11-16T17:02:00.182344+00:00"
+      "generated_at": "2026-11-16T19:58:31.837570+00:00"
     },
     {
       "date": "2026-11-13",
