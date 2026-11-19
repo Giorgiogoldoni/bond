@@ -6954,12 +6954,12 @@
     "vagf": 98.0403,
     "xgiu": 100.6924,
     "prices": {
-      "PJS1.MI": 97.288,
       "XEON.MI": 150.8244,
+      "PJS1.MI": 97.288,
       "XGIU.MI": 22.833,
       "STHY.MI": 81.99,
       "IEMB.MI": 79.89,
-      "EMLI.MI": 57.89,
+      "SEML.MI": 39.95,
       "EUHI.MI": 9.066
     },
     "bench_px": {
@@ -6968,17 +6968,17 @@
       "XGIU.MI": 22.833
     },
     "weights": {
-      "PJS1.MI": 22,
-      "XEON.MI": 22,
-      "XGIU.MI": 18,
+      "XEON.MI": 24,
+      "PJS1.MI": 21,
+      "XGIU.MI": 17,
       "STHY.MI": 10,
       "IEMB.MI": 10,
-      "EMLI.MI": 9,
+      "SEML.MI": 9,
       "EUHI.MI": 9
     },
-    "ret_port": 0.1814,
-    "ret_xeon": 0.0095,
-    "ret_vagf": -0.043,
-    "ret_xgiu": 0.4576
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
