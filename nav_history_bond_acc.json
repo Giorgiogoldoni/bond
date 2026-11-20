@@ -6656,10 +6656,10 @@
       "XGIU.MI": 22.773
     },
     "weights": {
-      "XEON.MI": 24,
+      "XEON.MI": 25,
       "IS0F.DE": 19,
       "CSBGU7.MI": 16,
-      "EUNQ.DE": 13,
+      "EUNQ.DE": 12,
       "EDMA.DE": 10,
       "CRPA.MI": 9,
       "OM3J.MU": 9
