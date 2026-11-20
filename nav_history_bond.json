@@ -7010,9 +7010,9 @@
       "SEML.MI": 9,
       "EUHI.MI": 9
     },
-    "ret_port": -0.2788,
-    "ret_xeon": 0.0236,
-    "ret_vagf": 0.0859,
-    "ret_xgiu": -0.2628
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
