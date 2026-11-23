@@ -12,8 +12,8 @@
         "TIGHTENING": 23,
         "GEO_SHOCK": 32
       },
-      "rebalance": "REBALANCE",
-      "rebalance_reason": "Deviazione massima 9% su AGGH.MI · AGGH in · OM3J.MU out",
+      "rebalance": "HOLD",
+      "rebalance_reason": "Portafoglio stabile (dev max 0.0%)",
       "portfolio": [
         {
           "ticker": "XEON",
@@ -640,8 +640,8 @@
           "risk_factor": 0.5,
           "currency": "EUR",
           "weight": 9,
-          "weight_prev": 0,
-          "weight_delta": 9,
+          "weight_prev": 9,
+          "weight_delta": 0,
           "macro_score": 50,
           "momentum_score": 13,
           "final_score": 37,
@@ -1971,7 +1971,7 @@
         "CORP_IG": 9,
         "CASH": 25
       },
-      "generated_at": "2026-11-23T19:15:11.776439+00:00"
+      "generated_at": "2026-11-23T21:52:26.466414+00:00"
     },
     {
       "date": "2026-11-20",
