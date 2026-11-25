@@ -7112,9 +7112,9 @@
       "EMLI.MI": 9,
       "EUHI.MI": 9
     },
-    "ret_port": -0.2491,
-    "ret_xeon": -0.0028,
-    "ret_vagf": 0.0213,
-    "ret_xgiu": -0.1692
+    "ret_port": 0.0,
+    "ret_xeon": 0.0,
+    "ret_vagf": 0.0,
+    "ret_xgiu": 0.0
   }
 ]
